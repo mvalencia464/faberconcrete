@@ -1,16 +1,17 @@
-name = "faberconcrete"
-main = "src/worker.ts"
-compatibility_date = "2026-10-29"
+name = "contractor-starter"
+compatibility_date = "2026-10-01"
+pages_build_output_dir = "./dist"
 
-# Static Astro build. The worker only intercepts /photos (see run_worker_first).
-# Replace [TOKEN] in src/config/site.ts before this redirect is useful.
-
-[assets]
-directory = "./dist"
-binding = "ASSETS"
-not_found_handling = "404-page"
-html_handling = "auto-trailing-slash"
-run_worker_first = ["/photos", "/photos/*"]
+# Public build vars only. GHL_WEBHOOK_URL, GHL_PRIVATE_TOKEN, and GHL_LOCATION_ID
+# stay in the Cloudflare dashboard (or .dev.vars), never in this file.
 
 [vars]
+PUBLIC_R2_PUBLIC_BASE_URL = "https://media.stokeleads.com"
+PUBLIC_R2_SITE_SLUG = "faber-concrete"
 SITE_URL = "https://faberconcrete.com"
+
+[env.preview.vars]
+PUBLIC_R2_PUBLIC_BASE_URL = "https://media.stokeleads.com"
+PUBLIC_R2_SITE_SLUG = "faber-concrete"
+SITE_URL = "https://faberconcrete.com"
+SKIP_SYNC_REVIEWS = "1"

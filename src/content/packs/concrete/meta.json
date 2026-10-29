@@ -1,0 +1,27 @@
+{
+  "trade": "concrete",
+  "tradeLabel": "Concrete contractor",
+  "schemaType": "GeneralContractor",
+  "serviceNoun": "concrete",
+  "serviceType": "Concrete services",
+  "ctaPrimaryLabel": "Get a concrete estimate",
+  "phoneCtaLabel": "Call for a concrete estimate",
+  "primaryServiceSlugs": ["driveways", "patios", "garage-slabs", "repair"],
+  "palette": {
+    "deep": "#1c2328",
+    "surface": "#f4f5f4",
+    "panel": "#e7ebe8",
+    "panel2": "#d8dfda",
+    "border": "rgba(28, 35, 40, 0.12)",
+    "accent": "#c45c26",
+    "accent2": "#1c2328",
+    "accentHover": "#9a4518",
+    "gold": "#d4a24c",
+    "text": "#1c2328",
+    "muted": "#5c6560"
+  },
+  "fonts": {
+    "display": "Oswald",
+    "body": "Open Sans"
+  }
+}

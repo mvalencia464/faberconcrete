@@ -1,80 +1,66 @@
-# Faber Concrete
+# Contractor starter (Astro + Cloudflare Pages)
 
-Marketing site for [Faber Concrete](https://faberconcrete.com), a Michigan concrete contractor (driveways, approaches, and flatwork) owned by Matt Faber. Separate brand from Faber Roof.
+Reusable site for a local contractor. The sample client is **Acme Roofing** (`example.com`) on the roofing pack. Client facts live in [`src/content/client.json`](src/content/client.json). Trade-specific services, form options, FAQs, and page copy live in [`src/content/packs/`](src/content/packs/).
 
-Built by Stoke Leads. Stack matches the sister site: Astro, static output, deployed later with Wrangler as a Cloudflare Worker serving static assets.
+[`src/config/brand.ts`](src/config/brand.ts) and [`src/config/site.ts`](src/config/site.ts) only load that JSON. Pages and components read `SITE` / `BRAND`. Image paths go through `r2img()` using `PUBLIC_R2_PUBLIC_BASE_URL` and `PUBLIC_R2_SITE_SLUG`.
 
-Copy on the site comes from Matt’s call. Nothing here invents a review, a project, a phone number, an address, or a license.
+Do not clone a live client repo onto this template. Run `new-client`, then put the result in its own GitHub repo.
 
-## Run
+## New client
 
 ```bash
 npm install
+npm run new-client -- \
+  --name "Faber Roof" \
+  --slug faber-roof \
+  --trade roofing \
+  --city Austin \
+  --state TX \
+  --phone "(512) 555-0199" \
+  --email hello@faberroof.example \
+  --site-url https://faberroof.example \
+  --cid ""
+```
+
+`--trade` is `roofing`, `painting`, `hvac`, or `concrete`. Omit flags in a terminal and the script will prompt. It writes:
+
+- `src/content/client.json` from the pack (identity, URLs, branding, map, reviews shell, SEO, copy, form, nav, service areas, primary service slugs)
+- `wrangler.toml` (`PUBLIC_R2_SITE_SLUG`, `SITE_URL`)
+- `public/robots.txt` sitemap from the site URL
+- `scripts/reviews-clients.json`
+- an empty `src/data/google-reviews.json`
+
+Optional flags: `--owner`, `--region`, `--zip`, `--county`.
+
+Then replace placeholder images under `public/placeholders/` or point `branding.images` at R2 keys (no full URL; `r2img()` adds the base). Add real jobs in `src/data/jobs.ts` only as data objects — do not hardcode a client’s slugs in components.
+
+The homepage before/after block reads `copy.beforeAfter` and stays hidden while `enabled` is `false`. Set `enabled` to `true` and point `beforeImage` / `afterImage` at real files when you want it. A job with both `beforeImage` and `afterImage` uses the same slider on its own page.
+
+## Checklist
+
+1. `npm run new-client` with the real name, slug, trade, city, phone, email, and site URL.
+2. Confirm `client.json` identity, palette, and `schemaType` (`RoofingContractor`, `HousePainter`, `HVACBusiness`, or `GeneralContractor`). Concrete uses `GeneralContractor` because schema.org has no concrete-contractor type. `HomeAndConstructionBusiness` stays the layout's `additionalType` for every trade. On a concrete client, set `copy.practice.slabThickness`, `copy.practice.baseMaterial`, and `copy.practice.yearsExperience` (leave years blank to hide that line). Those three lines render on the about page.
+3. Set `PUBLIC_R2_PUBLIC_BASE_URL`, `PUBLIC_R2_SITE_SLUG`, and `SITE_URL` in `.env` and in the Pages project. `npm run build` reads `SITE_URL` for the sitemap.
+4. Decimal Google CID in `scripts/reviews-clients.json` (string). `https://www.google.com/maps?cid=THAT_NUMBER` must open the same listing. Do not convert a Maps `!1s0x…:0x…` feature id.
+5. `npm run sync-reviews` when DataForSEO credentials exist. Preview builds set `SKIP_SYNC_REVIEWS=1`.
+6. Cloudflare Pages: build `npm run build`, output `dist`. Secrets `GHL_WEBHOOK_URL` or `GHL_PRIVATE_TOKEN` + `GHL_LOCATION_ID` stay in the dashboard, not in git.
+7. Client-name gate before you ship. From the repo root, this must print nothing:
+
+```bash
+grep -RInE 'holtmeier|cedar|jcsolutions' --exclude-dir=node_modules --exclude-dir=dist --exclude-dir=.git --exclude=README.md .
+```
+
+Schema.org types such as `HousePainter` are trade data, not client names, and should stay in the painting pack.
+
+## Develop
+
+```bash
+npm install
+cp .env.example .env
 npm run dev
 ```
 
-Dev server: http://127.0.0.1:43219
-
 ```bash
-npm run build    # writes ./dist and dist/_redirects
-npm run preview  # serve the production build locally
+SKIP_SYNC_REVIEWS=1 npm run build
+npm run deploy   # production only, after the site is reviewed
 ```
-
-## Deploy to Cloudflare
-
-The site is a static Astro build plus a tiny Worker. The Worker only runs for `/photos` and answers with a **302** to the upload link. Every other path is a static asset.
-
-1. Fill the placeholders below. The upload URL lives in one place: `photoUploadUrl` in `src/config/site.ts`.
-2. `npx wrangler login` (Mauricio’s Cloudflare account, after Matt adds him).
-3. From this directory:
-
-```bash
-npm run deploy
-```
-
-That runs `astro build` and then `wrangler deploy`. Config is `wrangler.toml` (`assets.directory = ./dist`, `run_worker_first` for `/photos`).
-
-First deploy can pass `--name faberconcrete` if the Worker name needs creating. Attach the `faberconcrete.com` zone and route in the Cloudflare dashboard when the domain is on the account. This repo does not set a production route, so a deploy cannot start serving the live domain by accident.
-
-`/photos` is also written to `dist/_redirects` as a 302, and `astro dev` redirects that path the same way. Change the URL only in `src/config/site.ts`.
-
-## Images
-
-`src/components/Picture.astro` takes an AVIF URL and a WebP URL (plus alt text). Job photos from https://media.stokeleads.com go in `src/data/gallery.ts` as `{ avif, webp, alt, caption }`. The gallery page is an empty state until that list has real photos.
-
-## Pages
-
-| Path | What it is |
-| --- | --- |
-| `/` | Home, spec, spring booking |
-| `/services/driveways` | Driveways and approaches |
-| `/services/flatwork` | Flatwork |
-| `/why-our-concrete-lasts` | 5-inch slab and 21AA base |
-| `/gallery` | Photo grid, empty until real jobs are added |
-| `/estimate` | Estimate form |
-| `/photos` | 302 to the Stoke Leads upload URL |
-
-## Placeholders Mauricio needs to fill
-
-All of these are in `src/config/site.ts` unless noted.
-
-| Token | Where it shows up | Replace with |
-| --- | --- | --- |
-| `[TOKEN]` | `photoUploadUrl` → `/photos` 302 | The real Stoke Leads upload path, `https://upload.stokeleads.com/c/<TOKEN>` |
-| `[LEAD_ENDPOINT]` | `leadEndpoint`, estimate form `action` | CRM or webhook URL that accepts the form `POST` (name, phone, email, city, project, timing, message) |
-| `[PHONE]` | Header is not phone-first; footer, estimate page, and LocalBusiness `telephone` once it is a real number | Matt’s concrete line |
-| `[EMAIL]` | Footer, estimate page, schema `email` once real | Concrete inbox |
-| `[LEGAL_NAME]` | LocalBusiness `legalName` | Legal entity name. Not assumed to match the roofing company. |
-| `[STREET_ADDRESS]` | Footer and schema `streetAddress` | Shop or mailing street |
-| `[CITY]` | Footer, schema `addressLocality` | City. The site only claims Michigan until this is set. |
-| `[ZIP]` | Footer and schema | ZIP |
-| `[LICENSE]` | Footer | License number, or remove the line if none is published |
-
-Also still open, not guessed:
-
-- Job photos in `src/data/gallery.ts` (no sample images are shipped).
-- A logo file, if Matt wants a mark besides the text wordmark in `src/components/Wordmark.astro`.
-- Service-area cities, once Matt names them. Schema currently says the state of Michigan only.
-- Business hours. Not stated on the call, so they are omitted.
-
-Do not paste the roofing site’s phone, address, or reviews onto this site. Matt asked for the brands to stay separate.

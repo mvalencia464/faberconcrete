@@ -1,0 +1,549 @@
+{
+  "identity": {
+    "name": "Faber Concrete",
+    "shortName": "Faber",
+    "legalName": "Faber Concrete",
+    "tagline": "Concrete contractor in [REGION].",
+    "catchphrase": "FABER CONCRETE \u2014 CONCRETE CONTRACTOR",
+    "phone": "[PHONE]",
+    "email": "[EMAIL]",
+    "address": "[ADDRESS]",
+    "city": "[CITY]",
+    "state": "MI",
+    "zip": "[ZIP]",
+    "license": "[LICENSE]",
+    "ownerName": "[OWNER]",
+    "ownerRole": "Owner",
+    "region": "[REGION]",
+    "trade": "concrete",
+    "tradeLabel": "Concrete contractor",
+    "schemaType": "GeneralContractor",
+    "slug": "faber-concrete"
+  },
+  "urls": {
+    "siteUrl": "https://faberconcrete.com"
+  },
+  "branding": {
+    "palette": {
+      "deep": "#122029",
+      "surface": "#f4f1ea",
+      "panel": "#fffcf7",
+      "panel2": "#d5d8d4",
+      "border": "rgba(18, 32, 41, 0.12)",
+      "accent": "#0e6e68",
+      "accent2": "#122029",
+      "accentHover": "#0a524e",
+      "gold": "#b5811a",
+      "text": "#122029",
+      "muted": "#5c6a72"
+    },
+    "fonts": {
+      "display": "Barlow Condensed",
+      "body": "Source Sans 3"
+    },
+    "images": {
+      "logo": "/placeholders/logo.svg",
+      "favicon": "/favicon.svg",
+      "hero": "/placeholders/hero.svg",
+      "heroSm": "/placeholders/hero.svg",
+      "owner": "/placeholders/hero.svg"
+    }
+  },
+  "map": {
+    "lat": null,
+    "lng": null,
+    "zoom": 10,
+    "radiusMiles": 25,
+    "listingUrl": "",
+    "query": "Faber Concrete, [CITY] MI"
+  },
+  "googleReviews": {
+    "businessName": "Faber Concrete",
+    "rating": 0,
+    "count": 0,
+    "category": "Concrete contractor in [CITY], MI",
+    "profileUrl": "",
+    "maxDisplay": 8,
+    "cid": "",
+    "placeId": ""
+  },
+  "seo": {
+    "title": "Faber Concrete | Concrete contractor in [CITY], MI",
+    "description": "Concrete contractor in [CITY] and [REGION]. Call [PHONE] for an estimate.",
+    "keywords": "Faber Concrete, Concrete contractor [CITY] MI, [REGION]"
+  },
+  "copy": {
+    "ctaPrimaryLabel": "Get a concrete estimate",
+    "phoneCtaLabel": "Call for a concrete estimate",
+    "serviceType": "Concrete services",
+    "serviceNoun": "concrete",
+    "ogImageAlt": "Faber Concrete \u2014 Concrete contractor in [CITY], MI",
+    "heroImageAlt": "Faber Concrete project in [CITY]",
+    "formConsent": "and consent to be contacted about my concrete estimate. Msg & data rates may apply.",
+    "sidebarTitle": "Request an estimate",
+    "sidebarBody": "Call for the next step. We look at the site before we quote a pour.",
+    "serviceAreasIntro": "Faber Concrete is a local Concrete contractor serving these [REGION] communities:",
+    "contactTitle": "Get a concrete estimate | Faber Concrete",
+    "contactDescription": "Request a concrete estimate from Faber Concrete in [CITY]. Call [PHONE].",
+    "contactHeading": "Get a concrete estimate",
+    "contactIntro": "Tell us what you want poured or replaced.",
+    "aboutDescription": "Meet [OWNER] and Faber Concrete \u2014 Concrete contractor in [CITY] serving [REGION].",
+    "policyDescription": "How Faber Concrete collects, uses, and protects your information when you request an estimate in [CITY] and [REGION].",
+    "termsDescription": "Terms governing use of the Faber Concrete website and estimate requests in [CITY] and [REGION].",
+    "areaEyebrow": "Concrete contractor \u00b7 Service area",
+    "areaPageTitle": "Concrete contractor in {{areaName}} | Faber Concrete",
+    "areaHeadline": "Concrete contractor in {{areaName}}",
+    "areaIntro": "When your {{areaName}} property needs a driveway, patio, sidewalk, or other flatwork, you get a site look and a written estimate.",
+    "areaBody": "Faber Concrete serves {{areaName}} and nearby [REGION] from [CITY].",
+    "areaServicesNote": "concrete for {{areaName}} homes and light-commercial lots.",
+    "areaServicesHeading": "Services in {{areaName}}",
+    "areaHighlights": [
+      "Driveways",
+      "Patios",
+      "Garage slabs",
+      "Repair and replacement"
+    ],
+    "areaFaqs": [
+      {
+        "q": "Do you work in {{areaName}}?",
+        "a": "Yes. Call [PHONE]."
+      },
+      {
+        "q": "How do I get an estimate in {{areaName}}?",
+        "a": "Call [PHONE] or send the form."
+      }
+    ],
+    "jobAreaLink": "Concrete contractor in [CITY]",
+    "hero": {
+      "trustBadge": "[CITY] \u00b7 [REGION]",
+      "headingLine1": "Five inches",
+      "headingLine2": "",
+      "headingAccent": "never four",
+      "headline": "Five inches, never four.",
+      "subheading": "6 inches on the approach. A graded, compacted 21AA base every time. Built for Michigan cold and heavy delivery trucks.",
+      "benefits": [
+        {
+          "icon": "road",
+          "label": "Driveways"
+        },
+        {
+          "icon": "th-large",
+          "label": "Patios"
+        },
+        {
+          "icon": "clipboard-list",
+          "label": "Written\nestimate"
+        }
+      ],
+      "ctaCall": "Call [PHONE]",
+      "scheduleHref": "/contact",
+      "financingNote": "Not the cheapest bid. The best, priced down the middle.",
+      "locationNote": "Serving [REGION] from [CITY]",
+      "trustLine": "5-inch slabs. 21AA base. Finishers with 25+ years.",
+      "reviewCard": {
+        "rating": 5,
+        "count": "Google Reviews",
+        "href": "/reviews"
+      },
+      "ownerNote": "Call or send the form \u2014 [OWNER] will follow up.",
+      "ownerCta": "Talk to [OWNER]"
+    },
+    "trustBar": {
+      "heading": "Flatwork for [REGION]",
+      "badges": [
+        {
+          "type": "google",
+          "rating": 5,
+          "label": "Google reviews",
+          "eyebrow": "Google",
+          "title": "Google reviews",
+          "icon": "star"
+        },
+        {
+          "type": "cert",
+          "label": "Based in\n[CITY], MI",
+          "eyebrow": "Based in",
+          "title": "[CITY], MI",
+          "icon": "map-marker-alt"
+        },
+        {
+          "type": "cert",
+          "label": "5 inches\nnever 4",
+          "eyebrow": "Every slab",
+          "title": "5 inches, never 4",
+          "icon": "ruler-combined"
+        },
+        {
+          "type": "cert",
+          "label": "Compacted\n21AA base",
+          "eyebrow": "Under the slab",
+          "title": "Graded, compacted 21AA",
+          "icon": "layer-group"
+        }
+      ]
+    },
+    "process": {
+      "label": "How it works",
+      "title": "From the call to a finished slab",
+      "subtitle": "You see the scope before you approve a pour.",
+      "meetMessage": "Tell us what you want poured or replaced. We follow up with the next opening.",
+      "steps": [
+        {
+          "title": "Call or send the form",
+          "meta": "Fast start",
+          "description": "Driveway, patio, sidewalk, garage slab, or a repair \u2014 and the address."
+        },
+        {
+          "title": "Look at the site",
+          "meta": "See the ground",
+          "description": "We look at the old concrete, the grade, and access before we price it."
+        },
+        {
+          "title": "Written estimate",
+          "meta": "No guessing",
+          "description": "5 inches every time, 6 inches on the approach, over graded and compacted 21AA."
+        },
+        {
+          "title": "Form and pour",
+          "meta": "The job",
+          "description": "We grade and compact the 21AA base, then form and pour. Never dirt, and never compacted sand alone."
+        },
+        {
+          "title": "Walk-through",
+          "meta": "Done",
+          "description": "We walk the slab with you and go over cure time."
+        }
+      ]
+    },
+    "offersSection": {
+      "label": "Getting started",
+      "title": "Get a clear next step.",
+      "subtitle": "New flatwork, replacement, or a spring date on the books."
+    },
+    "offers": [
+      {
+        "slug": "site-estimate",
+        "title": "Site estimate",
+        "price": "Custom quote",
+        "hook": "A look at the site before a price.",
+        "includes": [
+          "Site visit",
+          "5-inch slab, never 4",
+          "6 inches on the approach",
+          "Graded, compacted 21AA base"
+        ],
+        "ctaText": "Request an estimate",
+        "ctaHref": "/contact",
+        "icon": "clipboard-list",
+        "featured": true,
+        "financingAnchor": true
+      },
+      {
+        "slug": "spring-booking",
+        "title": "April and May",
+        "price": "Custom quote",
+        "hook": "Book spring jobs for April and May.",
+        "includes": [
+          "April and May",
+          "Address and scope",
+          "Follow-up with the next opening",
+          "No pour until you approve"
+        ],
+        "ctaText": "Book April or May",
+        "ctaHref": "/contact",
+        "icon": "calendar-alt"
+      },
+      {
+        "slug": "replacement",
+        "title": "Replacement",
+        "price": "Custom quote",
+        "hook": "Failed slabs removed and poured back to a written scope.",
+        "includes": [
+          "Removal",
+          "Base in the scope",
+          "New concrete",
+          "Walk-through"
+        ],
+        "ctaText": "Ask about replacement",
+        "ctaHref": "/contact",
+        "icon": "tools"
+      }
+    ],
+    "servicesHeading": "Driveways, patios, and flatwork",
+    "servicesLabel": "Services",
+    "servicesIntro": "Here is the concrete work we take on in [REGION].",
+    "valueProps": [
+      {
+        "icon": "ruler-combined",
+        "title": "Five inches, never four",
+        "description": "Every slab is 5 inches. The approach is 6 inches."
+      },
+      {
+        "icon": "layer-group",
+        "title": "21AA, graded and compacted",
+        "description": "Every time. Never dirt, and never compacted sand alone."
+      },
+      {
+        "icon": "snowflake",
+        "title": "Michigan cold and heavy trucks",
+        "description": "The extra inch is for a cold climate and heavy delivery trucks."
+      },
+      {
+        "icon": "star",
+        "title": "Best bid, down the middle",
+        "description": "Not the cheapest bid. The best, priced down the middle, with finishers who have 25+ years of experience."
+      }
+    ],
+    "whyChoose": {
+      "title": "Why the concrete lasts",
+      "items": [
+        {
+          "title": "Five inches, never four",
+          "body": "We never pour a 4-inch slab. Every slab is 5 inches, and the approach is 6 inches."
+        },
+        {
+          "title": "Graded, compacted 21AA",
+          "body": "We grade and compact a 21AA base every time, before the pour. Never dirt, and never compacted sand alone."
+        },
+        {
+          "title": "Built for Michigan",
+          "body": "The extra inch is for Michigan cold and for heavy delivery trucks."
+        },
+        {
+          "title": "Finishers with 25+ years",
+          "body": "Not the cheapest bid. The best, priced down the middle, finished by people with 25+ years of experience."
+        }
+      ]
+    },
+    "reviewsSection": {
+      "label": "Google reviews",
+      "title": "What neighbors are saying",
+      "titleLine2": "",
+      "subtitle": "Work across [CITY] and [REGION].",
+      "bullets": [
+        "Concrete contractor",
+        "Based in [CITY]",
+        "[OWNER], owner",
+        "Driveways and flatwork"
+      ],
+      "ctaText": "Read more reviews on Google",
+      "viewAllHref": "/reviews",
+      "viewAllText": "See all reviews"
+    },
+    "reviewsPage": {
+      "label": "Google Reviews",
+      "title": "What customers are saying",
+      "subtitle": "Feedback from people who hired Faber Concrete.",
+      "description": "Read reviews for Faber Concrete \u2014 Concrete contractor in [CITY] and [REGION]."
+    },
+    "shop": {
+      "heading": "Contact Us",
+      "hours": [
+        {
+          "days": "Hours",
+          "time": "Call for hours"
+        }
+      ]
+    },
+    "workGallery": {
+      "label": "Recent work",
+      "title": "Recent work in your area",
+      "intro": "Job photos show up here when they are on file."
+    },
+    "ownerStory": {
+      "label": "About Us",
+      "quote": "Concrete contractor in [REGION].",
+      "caption": "[OWNER] \u00b7 Owner",
+      "ctaText": "Get a concrete estimate",
+      "ctaHref": "/contact",
+      "quoteAttribution": "[OWNER]",
+      "quoteRole": "Owner, Faber Concrete",
+      "homepageParagraphLimit": 2,
+      "paragraphs": [
+        "Faber Concrete never pours a 4-inch slab. Every slab is 5 inches, and the approach is 6 inches.",
+        "Under it: a graded, compacted 21AA base every time. Never dirt, and never compacted sand alone."
+      ]
+    },
+    "teamSection": {
+      "label": "The team",
+      "title": "People who do the work",
+      "intro": "Scope first, then the pour."
+    },
+    "teamMembers": [
+      {
+        "name": "[OWNER]",
+        "role": "Owner",
+        "headline": "Leads with a site look and a written estimate.",
+        "bio": [
+          "[OWNER] runs Faber Concrete from [CITY]."
+        ]
+      }
+    ],
+    "serviceArea": {
+      "heading": "Areas We Serve",
+      "body": "Based in [CITY], MI \u2014 serving [REGION].",
+      "country": "US"
+    },
+    "ctaBanner": {
+      "title": "Book April and May",
+      "subtitle": "Spring jobs go on the books for April and May.",
+      "body": "Five-inch slabs, 6 inches on the approach, over a graded and compacted 21AA base.",
+      "scheduleHref": "/contact",
+      "scheduleLabel": "Book a spring job",
+      "scheduleSub": "April and May",
+      "callSub": "Call to schedule"
+    },
+    "beforeAfter": {
+      "enabled": false,
+      "title": "Before and after",
+      "intro": "Drag the slider to compare the job.",
+      "beforeImage": "/placeholders/hero.svg",
+      "afterImage": "/placeholders/hero.svg",
+      "beforeLabel": "Before",
+      "afterLabel": "After"
+    },
+    "practice": {
+      "slabThickness": "5-inch slabs every time, never 4 inches. 6 inches on the approach.",
+      "baseMaterial": "A graded, compacted 21AA base every time. Never dirt, and never compacted sand alone.",
+      "yearsExperience": "Finishers with 25+ years of experience."
+    },
+    "footerBlurb": "Concrete contractor. Serving [REGION] from [CITY].",
+    "schemaKnowsAbout": [
+      "Driveways",
+      "Driveway approaches",
+      "Patios",
+      "Sidewalks",
+      "Flatwork",
+      "Garage slabs",
+      "Concrete repair"
+    ],
+    "faqs": [
+      {
+        "q": "What concrete work do you take on?",
+        "a": "Driveways, driveway approaches, patios, sidewalks, flatwork, garage slabs, and repair or replacement in [CITY] and [REGION]. Call [PHONE]."
+      },
+      {
+        "q": "Do you pour new concrete and replace old slabs?",
+        "a": "Yes. New flatwork and replacement of concrete that has failed are both in scope. The written estimate says which one the site needs."
+      },
+      {
+        "q": "Where do you work?",
+        "a": "[CITY] and [REGION]."
+      },
+      {
+        "q": "How do I get an estimate?",
+        "a": "Call [PHONE] or send the form. The scope is a 5-inch slab, never 4, with 6 inches on the approach, over graded and compacted 21AA."
+      },
+      {
+        "q": "When should I book a spring pour?",
+        "a": "Book April and May spring jobs. Call [PHONE] or send the form."
+      }
+    ]
+  },
+  "form": {
+    "title": "Get a concrete estimate",
+    "subtitle": "Share a few details \u2014 [OWNER] will follow up.",
+    "submitText": "Send my request",
+    "finalNote": "No obligation. We look at the site before anyone forms or pours.",
+    "trustBullets": [
+      "Local to [CITY]",
+      "Residential and light commercial",
+      "Written estimates"
+    ],
+    "projectTypes": [
+      {
+        "value": "driveway",
+        "label": "Driveway",
+        "phIcon": "home"
+      },
+      {
+        "value": "approach",
+        "label": "Driveway approach",
+        "phIcon": "road"
+      },
+      {
+        "value": "patio",
+        "label": "Patio",
+        "phIcon": "th-large"
+      },
+      {
+        "value": "sidewalk",
+        "label": "Sidewalk",
+        "phIcon": "walking"
+      },
+      {
+        "value": "flatwork",
+        "label": "Flatwork",
+        "phIcon": "border-all"
+      },
+      {
+        "value": "garage-slab",
+        "label": "Garage slab",
+        "phIcon": "warehouse"
+      },
+      {
+        "value": "repair",
+        "label": "Repair or replacement",
+        "phIcon": "tools"
+      },
+      {
+        "value": "other",
+        "label": "Something else",
+        "phIcon": "question"
+      }
+    ],
+    "roofTypes": [],
+    "timelines": [
+      {
+        "value": "spring",
+        "label": "Spring"
+      },
+      {
+        "value": "summer",
+        "label": "Summer"
+      },
+      {
+        "value": "fall",
+        "label": "Fall"
+      },
+      {
+        "value": "flexible",
+        "label": "Flexible"
+      }
+    ]
+  },
+  "nav": {
+    "servicesLabel": "Services",
+    "areasLabel": "Service Areas",
+    "aboutLabel": "About Us",
+    "reviewsLabel": "Reviews",
+    "contactLabel": "Contact",
+    "links": [
+      {
+        "label": "About Us",
+        "href": "/about"
+      },
+      {
+        "label": "Reviews",
+        "href": "/#reviews"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact"
+      }
+    ]
+  },
+  "serviceAreas": [
+    {
+      "slug": "[city]",
+      "name": "[CITY]",
+      "county": "[COUNTY]"
+    }
+  ],
+  "primaryServiceSlugs": [
+    "driveways",
+    "patios",
+    "garage-slabs",
+    "repair"
+  ]
+}

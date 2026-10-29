@@ -1,0 +1,114 @@
+[
+  {
+    "slug": "driveways",
+    "title": "Driveways",
+    "shortDesc": "New and replacement driveways for homes and light-commercial lots.",
+    "fullDesc": "{{name}} forms and pours driveways in {{city}} and {{region}}. Scope, thickness, and base are on the written estimate.",
+    "highlights": ["New driveways", "Replacement", "Residential and light commercial", "Written scope"],
+    "heading": "A driveway poured to the written scope",
+    "body": "The estimate names the thickness and the base for that driveway. Those details stay on the estimate so they can match the lot, not a slogan.",
+    "faq": {
+      "q": "Can you replace a driveway that is already cracked?",
+      "a": "Yes. We look at the slab and the base under it, then quote repair or replacement."
+    },
+    "icon": "road",
+    "iconStyle": "navy",
+    "image": "/placeholders/hero.svg"
+  },
+  {
+    "slug": "approaches",
+    "title": "Driveway approaches",
+    "shortDesc": "The approach between the street and the driveway, formed for the traffic it actually takes.",
+    "fullDesc": "{{name}} replaces and pours driveway approaches in {{region}}. The apron sees street traffic the rest of the drive may not.",
+    "highlights": ["Aprons and approaches", "Match to the street", "Removal of the old approach", "Written thickness"],
+    "heading": "The approach is its own pour",
+    "body": "An approach often carries heavier loads than the rest of the driveway. Thickness for that section is called out on the estimate.",
+    "faq": {
+      "q": "Is the approach included with a driveway?",
+      "a": "Only when the estimate says so. Ask us to price it if the apron is failing with the drive."
+    },
+    "icon": "sign-out-alt",
+    "iconStyle": "navy",
+    "image": "/placeholders/hero.svg"
+  },
+  {
+    "slug": "patios",
+    "title": "Patios",
+    "shortDesc": "Patio slabs sized to the yard, with joints and finish called out before the pour.",
+    "fullDesc": "{{name}} pours patios in {{city}} for outdoor living space, not as an afterthought on a driveway ticket.",
+    "highlights": ["New patios", "Replacement patios", "Slope away from the house", "Finish on the estimate"],
+    "heading": "A patio that sheds water",
+    "body": "We set slope, joints, and finish in the scope so the slab drains away from the building.",
+    "faq": {
+      "q": "Do you remove an old patio first?",
+      "a": "When the estimate includes replacement, removal and haul-off are part of that scope."
+    },
+    "icon": "th-large",
+    "iconStyle": "red",
+    "image": "/placeholders/hero.svg"
+  },
+  {
+    "slug": "sidewalks",
+    "title": "Sidewalks",
+    "shortDesc": "Walks from the street, along the house, and between buildings.",
+    "fullDesc": "{{name}} pours and replaces sidewalks in {{region}}, including sections that have heaved or settled.",
+    "highlights": ["Public-edge walks", "Private walks", "Section replacement", "Even joints"],
+    "heading": "Walks you can replace in sections",
+    "body": "A failed panel does not always mean the whole walk. The estimate says whether we replace a section or the run.",
+    "faq": {
+      "q": "Can you match an existing sidewalk?",
+      "a": "We match width and joint spacing as closely as the site allows. Color and finish are noted on the estimate."
+    },
+    "icon": "walking",
+    "iconStyle": "navy",
+    "image": "/placeholders/hero.svg"
+  },
+  {
+    "slug": "flatwork",
+    "title": "Flatwork",
+    "shortDesc": "Pads, stoops, and other flat slabs that are not a driveway or patio.",
+    "fullDesc": "{{name}} pours residential and light-commercial flatwork in {{city}} and {{region}}.",
+    "highlights": ["Pads", "Stoops", "Light-commercial slabs", "Formed to the plan"],
+    "heading": "Flatwork beyond the driveway",
+    "body": "Equipment pads, stoops, and similar slabs use the same written scope: thickness, base, and finish.",
+    "faq": {
+      "q": "Do you take small pads as well as driveways?",
+      "a": "Yes. Tell us the size on the form and we will say whether it fits the schedule."
+    },
+    "icon": "border-all",
+    "iconStyle": "navy",
+    "image": "/placeholders/hero.svg"
+  },
+  {
+    "slug": "garage-slabs",
+    "title": "Garage slabs",
+    "shortDesc": "Garage floors for new buildings and replacements inside existing garages.",
+    "fullDesc": "{{name}} pours garage slabs in {{region}}, including replacements where the old floor has failed.",
+    "highlights": ["New garage floors", "Replacement slabs", "Slope to the door", "Thickness on the estimate"],
+    "heading": "A garage floor with a written thickness",
+    "body": "Inside an existing garage, access and demolition are part of the conversation before anyone prices the pour.",
+    "faq": {
+      "q": "Can you replace a slab inside a standing garage?",
+      "a": "Often, yes. We need to see clearance, the door, and what is under the old floor."
+    },
+    "icon": "warehouse",
+    "iconStyle": "navy",
+    "image": "/placeholders/hero.svg"
+  },
+  {
+    "slug": "repair",
+    "title": "Repair and replacement",
+    "shortDesc": "Repair when the slab can be saved, replacement when the base or the concrete has failed.",
+    "fullDesc": "{{name}} repairs and replaces concrete in {{city}}. We say which one on the estimate after we see the slab.",
+    "highlights": ["Section replacement", "Failed slabs", "Settlement and heaving", "No repair-for-everything pitch"],
+    "heading": "Repair is not always the right fix",
+    "body": "Surface damage and a failed base are different jobs. We write the one the site needs.",
+    "faq": {
+      "q": "Will a patch fix a sinking slab?",
+      "a": "A patch covers a surface. Settlement usually means the section, and sometimes the base, has to come out."
+    },
+    "icon": "tools",
+    "iconStyle": "red",
+    "image": "/placeholders/hero.svg"
+  }
+]

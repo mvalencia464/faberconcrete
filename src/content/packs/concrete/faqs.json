@@ -1,0 +1,22 @@
+[
+  {
+    "q": "What concrete work do you take on?",
+    "a": "Driveways, driveway approaches, patios, sidewalks, flatwork, garage slabs, and repair or replacement in {{city}} and {{region}}. Call {{phone}}."
+  },
+  {
+    "q": "Do you pour new concrete and replace old slabs?",
+    "a": "Yes. New flatwork and replacement of concrete that has failed are both in scope. The written estimate says which one the site needs."
+  },
+  {
+    "q": "Where do you work?",
+    "a": "{{city}} and {{region}}."
+  },
+  {
+    "q": "How do I get an estimate?",
+    "a": "Call {{phone}} or send the form. We look at the site, then write thickness, base, and the rest of the scope on the estimate."
+  },
+  {
+    "q": "When should I book a spring pour?",
+    "a": "Spring dates fill as the ground opens up. Send the form or call {{phone}} to hold a place on the schedule."
+  }
+]

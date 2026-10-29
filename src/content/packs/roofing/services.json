@@ -1,0 +1,82 @@
+[
+  {
+    "slug": "roof-replacement",
+    "title": "Roof replacement",
+    "shortDesc": "Tear-off and a new roof system after we see the deck.",
+    "fullDesc": "When shingles are done, another coat of patches will not hold. {{name}} replaces roofs in {{city}} and {{region}} with a written scope before work starts.",
+    "highlights": ["Deck inspection", "Underlayment and flashing", "Written estimate", "Cleanup"],
+    "heading": "When replacement is the honest call",
+    "body": "Soft decking, curled shingles, or repeated leaks mean the system is finished. We say that on the inspection instead of selling another repair.",
+    "faq": {
+      "q": "How long does a replacement take?",
+      "a": "Most homes are a few days once materials are on site. Weather sets the start."
+    },
+    "icon": "home",
+    "iconStyle": "navy",
+    "image": "/placeholders/hero.svg"
+  },
+  {
+    "slug": "roof-repair",
+    "title": "Roof repair",
+    "shortDesc": "Leaks, flashing, and missing shingles scoped to the actual damage.",
+    "fullDesc": "{{name}} repairs roofs in {{region}} when the rest of the system still has life. You see the leak path and the fix before we start.",
+    "highlights": ["Leak tracing", "Flashing and pipe boots", "Shingle replacement", "Clear scope"],
+    "heading": "Repair when the roof still has life",
+    "body": "A stained ceiling can be one flashing joint. We check that before quoting a full replacement.",
+    "faq": {
+      "q": "Can you repair just the leak?",
+      "a": "Yes, when the surrounding roof is sound. If the field is failing, we will say replacement is the better spend."
+    },
+    "icon": "tools",
+    "iconStyle": "navy",
+    "image": "/placeholders/hero.svg"
+  },
+  {
+    "slug": "storm-damage",
+    "title": "Storm damage",
+    "shortDesc": "Wind and hail damage documented before repairs begin.",
+    "fullDesc": "After a storm, {{name}} inspects {{city}} roofs, photographs what we find, and explains repair versus replacement.",
+    "highlights": ["Photo documentation", "Insurance-friendly notes", "Repair or replacement advice", "Temporary dry-in when needed"],
+    "heading": "Document first",
+    "body": "We do not guess from the ground. The inspection notes what the storm did and what was already worn.",
+    "faq": {
+      "q": "Do you work with insurance?",
+      "a": "We document the roof and meet you on site. Your carrier still decides the claim."
+    },
+    "icon": "cloud-lightning",
+    "iconStyle": "red",
+    "image": "/placeholders/hero.svg"
+  },
+  {
+    "slug": "gutters",
+    "title": "Gutters",
+    "shortDesc": "Gutters and downspouts that move water off the roof and away from the foundation.",
+    "fullDesc": "{{name}} installs and repairs gutters in {{region}} so water does not sit at the fascia or the basement wall.",
+    "highlights": ["Seamless runs where specified", "Downspout placement", "Fascia check", "Written estimate"],
+    "heading": "Water has to leave the house",
+    "body": "A new roof still fails at the edge if gutters overflow into the soffit. We look at both.",
+    "faq": {
+      "q": "Do you replace gutters with the roof?",
+      "a": "When the troughs are crushed, leaking, or pitched wrong, we include them in the estimate."
+    },
+    "icon": "house-chimney",
+    "iconStyle": "navy",
+    "image": "/placeholders/hero.svg"
+  },
+  {
+    "slug": "inspections",
+    "title": "Roof inspections",
+    "shortDesc": "A walk of the roof with notes you can act on.",
+    "fullDesc": "{{name}} inspects roofs in {{city}} for buyers, sellers, and owners who want to know what is left before a storm season.",
+    "highlights": ["On-roof inspection", "Photo notes", "Repair vs replacement", "No pressure to book the same day"],
+    "heading": "Know the roof before you spend",
+    "body": "You get plain language: what is leaking, what is aging, and what can wait.",
+    "faq": {
+      "q": "Is an inspection free?",
+      "a": "Estimates for repair or replacement include the look. A standalone inspection for a sale is quoted up front. Call {{phone}}."
+    },
+    "icon": "clipboard-list",
+    "iconStyle": "navy",
+    "image": "/placeholders/hero.svg"
+  }
+]

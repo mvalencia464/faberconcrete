@@ -1,0 +1,24 @@
+{
+  "title": "{{ctaPrimaryLabel}}",
+  "subtitle": "Share a few details — {{ownerName}} will follow up.",
+  "submitText": "Send my request",
+  "finalNote": "No obligation. We look at the site before anyone forms or pours.",
+  "trustBullets": ["Local to {{city}}", "Residential and light commercial", "Written estimates"],
+  "projectTypes": [
+    { "value": "driveway", "label": "Driveway", "phIcon": "home" },
+    { "value": "approach", "label": "Driveway approach", "phIcon": "road" },
+    { "value": "patio", "label": "Patio", "phIcon": "th-large" },
+    { "value": "sidewalk", "label": "Sidewalk", "phIcon": "walking" },
+    { "value": "flatwork", "label": "Flatwork", "phIcon": "border-all" },
+    { "value": "garage-slab", "label": "Garage slab", "phIcon": "warehouse" },
+    { "value": "repair", "label": "Repair or replacement", "phIcon": "tools" },
+    { "value": "other", "label": "Something else", "phIcon": "question" }
+  ],
+  "roofTypes": [],
+  "timelines": [
+    { "value": "spring", "label": "Spring" },
+    { "value": "summer", "label": "Summer" },
+    { "value": "fall", "label": "Fall" },
+    { "value": "flexible", "label": "Flexible" }
+  ]
+}
