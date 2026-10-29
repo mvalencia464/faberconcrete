@@ -1,0 +1,82 @@
+---
+import "../styles/global.css";
+import { SITE, isPlaceholder } from "../config/site";
+
+interface Props {
+  title: string;
+  description: string;
+  image?: string;
+}
+
+const { title, description, image } = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site).href;
+const ogImage = image ?? new URL("/og.svg", Astro.site).href;
+
+const address = {
+  "@type": "PostalAddress",
+  streetAddress: SITE.streetAddress,
+  addressLocality: SITE.city,
+  addressRegion: SITE.state,
+  postalCode: SITE.zip,
+  addressCountry: "US",
+};
+
+const jsonLd: Record<string, unknown> = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  name: SITE.name,
+  legalName: SITE.legalName,
+  url: SITE.siteUrl,
+  image: ogImage,
+  description,
+  slogan: SITE.tagline,
+  founder: {
+    "@type": "Person",
+    name: SITE.ownerName,
+  },
+  address,
+  areaServed: {
+    "@type": "State",
+    name: "Michigan",
+  },
+  priceRange: SITE.priceRange,
+  knowsAbout: [
+    "Concrete driveways",
+    "Concrete approaches",
+    "Concrete flatwork",
+    "5-inch concrete slabs",
+    "21AA aggregate base",
+  ],
+};
+
+if (!isPlaceholder(SITE.phone)) jsonLd.telephone = SITE.phone;
+if (!isPlaceholder(SITE.email)) jsonLd.email = SITE.email;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Source+Sans+3:wght@400;600;700&display=swap"
+    />
+    <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>

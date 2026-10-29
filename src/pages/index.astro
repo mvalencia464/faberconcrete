@@ -1,0 +1,86 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { services } from "../data/services";
+
+const title = "Concrete Driveways in Michigan | Faber Concrete";
+const description =
+  "Faber Concrete pours five-inch driveways and six-inch approaches on a compacted 21AA base. A premium slab for Michigan, priced down the middle. Book April and May first.";
+---
+
+<BaseLayout title={title} description={description}>
+  <Header />
+  <main>
+    <section class="hero">
+      <div class="wrap hero__grid">
+        <div>
+          <p class="eyebrow">Michigan concrete specialist</p>
+          <h1>Five inches. Every driveway.</h1>
+          <p class="lede">
+            Faber Concrete is a concrete company. Driveways, approaches, and flatwork — and nothing mixed in from another trade. Most contractors pour a four-inch slab. We never do. You get five inches on the driveway, six inches on the approach, and a compacted 21AA base under all of it.
+          </p>
+          <div class="actions">
+            <a class="btn btn--tide" href="/estimate">Request an estimate</a>
+            <a class="btn btn--ghost" href="/why-our-concrete-lasts">Why the extra inch</a>
+          </div>
+          <div class="spring">
+            <strong>April and May fill first.</strong>
+            <span>Book a spring job now. Those are the months we put on the books before the season gets away.</span>
+            <a href="/estimate">Hold a spring date</a>
+          </div>
+        </div>
+        <div class="spec-row" aria-label="What every pour includes">
+          <div class="spec">
+            <b>5 in</b>
+            <span>Slab on the driveway. Never four.</span>
+          </div>
+          <div class="spec">
+            <b>6 in</b>
+            <span>On the approach, where the street meets the drive.</span>
+          </div>
+          <div class="spec">
+            <b>21AA</b>
+            <span>Graded and compacted before we form and pour. Never dirt. Never just sand.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--paper">
+      <div class="wrap">
+        <p class="eyebrow">The work</p>
+        <h2>Driveways and flatwork, poured the same way every time.</h2>
+        <div class="cards">
+          {
+            services.map((service) => (
+              <a class="card" href={service.href}>
+                <h3>{service.title}</h3>
+                <p>{service.summary}</p>
+              </a>
+            ))
+          }
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap split">
+        <blockquote class="quote">
+          <p>“If you’re looking for a cheap deal, we’re not going to be it. We’re going to be your best, highest quality bid.”</p>
+          <footer>Matt Faber, owner</footer>
+        </blockquote>
+        <div>
+          <p>
+            The price sits down the middle. Not the cheapest number on the sheet, and not an outrageous one either. The extra inch and the 21AA cost more than pouring four inches over compacted sand. That is the product.
+          </p>
+          <p>
+            Finishers on these jobs have been finishing concrete for more than 25 years. The finish is part of what you are paying for, along with a slab meant for a Michigan winter and a 20-ton delivery truck.
+          </p>
+          <a class="btn btn--tide" href="/estimate">Request an estimate</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <Footer />
+</BaseLayout>

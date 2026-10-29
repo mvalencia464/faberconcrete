@@ -1,0 +1,75 @@
+---
+import { SITE, isPlaceholder } from "../config/site";
+
+const wired = !isPlaceholder(SITE.leadEndpoint);
+---
+
+<form
+  method="post"
+  action={wired ? SITE.leadEndpoint : "#estimate-form"}
+  id="estimate-form"
+  data-lead-endpoint={SITE.leadEndpoint}
+>
+  {
+    !wired && (
+      <p class="notice">
+        Form submissions are not connected yet. Set <code>leadEndpoint</code> in{" "}
+        <code>src/config/site.ts</code> (placeholder: {SITE.leadEndpoint}). Until then, this form stays on the page.
+      </p>
+    )
+  }
+  <label>
+    Name
+    <input name="name" autocomplete="name" required />
+  </label>
+  <label>
+    Phone
+    <input name="phone" type="tel" autocomplete="tel" required />
+  </label>
+  <label>
+    Email
+    <input name="email" type="email" autocomplete="email" required />
+  </label>
+  <label>
+    City in Michigan
+    <input name="city" autocomplete="address-level2" required />
+  </label>
+  <label>
+    What needs poured
+    <select name="project" required>
+      <option value="">Select one</option>
+      <option>Driveway</option>
+      <option>Approach</option>
+      <option>Driveway and approach</option>
+      <option>Other flatwork</option>
+    </select>
+  </label>
+  <label>
+    When you want it
+    <select name="timing">
+      <option>April</option>
+      <option>May</option>
+      <option>Later in the season</option>
+      <option>Not sure yet</option>
+    </select>
+  </label>
+  <label>
+    Tell us about the job
+    <textarea name="message" required placeholder="Size, access, and anything a delivery truck has to cross."></textarea>
+  </label>
+  <button class="btn btn--tide" type="submit">Request an estimate</button>
+  <p class="form-note">
+    April and May are the months that fill first. We are not the cheapest bid. The estimate is for a five-inch slab on compacted 21AA, with six inches on the approach.
+  </p>
+</form>
+
+<script define:vars={{ wired }}>
+  const form = document.querySelector("#estimate-form");
+  form?.addEventListener("submit", (event) => {
+    if (!wired) {
+      event.preventDefault();
+      const note = form.querySelector(".notice");
+      if (note) note.textContent = "Still a placeholder. Wire leadEndpoint before this can send.";
+    }
+  });
+</script>

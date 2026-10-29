@@ -1,0 +1,16 @@
+name = "faberconcrete"
+main = "src/worker.ts"
+compatibility_date = "2026-10-29"
+
+# Static Astro build. The worker only intercepts /photos (see run_worker_first).
+# Replace [TOKEN] in src/config/site.ts before this redirect is useful.
+
+[assets]
+directory = "./dist"
+binding = "ASSETS"
+not_found_handling = "404-page"
+html_handling = "auto-trailing-slash"
+run_worker_first = ["/photos", "/photos/*"]
+
+[vars]
+SITE_URL = "https://faberconcrete.com"
