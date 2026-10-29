@@ -1,0 +1,55 @@
+---
+import Wordmark from "./Wordmark.astro";
+import { SITE, isPlaceholder, telHref } from "../config/site";
+import { services } from "../data/services";
+
+const phoneLink = telHref();
+---
+
+<footer class="site-footer">
+  <div class="wrap site-footer__grid">
+    <div>
+      <Wordmark light />
+      <p>
+        Concrete driveways, approaches, and flatwork in Michigan. A separate company from the roofing work — this site is only about the slab.
+      </p>
+    </div>
+    <div>
+      <strong>Work</strong>
+      <ul>
+        {services.map((service) => (
+          <li><a href={service.href}>{service.title}</a></li>
+        ))}
+        <li><a href="/why-our-concrete-lasts">Why our concrete lasts</a></li>
+        <li><a href="/gallery">Gallery</a></li>
+        <li><a href="/estimate">Request an estimate</a></li>
+      </ul>
+    </div>
+    <div>
+      <strong>Contact</strong>
+      <ul>
+        <li>{SITE.ownerName}, {SITE.ownerRole}</li>
+        <li>
+          {
+            phoneLink ? (
+              <a href={phoneLink}>{SITE.phone}</a>
+            ) : (
+              <span>{SITE.phone}</span>
+            )
+          }
+        </li>
+        <li>{isPlaceholder(SITE.email) ? SITE.email : <a href={`mailto:${SITE.email}`}>{SITE.email}</a>}</li>
+        <li>
+          {SITE.streetAddress}<br />
+          {SITE.city}, {SITE.state} {SITE.zip}
+        </li>
+        <li>License {SITE.license}</li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap fine">
+    <p>
+      {SITE.name}. Built by Stoke Leads. Values in square brackets are placeholders and are listed in the README.
+    </p>
+  </div>
+</footer>

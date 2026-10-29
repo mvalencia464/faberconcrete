@@ -1,0 +1,45 @@
+---
+/**
+ * Job photography is served from media.stokeleads.com as an AVIF + WebP pair.
+ * Pass both URLs. The browser picks AVIF when it can, otherwise WebP.
+ */
+interface Props {
+  avif: string;
+  webp: string;
+  alt: string;
+  width?: number;
+  height?: number;
+  sizes?: string;
+  loading?: "eager" | "lazy";
+  fetchpriority?: "high" | "low" | "auto";
+  class?: string;
+}
+
+const {
+  avif,
+  webp,
+  alt,
+  width,
+  height,
+  sizes,
+  loading = "lazy",
+  fetchpriority = "auto",
+  class: className,
+} = Astro.props;
+---
+
+<picture>
+  <source srcset={avif} type="image/avif" sizes={sizes} />
+  <source srcset={webp} type="image/webp" sizes={sizes} />
+  <img
+    class={className}
+    src={webp}
+    alt={alt}
+    width={width}
+    height={height}
+    sizes={sizes}
+    loading={loading}
+    decoding="async"
+    fetchpriority={fetchpriority}
+  />
+</picture>
