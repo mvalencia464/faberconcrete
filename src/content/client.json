@@ -3,18 +3,18 @@
     "name": "Faber Concrete",
     "shortName": "Faber",
     "legalName": "Faber Concrete",
-    "tagline": "Concrete contractor in [REGION].",
+    "tagline": "Concrete contractor in Metro Detroit.",
     "catchphrase": "FABER CONCRETE \u2014 CONCRETE CONTRACTOR",
-    "phone": "[PHONE]",
+    "phone": "(810) 360-7385",
     "email": "[EMAIL]",
-    "address": "[ADDRESS]",
-    "city": "[CITY]",
+    "address": "22710 Haggerty Rd. Suite 100B",
+    "city": "Farmington Hills",
     "state": "MI",
-    "zip": "[ZIP]",
+    "zip": "48335",
     "license": "[LICENSE]",
-    "ownerName": "[OWNER]",
+    "ownerName": "Matt Atrard",
     "ownerRole": "Owner",
-    "region": "[REGION]",
+    "region": "Metro Detroit",
     "trade": "concrete",
     "tradeLabel": "Concrete contractor",
     "schemaType": "GeneralContractor",
@@ -50,51 +50,51 @@
     }
   },
   "map": {
-    "lat": null,
-    "lng": null,
-    "zoom": 10,
+    "lat": 42.4564467,
+    "lng": -83.4345146,
+    "zoom": 14,
     "radiusMiles": 25,
     "listingUrl": "",
-    "query": "Faber Concrete, [CITY] MI"
+    "query": "Faber Concrete, 22710 Haggerty Rd. Suite 100B, Farmington Hills, MI 48335"
   },
   "googleReviews": {
     "businessName": "Faber Concrete",
     "rating": 0,
     "count": 0,
-    "category": "Concrete contractor in [CITY], MI",
+    "category": "Concrete contractor in Farmington Hills, MI",
     "profileUrl": "",
     "maxDisplay": 8,
     "cid": "",
     "placeId": ""
   },
   "seo": {
-    "title": "Faber Concrete | Concrete contractor in [CITY], MI",
-    "description": "Concrete contractor in [CITY] and [REGION]. Call [PHONE] for an estimate.",
-    "keywords": "Faber Concrete, Concrete contractor [CITY] MI, [REGION]"
+    "title": "Faber Concrete | Concrete contractor in Farmington Hills, MI",
+    "description": "Concrete contractor in Farmington Hills and Metro Detroit. Call (810) 360-7385 for an estimate.",
+    "keywords": "Faber Concrete, Concrete contractor Farmington Hills MI, Metro Detroit"
   },
   "copy": {
     "ctaPrimaryLabel": "Get a concrete estimate",
     "phoneCtaLabel": "Call for a concrete estimate",
     "serviceType": "Concrete services",
     "serviceNoun": "concrete",
-    "ogImageAlt": "Faber Concrete \u2014 Concrete contractor in [CITY], MI",
-    "heroImageAlt": "Faber Concrete project in [CITY]",
+    "ogImageAlt": "Faber Concrete \u2014 Concrete contractor in Farmington Hills, MI",
+    "heroImageAlt": "Faber Concrete project in Farmington Hills",
     "formConsent": "and consent to be contacted about my concrete estimate. Msg & data rates may apply.",
     "sidebarTitle": "Request an estimate",
     "sidebarBody": "Call for the next step. We look at the site before we quote a pour.",
-    "serviceAreasIntro": "Faber Concrete is a local Concrete contractor serving these [REGION] communities:",
+    "serviceAreasIntro": "Faber Concrete is a local Concrete contractor serving these Metro Detroit communities:",
     "contactTitle": "Get a concrete estimate | Faber Concrete",
-    "contactDescription": "Request a concrete estimate from Faber Concrete in [CITY]. Call [PHONE].",
+    "contactDescription": "Request a concrete estimate from Faber Concrete in Farmington Hills. Call (810) 360-7385.",
     "contactHeading": "Get a concrete estimate",
     "contactIntro": "Tell us what you want poured or replaced.",
-    "aboutDescription": "Meet [OWNER] and Faber Concrete \u2014 Concrete contractor in [CITY] serving [REGION].",
-    "policyDescription": "How Faber Concrete collects, uses, and protects your information when you request an estimate in [CITY] and [REGION].",
-    "termsDescription": "Terms governing use of the Faber Concrete website and estimate requests in [CITY] and [REGION].",
+    "aboutDescription": "Meet Matt Atrard and Faber Concrete \u2014 Concrete contractor in Farmington Hills serving Metro Detroit.",
+    "policyDescription": "How Faber Concrete collects, uses, and protects your information when you request an estimate in Farmington Hills and Metro Detroit.",
+    "termsDescription": "Terms governing use of the Faber Concrete website and estimate requests in Farmington Hills and Metro Detroit.",
     "areaEyebrow": "Concrete contractor \u00b7 Service area",
     "areaPageTitle": "Concrete contractor in {{areaName}} | Faber Concrete",
     "areaHeadline": "Concrete contractor in {{areaName}}",
     "areaIntro": "When your {{areaName}} property needs a driveway, patio, sidewalk, or other flatwork, you get a site look and a written estimate.",
-    "areaBody": "Faber Concrete serves {{areaName}} and nearby [REGION] from [CITY].",
+    "areaBody": "Faber Concrete serves {{areaName}} and nearby Metro Detroit from Farmington Hills.",
     "areaServicesNote": "concrete for {{areaName}} homes and light-commercial lots.",
     "areaServicesHeading": "Services in {{areaName}}",
     "areaHighlights": [
@@ -106,16 +106,16 @@
     "areaFaqs": [
       {
         "q": "Do you work in {{areaName}}?",
-        "a": "Yes. Call [PHONE]."
+        "a": "Yes. Call (810) 360-7385."
       },
       {
         "q": "How do I get an estimate in {{areaName}}?",
-        "a": "Call [PHONE] or send the form."
+        "a": "Call (810) 360-7385 or send the form."
       }
     ],
-    "jobAreaLink": "Concrete contractor in [CITY]",
+    "jobAreaLink": "Concrete contractor in Farmington Hills",
     "hero": {
-      "trustBadge": "[CITY] \u00b7 [REGION]",
+      "trustBadge": "Farmington Hills \u00b7 Metro Detroit",
       "headingLine1": "Five inches",
       "headingLine2": "",
       "headingAccent": "never four",
@@ -135,21 +135,21 @@
           "label": "Written\nestimate"
         }
       ],
-      "ctaCall": "Call [PHONE]",
+      "ctaCall": "Call (810) 360-7385",
       "scheduleHref": "/contact",
       "financingNote": "Not the cheapest bid. The best, priced down the middle.",
-      "locationNote": "Serving [REGION] from [CITY]",
+      "locationNote": "Serving Metro Detroit from Farmington Hills",
       "trustLine": "5-inch slabs. 21AA base. Finishers with 25+ years.",
       "reviewCard": {
         "rating": 5,
         "count": "Google Reviews",
         "href": "/reviews"
       },
-      "ownerNote": "Call or send the form \u2014 [OWNER] will follow up.",
-      "ownerCta": "Talk to [OWNER]"
+      "ownerNote": "Call or send the form \u2014 Matt Atrard will follow up.",
+      "ownerCta": "Talk to Matt Atrard"
     },
     "trustBar": {
-      "heading": "Flatwork for [REGION]",
+      "heading": "Flatwork for Metro Detroit",
       "badges": [
         {
           "type": "google",
@@ -161,9 +161,9 @@
         },
         {
           "type": "cert",
-          "label": "Based in\n[CITY], MI",
+          "label": "Based in\nFarmington Hills, MI",
           "eyebrow": "Based in",
-          "title": "[CITY], MI",
+          "title": "Farmington Hills, MI",
           "icon": "map-marker-alt"
         },
         {
@@ -271,7 +271,7 @@
     ],
     "servicesHeading": "Driveways, patios, and flatwork",
     "servicesLabel": "Services",
-    "servicesIntro": "Here is the concrete work we take on in [REGION].",
+    "servicesIntro": "Here is the concrete work we take on in Metro Detroit.",
     "valueProps": [
       {
         "icon": "ruler-combined",
@@ -319,11 +319,11 @@
       "label": "Google reviews",
       "title": "What neighbors are saying",
       "titleLine2": "",
-      "subtitle": "Work across [CITY] and [REGION].",
+      "subtitle": "Work across Farmington Hills and Metro Detroit.",
       "bullets": [
         "Concrete contractor",
-        "Based in [CITY]",
-        "[OWNER], owner",
+        "Based in Farmington Hills",
+        "Matt Atrard, owner",
         "Driveways and flatwork"
       ],
       "ctaText": "Read more reviews on Google",
@@ -334,7 +334,7 @@
       "label": "Google Reviews",
       "title": "What customers are saying",
       "subtitle": "Feedback from people who hired Faber Concrete.",
-      "description": "Read reviews for Faber Concrete \u2014 Concrete contractor in [CITY] and [REGION]."
+      "description": "Read reviews for Faber Concrete \u2014 Concrete contractor in Farmington Hills and Metro Detroit."
     },
     "shop": {
       "heading": "Contact Us",
@@ -352,11 +352,11 @@
     },
     "ownerStory": {
       "label": "About Us",
-      "quote": "Concrete contractor in [REGION].",
-      "caption": "[OWNER] \u00b7 Owner",
+      "quote": "Concrete contractor in Metro Detroit.",
+      "caption": "Matt Atrard \u00b7 Owner",
       "ctaText": "Get a concrete estimate",
       "ctaHref": "/contact",
-      "quoteAttribution": "[OWNER]",
+      "quoteAttribution": "Matt Atrard",
       "quoteRole": "Owner, Faber Concrete",
       "homepageParagraphLimit": 2,
       "paragraphs": [
@@ -371,17 +371,17 @@
     },
     "teamMembers": [
       {
-        "name": "[OWNER]",
+        "name": "Matt Atrard",
         "role": "Owner",
         "headline": "Leads with a site look and a written estimate.",
         "bio": [
-          "[OWNER] runs Faber Concrete from [CITY]."
+          "Matt Atrard runs Faber Concrete from Farmington Hills."
         ]
       }
     ],
     "serviceArea": {
       "heading": "Areas We Serve",
-      "body": "Based in [CITY], MI \u2014 serving [REGION].",
+      "body": "Based in Farmington Hills, MI \u2014 serving Metro Detroit.",
       "country": "US"
     },
     "ctaBanner": {
@@ -407,7 +407,7 @@
       "baseMaterial": "A graded, compacted 21AA base every time. Never dirt, and never compacted sand alone.",
       "yearsExperience": "Finishers with 25+ years of experience."
     },
-    "footerBlurb": "Concrete contractor. Serving [REGION] from [CITY].",
+    "footerBlurb": "Concrete contractor. Serving Metro Detroit from Farmington Hills.",
     "schemaKnowsAbout": [
       "Driveways",
       "Driveway approaches",
@@ -420,7 +420,7 @@
     "faqs": [
       {
         "q": "What concrete work do you take on?",
-        "a": "Driveways, driveway approaches, patios, sidewalks, flatwork, garage slabs, and repair or replacement in [CITY] and [REGION]. Call [PHONE]."
+        "a": "Driveways, driveway approaches, patios, sidewalks, flatwork, garage slabs, and repair or replacement in Farmington Hills and Metro Detroit. Call (810) 360-7385."
       },
       {
         "q": "Do you pour new concrete and replace old slabs?",
@@ -428,25 +428,25 @@
       },
       {
         "q": "Where do you work?",
-        "a": "[CITY] and [REGION]."
+        "a": "Farmington Hills and Metro Detroit."
       },
       {
         "q": "How do I get an estimate?",
-        "a": "Call [PHONE] or send the form. The scope is a 5-inch slab, never 4, with 6 inches on the approach, over graded and compacted 21AA."
+        "a": "Call (810) 360-7385 or send the form. The scope is a 5-inch slab, never 4, with 6 inches on the approach, over graded and compacted 21AA."
       },
       {
         "q": "When should I book a spring pour?",
-        "a": "Book April and May spring jobs. Call [PHONE] or send the form."
+        "a": "Book April and May spring jobs. Call (810) 360-7385 or send the form."
       }
     ]
   },
   "form": {
     "title": "Get a concrete estimate",
-    "subtitle": "Share a few details \u2014 [OWNER] will follow up.",
+    "subtitle": "Share a few details \u2014 Matt Atrard will follow up.",
     "submitText": "Send my request",
     "finalNote": "No obligation. We look at the site before anyone forms or pours.",
     "trustBullets": [
-      "Local to [CITY]",
+      "Local to Farmington Hills",
       "Residential and light commercial",
       "Written estimates"
     ],
@@ -535,9 +535,69 @@
   },
   "serviceAreas": [
     {
-      "slug": "[city]",
-      "name": "[CITY]",
-      "county": "[COUNTY]"
+      "slug": "farmington-hills",
+      "name": "Farmington Hills",
+      "county": "Oakland"
+    },
+    {
+      "slug": "farmington",
+      "name": "Farmington",
+      "county": "Oakland"
+    },
+    {
+      "slug": "novi",
+      "name": "Novi",
+      "county": "Oakland"
+    },
+    {
+      "slug": "livonia",
+      "name": "Livonia",
+      "county": "Wayne"
+    },
+    {
+      "slug": "northville",
+      "name": "Northville",
+      "county": "Wayne"
+    },
+    {
+      "slug": "west-bloomfield",
+      "name": "West Bloomfield",
+      "county": "Oakland"
+    },
+    {
+      "slug": "southfield",
+      "name": "Southfield",
+      "county": "Oakland"
+    },
+    {
+      "slug": "walled-lake",
+      "name": "Walled Lake",
+      "county": "Oakland"
+    },
+    {
+      "slug": "commerce-township",
+      "name": "Commerce Township",
+      "county": "Oakland"
+    },
+    {
+      "slug": "plymouth",
+      "name": "Plymouth",
+      "county": "Wayne"
+    },
+    {
+      "slug": "redford",
+      "name": "Redford",
+      "county": "Wayne"
+    },
+    {
+      "slug": "milford",
+      "name": "Milford",
+      "county": "Oakland"
+    },
+    {
+      "slug": "detroit",
+      "name": "Detroit",
+      "county": "Wayne"
     }
   ],
   "primaryServiceSlugs": [
