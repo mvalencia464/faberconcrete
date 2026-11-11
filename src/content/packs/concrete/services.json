@@ -32,7 +32,17 @@
     },
     "icon": "road",
     "iconStyle": "navy",
-    "image": "faber-concrete-finished-driveway.avif"
+    "image": "faber-concrete-finished-driveway.avif",
+    "gallery": [
+      {
+        "image": "media-generation-faber-concrete-video2-still-a-0-42c077c0-9e28-442e-9c52-86bfc60788a1.avif",
+        "alt": "Three finishers placing concrete in driveway forms. AI illustration, not a photo of a completed Faber Concrete job."
+      },
+      {
+        "image": "media-generation-faber-concrete-video2-still-b-0-38739a68-2567-4789-b4c4-abcc5a78a39f.avif",
+        "alt": "A person standing on a new driveway, looking toward the street. AI illustration, not a photo of a completed Faber Concrete job."
+      }
+    ]
   },
   {
     "slug": "approaches",
@@ -63,7 +73,13 @@
     },
     "icon": "sign-out-alt",
     "iconStyle": "navy",
-    "image": "new-construction-stone-house.avif"
+    "image": "new-construction-stone-house.avif",
+    "gallery": [
+      {
+        "image": "media-generation-faber-concrete-video2-still-c-0-083b9d97-5947-4a2c-8a5e-d6326287d03f.avif",
+        "alt": "Two finishers working a driveway apron at the street, one with a long float and one with a hand trowel. AI illustration, not a photo of a completed Faber Concrete job."
+      }
+    ]
   },
   {
     "slug": "flatwork",

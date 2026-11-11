@@ -350,8 +350,8 @@
     },
     "workGallery": {
       "label": "Illustrations",
-      "title": "Driveways and stamped patterns",
-      "intro": "The crew, the finished driveway, and the stamped patterns are AI illustrations. They are not photos of a completed Faber Concrete job. The new-construction approach is a field photo of a house still in scaffolding, not a named project."
+      "title": "Crews, driveways, and stamped patterns",
+      "intro": "The crew stills, the finished driveway, and the stamped patterns are AI illustrations. They are not photos of a completed Faber Concrete job. The new-construction approach is a field photo of a house still in scaffolding, not a named project."
     },
     "ownerStory": {
       "label": "About Us",
@@ -455,7 +455,7 @@
       },
       {
         "q": "Are the photos finished Faber jobs?",
-        "a": "The crew, finished driveway, and stamped patterns on this site are AI illustrations. They are not photos of a specific completed job. The new-construction approach is a field photo of a house still going up, not a named project."
+        "a": "The crew stills, finished driveway, and stamped patterns on this site are AI illustrations. They are not photos of a specific completed job. The new-construction approach is a field photo of a house still going up, not a named project."
       }
     ]
   },

@@ -34,7 +34,7 @@ type PackService = {
   icon: string;
   iconStyle?: string;
   image: string;
-  gallery?: string[];
+  gallery?: (string | { image: string; alt?: string })[];
   sections?: { heading: string; body: string }[];
 };
 
@@ -77,10 +77,11 @@ export const SERVICES: SiteService[] = pack.map((raw) => {
     image,
     galleryImages: [
       { image, alt: `${service.title} by ${BRAND.name}` },
-      ...(service.gallery ?? []).map((src) => ({
-        image: src,
-        alt: `${service.title} by ${BRAND.name}`,
-      })),
+      ...(service.gallery ?? []).map((item) => {
+        const fallback = `${service.title} by ${BRAND.name}`;
+        if (typeof item === "string") return { image: item, alt: fallback };
+        return { image: item.image, alt: item.alt?.trim() || fallback };
+      }),
     ],
     fullDesc: service.fullDesc,
     highlights: service.highlights,

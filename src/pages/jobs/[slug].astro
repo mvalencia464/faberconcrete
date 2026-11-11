@@ -59,7 +59,7 @@ const pageDescription = job.caption;
             <img
               class="job-detail__cover"
               src={r2img(job.cover)}
-              alt={`${job.serviceLabel} in ${job.city}`}
+              alt={job.imageAlts?.[job.cover] ?? job.caption}
               width="1200"
               height="800"
             />
@@ -67,7 +67,7 @@ const pageDescription = job.caption;
 
           <div class="job-detail__gallery">
             {job.images.filter((src) => src !== job.cover).map((src) => (
-              <img src={r2img(src)} alt={job.caption} loading="lazy" width="640" height="480" />
+              <img src={r2img(src)} alt={job.imageAlts?.[src] ?? job.caption} loading="lazy" width="1067" height="1920" />
             ))}
           </div>
         </div>
@@ -168,9 +168,19 @@ const pageDescription = job.caption;
 
   .job-detail__gallery {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     gap: 0.65rem;
     margin-top: 0.75rem;
+  }
+
+  @media (min-width: 800px) {
+    .job-detail__gallery {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .job-detail__gallery img:only-child {
+      max-width: 26rem;
+    }
   }
 
   .job-detail__kicker {

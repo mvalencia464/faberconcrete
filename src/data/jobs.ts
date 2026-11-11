@@ -23,6 +23,7 @@ export type Job = {
   };
   rows: JobFixRow[];
   reviewAuthor?: string;
+  imageAlts?: Record<string, string>;
 };
 
 const AI =
@@ -39,6 +40,7 @@ function photoJob(input: {
   summary: string;
   workPerformed: string;
   rows: JobFixRow[];
+  imageAlts?: Record<string, string>;
 }): Job {
   return {
     slug: input.slug,
@@ -58,8 +60,24 @@ function photoJob(input: {
         "Send the form with the address if you want this kind of pour. Five inches on the driveway, six on the approach, compacted 21AA. Some ZIP codes in each county are outside the work.",
     },
     rows: input.rows,
+    imageAlts: input.imageAlts,
   };
 }
+
+const CREW = {
+  apron:
+    "media-generation-faber-concrete-video2-still-c-0-083b9d97-5947-4a2c-8a5e-d6326287d03f.avif",
+  float:
+    "media-generation-faber-concrete-video-still-1-0-d1d461f7-f614-4371-920b-5976f069ba90.avif",
+  edge:
+    "media-generation-faber-concrete-video-still-2-0-491392bb-ecd4-4e97-9504-74a643c881ff.avif",
+  place:
+    "media-generation-faber-concrete-video2-still-a-0-42c077c0-9e28-442e-9c52-86bfc60788a1.avif",
+  level:
+    "media-generation-faber-concrete-video-still-3-0-40a95f50-a172-4fdb-8cbd-171f0bd60876.avif",
+  walk:
+    "media-generation-faber-concrete-video2-still-b-0-38739a68-2567-4789-b4c4-abcc5a78a39f.avif",
+} as const;
 
 /**
  * Filenames that returned HTTP 200 on media.stokeleads.com/faberconcrete.
@@ -83,12 +101,59 @@ export const JOBS: Job[] = [
     ],
   }),
   photoJob({
+    slug: "crew-finishing-the-apron",
+    title: "Crew finishing the apron",
+    serviceLabel: "Driveway approaches",
+    serviceSlug: "approaches",
+    cover: CREW.apron,
+    images: [CREW.float, CREW.edge],
+    caption: `A crew working the edge where a new driveway meets the street. One still shows two finishers, one with a long float and one with a hand trowel. The others show a long float across the apron and a hand finish at the edge. ${AI}`,
+    summary:
+      "The apron is where the street meets the drive, and it is finished by hand. These stills show a crew on that edge. They are illustrations, not photos of a completed Faber Concrete job. The approach is still six inches, on compacted 21AA.",
+    workPerformed:
+      "Finish the apron at the curb. A long float across the fresh concrete, then a hand trowel at the edge where the new slab meets the old pavement.",
+    imageAlts: {
+      [CREW.apron]: `Two finishers on a driveway apron at the street, one with a long float and one with a hand trowel. ${AI}`,
+      [CREW.float]: `A finisher pulling a long float across a fresh driveway apron, with another worker by the garage. ${AI}`,
+      [CREW.edge]: `A finisher working the edge where new concrete meets the existing driveway. ${AI}`,
+    },
+    rows: [
+      { pain: "The apron left rough because it is the last section.", fix: "The edge at the street is hand-finished." },
+      { pain: "A thin apron that takes the delivery truck first.", fix: "Approaches are six inches, on compacted 21AA." },
+    ],
+  }),
+  photoJob({
+    slug: "crew-on-the-pour",
+    title: "Crew on the pour",
+    serviceLabel: "Driveways",
+    serviceSlug: "driveways",
+    cover: CREW.place,
+    images: [CREW.level],
+    caption: `A crew placing and finishing concrete in the forms. One still is three people on the mud, with a float, a shovel, and a broom. The other is three people on a wider slab, one checking the surface and one floating it. ${AI}`,
+    summary:
+      "A driveway pour is a crew, not one person with a trowel at the end. These stills show people placing and finishing the slab. They are illustrations, not photos of a completed Faber Concrete job.",
+    workPerformed:
+      "Place the concrete, pull it into the forms, and finish the surface while it is still workable.",
+    imageAlts: {
+      [CREW.place]: `Three finishers placing concrete in driveway forms, one floating, one with a broom, one with a shovel. ${AI}`,
+      [CREW.level]: `Three finishers on a fresh slab, one with a level, one with a float, and one with a shovel. ${AI}`,
+    },
+    rows: [
+      { pain: "The finish rushed because the crew was too thin.", fix: "The stills show more than one person on the pour." },
+      { pain: "Four inches because it is cheaper.", fix: "Five inches on the driveway. Six on the approach." },
+    ],
+  }),
+  photoJob({
     slug: "finished-driveway",
     title: "Finished driveway",
     serviceLabel: "Driveways",
     serviceSlug: "driveways",
     cover: "faber-concrete-finished-driveway.avif",
+    images: [CREW.walk],
     caption: `A new concrete driveway in front of a brick house. ${AI}`,
+    imageAlts: {
+      [CREW.walk]: `A person standing on a new driveway, looking toward the street, with a cone on the sidewalk. ${AI}`,
+    },
     summary:
       "This is the driveway people live with: five inches, six where it meets the street, compacted 21AA underneath. The cheaper bid skips an inch, on the order of $600 to $700 on an average driveway, and that is the driveway you end up hating before you are ready to replace it.",
     workPerformed:
