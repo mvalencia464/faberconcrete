@@ -36,6 +36,8 @@ function photoJob(input: {
   cover: string;
   images?: string[];
   caption: string;
+  summary: string;
+  workPerformed: string;
   rows: JobFixRow[];
 }): Job {
   return {
@@ -48,11 +50,12 @@ function photoJob(input: {
     cover: input.cover,
     images: [input.cover, ...(input.images ?? [])],
     caption: input.caption,
-    summary: input.caption,
+    summary: input.summary,
     analysis: {
-      equipment: input.serviceLabel,
-      workPerformed: input.caption,
-      outcome: "Send the form with the address if you want this kind of pour.",
+      equipment: "21AA, forms, and a pour at the thickness on the estimate",
+      workPerformed: input.workPerformed,
+      outcome:
+        "Send the form with the address if you want this kind of pour. Five inches on the driveway, six on the approach, compacted 21AA. Some ZIP codes in each county are outside the work.",
     },
     rows: input.rows,
   };
@@ -70,9 +73,13 @@ export const JOBS: Job[] = [
     serviceSlug: "driveways",
     cover: "concrete-crew-finishing-driveway.avif",
     caption: `A finisher troweling the edge of a fresh driveway. ${AI}`,
+    summary:
+      "The finish is what you see on day one. It sits on five inches of concrete, not four, over 21AA that was graded and compacted first. The people finishing these slabs have been doing it for more than 25 years.",
+    workPerformed:
+      "Hand-finish the surface after a five-inch pour. The illustration shows the edge work. It is not a photo of a completed Faber Concrete job.",
     rows: [
-      { pain: "A slab that looks finished before the edge is done.", fix: "The edge is hand-finished before anyone leaves it." },
-      { pain: "A four-inch pour used to win the price.", fix: "Five inches on the driveway. The finish sits on that slab." },
+      { pain: "A finish sitting on a slab that was thinned out to win the price.", fix: "Five inches on the driveway. The finish sits on that slab." },
+      { pain: "A crew that has not been finishing long enough to care about the edge.", fix: "Finishers with more than 25 years on the tools." },
     ],
   }),
   photoJob({
@@ -81,9 +88,13 @@ export const JOBS: Job[] = [
     serviceLabel: "Driveways",
     serviceSlug: "driveways",
     cover: "faber-concrete-finished-driveway.avif",
-    caption: `A new concrete driveway with control joints in front of a brick house. ${AI}`,
+    caption: `A new concrete driveway in front of a brick house. ${AI}`,
+    summary:
+      "This is the driveway people live with: five inches, six where it meets the street, compacted 21AA underneath. The cheaper bid skips an inch, on the order of $600 to $700 on an average driveway, and that is the driveway you end up hating before you are ready to replace it.",
+    workPerformed:
+      "A full driveway pour at five inches, with the approach at six, after the whole area is graded and compacted. The picture is an illustration, not a named Faber job.",
     rows: [
-      { pain: "A driveway with no joints planned.", fix: "Control joints are part of the finish you see here." },
+      { pain: "Four inches because it is cheaper.", fix: "Five inches on the driveway, every time. Never four." },
       { pain: "The approach and the drive poured as one thin slab.", fix: "The approach is six inches. The rest of the drive is five." },
     ],
   }),
@@ -95,9 +106,13 @@ export const JOBS: Job[] = [
     cover: "new-construction-stone-house.avif",
     caption:
       "A new concrete approach at the street in front of a stone house that is still in scaffolding. A field photo, not a named completed job.",
+    summary:
+      "The approach is where a 20-ton delivery truck hits first. Faber Concrete pours it at six inches, on 21AA that has been graded and compacted, not as an afterthought on a four-inch driveway. This photo is a house still going up. It is not a named completed job.",
+    workPerformed:
+      "Pour the section where the street meets the drive at six inches, on the same compacted 21AA base as the rest of the slab.",
     rows: [
-      { pain: "The apron is an afterthought on a new house.", fix: "The approach is poured where the street meets the drive." },
-      { pain: "A thin apron that takes the delivery truck first.", fix: "Approaches are six inches, on compacted 21AA." },
+      { pain: "The apron is an afterthought on a new house.", fix: "The approach is its own thickness: six inches." },
+      { pain: "A thin apron that takes the delivery truck first.", fix: "Approaches are six inches, on compacted 21AA, never on dirt or sand alone." },
     ],
   }),
   photoJob({
@@ -113,9 +128,13 @@ export const JOBS: Job[] = [
       "faber-concrete-large-charcoal-tile.avif",
     ],
     caption: `Irregular stone, grey slate, warm limestone, cream travertine, and charcoal. ${AI}`,
+    summary:
+      "Stamped concrete and pavers are for a driveway or patio that should look finished. The stamp is the surface. Under a stamped pour it is still five inches over compacted 21AA, six inches if it is an approach. These close-ups are illustrations of pattern and color. Pavers do not have a pattern board on this site yet.",
+    workPerformed:
+      "Show pattern and color before a site look. Irregular stone, grey slate, warm limestone, cream travertine, and charcoal. None of these pictures is a completed Faber Concrete job.",
     rows: [
       { pain: "A pattern poured on a four-inch slab.", fix: "The stamp is the finish. The slab is still five inches." },
-      { pain: "No way to see color and scale before the pour.", fix: "These close-ups are illustrations of the options, not a finished Faber job." },
+      { pain: "No way to see color and scale before the pour.", fix: "These close-ups are illustrations, not a finished Faber job, and not a paver catalog." },
     ],
   }),
   photoJob({
@@ -124,10 +143,14 @@ export const JOBS: Job[] = [
     serviceLabel: "Flatwork",
     serviceSlug: "flatwork",
     cover: "faber-concrete-methodology-infographic.avif",
-    caption: `The Faber Concrete method: grade, compacted 21AA, a five-inch pour, stamp, cure, and control joints. Six inches on approaches. ${AI}`,
+    caption: `An illustration of the Faber Concrete method: grade the area, compact 21AA, pour five inches, six on the approach. ${AI}`,
+    summary:
+      "The order is the product. Grade the whole area. Compact 21AA. Never dirt, never sand alone. Then pour five inches on the driveway and six on the approach. The picture is an illustration of that method, not a photo of a job.",
+    workPerformed:
+      "Grade, compact 21AA, form, then pour. The finishers have been finishing for more than 25 years. The bid is the best quality one, priced down the middle.",
     rows: [
-      { pain: "A bid that never names the base.", fix: "21AA, graded and compacted, before the pour." },
-      { pain: "Four inches because it is cheaper.", fix: "Five inches on the slab. Six on the approach." },
+      { pain: "A bid that never names the base, or that calls compacted sand a base.", fix: "21AA, graded and compacted across the whole area, before the pour." },
+      { pain: "Four inches because it saves on the order of $600 to $700.", fix: "Five inches on the slab. Six on the approach. If you want the cheap deal, this is not it." },
     ],
   }),
 ];

@@ -3,6 +3,7 @@ import { SITE } from '../config/site';
 import { r2img } from '../lib/r2';
 
 const story = SITE.ownerStory;
+const showPhoto = !String(story.familyImage).includes("/placeholders/");
 const paragraphLimit = story.homepageParagraphLimit ?? story.paragraphs.length;
 const paragraphs = story.paragraphs.slice(0, paragraphLimit);
 const caption = story.caption ?? `${SITE.hero.ownerCard.name} · Owner`;
@@ -16,7 +17,8 @@ type StoryPart = { text: string; highlight?: Highlight };
 ---
 
 <section id="about" class="section owner-story">
-  <div class="container owner-story__layout">
+  <div class:list={['container', 'owner-story__layout', !showPhoto && 'owner-story__layout--copy']}>
+    {showPhoto && (
     <figure class="owner-story__media">
       <img
         src={r2img(story.familyImage)}
@@ -28,6 +30,7 @@ type StoryPart = { text: string; highlight?: Highlight };
       />
       <figcaption class="owner-story__caption">{caption}</figcaption>
     </figure>
+    )}
 
     <div class="owner-story__content">
       <p class="section-label owner-story__label">{story.label}</p>
@@ -72,6 +75,12 @@ type StoryPart = { text: string; highlight?: Highlight };
     grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
     gap: clamp(2.75rem, 5vw, 4.75rem);
     align-items: center;
+  }
+
+  .owner-story__layout--copy {
+    grid-template-columns: minmax(0, 1fr);
+    max-width: 48rem;
+    margin-inline: auto;
   }
 
   .owner-story__media {

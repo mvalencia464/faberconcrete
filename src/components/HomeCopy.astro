@@ -1,0 +1,154 @@
+---
+import { SITE } from '../config/site';
+
+interface Props {
+  part: 'story' | 'faq';
+}
+
+const { part } = Astro.props;
+const why = SITE.whyChoose;
+const process = SITE.process;
+const faqs = SITE.serviceFaqs;
+---
+
+{part === 'story' && (
+<section class="section home-copy home-copy--why" id="why">
+  <div class="container">
+    <p class="section-label">The slab</p>
+    <h2>{why.title}</h2>
+    <div class="why-grid">
+      {why.items.map((item) => (
+        <article>
+          <h3>{item.title}</h3>
+          <p>{item.body}</p>
+        </article>
+      ))}
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt home-copy" id="process">
+  <div class="container home-copy__narrow">
+    <p class="section-label">{process.label}</p>
+    <h2>{process.title}</h2>
+    <p class="home-copy__lead">{process.subtitle}</p>
+    <p class="home-copy__lead">{process.meet.message}</p>
+    <ol class="steps">
+      {process.steps.map((step, index) => (
+        <li>
+          <span>{String(index + 1).padStart(2, '0')}</span>
+          <div>
+            <h3>{step.title}</h3>
+            <p>{step.description}</p>
+          </div>
+        </li>
+      ))}
+    </ol>
+  </div>
+</section>
+)}
+
+{part === 'faq' && (
+<section class="section home-copy" id="faq">
+  <div class="container home-copy__narrow">
+    <p class="section-label">Questions</p>
+    <h2>What people ask before the pour</h2>
+    <div class="faqs">
+      {faqs.map((faq) => (
+        <details>
+          <summary>{faq.q}</summary>
+          <p>{faq.a}</p>
+        </details>
+      ))}
+    </div>
+  </div>
+</section>
+)}
+
+<style>
+  .home-copy h2 {
+    color: var(--deep);
+    margin-bottom: 1.25rem;
+  }
+
+  .home-copy__narrow {
+    max-width: 48rem;
+  }
+
+  .home-copy__lead {
+    color: var(--muted);
+    font-size: 1.05rem;
+    line-height: 1.7;
+    margin-bottom: 0.75rem;
+  }
+
+  .why-grid {
+    display: grid;
+    gap: 1.5rem;
+  }
+
+  @media (min-width: 800px) {
+    .why-grid {
+      grid-template-columns: 1fr 1fr;
+      gap: 1.75rem 2.5rem;
+    }
+  }
+
+  .why-grid h3,
+  .steps h3 {
+    color: var(--deep);
+    font-size: 1.15rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .why-grid p,
+  .steps p,
+  .faqs p {
+    color: var(--text);
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  .steps {
+    list-style: none;
+    margin: 1.75rem 0 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.35rem;
+  }
+
+  .steps li {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1rem;
+    align-items: start;
+  }
+
+  .steps span {
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    color: var(--accent);
+  }
+
+  .faqs {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .faqs details {
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0.75rem;
+  }
+
+  .faqs summary {
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--deep);
+  }
+
+  .faqs p {
+    margin-top: 0.55rem;
+  }
+</style>

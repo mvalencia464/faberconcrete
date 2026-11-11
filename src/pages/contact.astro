@@ -19,18 +19,15 @@ const telHref = SITE.callHref;
         <div>
           <p class="section-label">Contact</p>
           <h1>{SITE.contactHeading}</h1>
-          <p>
-            {SITE.contactIntro}
-            {SITE.hero.leadForm.subtitle} Prefer to talk now?
-          </p>
+          <p>{SITE.contactIntro}</p>
           <p>
             <a class="btn btn--primary" href={telHref}>{SITE.callLabel}</a>
           </p>
           <ul class="contact-page__facts">
-            <li>Free estimates</li>
+            <li>Site look before a price</li>
             <li>{SITE.city}, {SITE.state}</li>
             <li>Residential and commercial</li>
-            <li>{SITE.email}</li>
+            <li>{SITE.email.includes("@") ? SITE.email : "Email not published yet"}</li>
           </ul>
         </div>
         <HeroLeadForm />

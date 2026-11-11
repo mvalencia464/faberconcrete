@@ -75,7 +75,7 @@ export const SITE = {
   brandLogoHeight: 800,
   ogImage: r2img(images.hero),
 
-  businessHours: "Call for hours",
+  businessHours: "Hours are not published. Send the form.",
 
   seoTitle: client.seo.title,
   seoDescription: client.seo.description,
@@ -83,7 +83,7 @@ export const SITE = {
 
   topBar: {
     location: `${BRAND.city}, ${BRAND.state} · ${BRAND.region}`,
-    emergency: "Free estimates",
+    emergency: "Site look first",
     financing: "Residential · Commercial",
     rating: client.googleReviews.rating,
     reviewCount: String(client.googleReviews.count),
