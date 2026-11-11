@@ -68,11 +68,11 @@ export const SITE = {
   mediaOrigin: new URL(BRAND.mediaBase).origin,
 
   brandLogoUrl: r2img(images.logo),
-  brandLogoLightUrl: r2img(images.logo),
-  brandLogoDarkUrl: r2img(images.logo),
+  brandLogoLightUrl: r2img(images.logoLight || images.logo),
+  brandLogoDarkUrl: r2img(images.logoDark || images.logo),
   faviconUrl: r2img(images.favicon),
-  brandLogoWidth: 800,
-  brandLogoHeight: 800,
+  brandLogoWidth: 7106,
+  brandLogoHeight: 842,
   ogImage: r2img(images.hero),
 
   businessHours: "Hours are not published. Send the form.",

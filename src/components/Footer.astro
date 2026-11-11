@@ -15,7 +15,6 @@ const year = new Date().getFullYear();
         ) : (
           <p class="footer__wordmark">{SITE.shortName}</p>
         )}
-        <p class="footer__legal-name">{SITE.legalName}</p>
         <p class="footer__blurb">{SITE.footerBlurb}</p>
         <div class="footer__social">
           {SITE.social.facebook ? (
@@ -107,10 +106,12 @@ const year = new Date().getFullYear();
     margin-bottom: 2rem;
   }
 
-  .footer__logo :global(.brand-logo) {
-    height: clamp(3rem, 10vw, 4rem);
-    margin-bottom: 0.75rem;
-    filter: brightness(0) invert(1);
+  .footer__logo :global(.brand-logo),
+  :global(.footer__logo.brand-logo) {
+    height: 1.9rem;
+    width: auto;
+    max-width: 320px;
+    margin-bottom: 0.85rem;
   }
 
   .footer__wordmark,
