@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="FaberConcrete">
-  <rect width="64" height="64" rx="10" fill="#1C2328"/>
-  <g transform="translate(21.28,50.00) scale(0.0494)">
-    <path fill="#F4F5F4" d="M60 0V-810H410V-689H239V-485H388V-360H239V0Z"/>
-  </g>
-  <rect x="10" y="50" width="44" height="6" rx="1" fill="#C45C26"/>
-</svg>

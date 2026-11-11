@@ -71,8 +71,8 @@ export const SITE = {
   brandLogoLightUrl: r2img(images.logoLight || images.logo),
   brandLogoDarkUrl: r2img(images.logoDark || images.logo),
   faviconUrl: r2img(images.favicon),
-  brandLogoWidth: 7106,
-  brandLogoHeight: 842,
+  brandLogoWidth: 972,
+  brandLogoHeight: 102,
   ogImage: r2img(images.hero),
 
   businessHours: "Hours are not published. Send the form.",

@@ -42,10 +42,10 @@
       "body": "Open Sans"
     },
     "images": {
-      "logo": "/logo-wordmark.svg",
-      "logoLight": "/logo-wordmark-light.svg",
-      "logoDark": "/logo-wordmark.svg",
-      "favicon": "/favicon.svg",
+      "logo": "/logo-wordmark.png",
+      "logoLight": "/logo-wordmark-light.png",
+      "logoDark": "/logo-wordmark.png",
+      "favicon": "/favicon.png",
       "hero": "concrete-crew-finishing-driveway.avif",
       "heroSm": "concrete-crew-finishing-driveway.avif",
       "owner": "/placeholders/logo.svg"
