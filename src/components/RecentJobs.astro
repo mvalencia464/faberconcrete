@@ -25,7 +25,7 @@ const pad = (n: number) => String(n + 1).padStart(2, '0');
             <div class="work-card__media">
               <img
                 src={r2img(job.cover)}
-                alt={`${job.serviceLabel} in ${job.city}, ${SITE.state}`}
+                alt={job.imageAlts?.[job.cover] ?? job.caption}
                 loading="lazy"
                 decoding="async"
                 width="640"

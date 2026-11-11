@@ -42,8 +42,10 @@
       "body": "Open Sans"
     },
     "images": {
-      "logo": "/placeholders/logo.svg",
-      "favicon": "/favicon.svg",
+      "logo": "/logo-wordmark.png",
+      "logoLight": "/logo-wordmark-light.png",
+      "logoDark": "/logo-wordmark.png",
+      "favicon": "/favicon.png",
       "hero": "concrete-crew-finishing-driveway.avif",
       "heroSm": "concrete-crew-finishing-driveway.avif",
       "owner": "/placeholders/logo.svg"
@@ -69,7 +71,7 @@
   },
   "seo": {
     "title": "Concrete Driveways in Metro Detroit | Faber Concrete",
-    "description": "Faber Concrete pours five-inch driveways and six-inch approaches on compacted 21AA in Wayne, Oakland, Macomb, Washtenaw, and Livingston counties. Priced down the middle. April and May book first.",
+    "description": "Faber Concrete pours five-inch driveways and six-inch approaches on compacted 21AA in Wayne, Oakland, Macomb, Washtenaw, and Livingston counties. Not the cheapest bid. Priced down the middle. April and May book first.",
     "keywords": "Faber Concrete, concrete driveway, stamped concrete, Metro Detroit, 21AA"
   },
   "copy": {
@@ -81,20 +83,20 @@
     "heroImageAlt": "A finisher troweling a fresh concrete driveway beside a stone garage. AI illustration, not a photo of a completed Faber Concrete job.",
     "formConsent": "and consent to be contacted about my concrete estimate. Msg & data rates may apply.",
     "sidebarTitle": "Request an estimate",
-    "sidebarBody": "Send the address. We look at the site before we quote a pour. The phone number is not published on this site yet.",
-    "serviceAreasIntro": "Faber Concrete works in these counties. Matt takes some ZIP codes in each one, not every address.",
+    "sidebarBody": "Send the address. Matt Faber looks at the site, then writes the estimate and the contract. The phone number is not published on this site yet. April and May are the months that get filled first.",
+    "serviceAreasIntro": "Faber Concrete works in Wayne, Oakland, Macomb, Washtenaw, and Livingston counties, for homes and commercial properties. Matt takes some ZIP codes in each county, aimed at people who want the thicker slab. He does not publish the ones he skips. Send the address and ask.",
     "contactTitle": "Request a concrete estimate | Faber Concrete",
-    "contactDescription": "Request an estimate for a driveway, approach, flatwork, or stamped concrete in Metro Detroit. The phone number is not published on this site yet.",
+    "contactDescription": "Request an estimate for a driveway, approach, flatwork, stamped concrete, or pavers in Metro Detroit. Five inches, six on the approach, compacted 21AA. The phone number is not published on this site yet.",
     "contactHeading": "Request an estimate",
-    "contactIntro": "Tell us the address and what you want poured. April and May fill first.",
-    "aboutDescription": "Matt Faber owns Faber Concrete. Five-inch slabs, six-inch approaches, compacted 21AA, priced down the middle.",
+    "contactIntro": "Tell us the address, whether it is a driveway, an approach, flatwork, stamped concrete, or pavers, and when you want it. Matt looks at the site before he prices it. He writes a contract, not only an estimate. The rest of this year is for finishing what is already on the books. April and May are what he likes on the calendar next, and he will take a spring job. The phone number and email are not published on this site yet, so the form is how you reach him.",
+    "aboutDescription": "Matt Faber owns Faber Concrete, a concrete company kept separate on purpose. Five-inch driveways, six-inch approaches, compacted 21AA, finishers with more than 25 years, priced down the middle.",
     "policyDescription": "How Faber Concrete collects, uses, and protects your information when you request an estimate in Metro Detroit and Wayne, Oakland, Macomb, Washtenaw, and Livingston counties.",
     "termsDescription": "Terms governing use of the Faber Concrete website and estimate requests in Metro Detroit and Wayne, Oakland, Macomb, Washtenaw, and Livingston counties.",
     "areaEyebrow": "Concrete contractor · Service area",
     "areaPageTitle": "Concrete contractor in {{areaName}} | Faber Concrete",
     "areaHeadline": "Concrete contractor in {{areaName}}",
-    "areaIntro": "Driveways, approaches, flatwork, and stamped concrete in {{areaName}}. Some ZIP codes in the county, not every address.",
-    "areaBody": "Faber Concrete is a separate company from the roofing work. If the address fits, the driveway is five inches, the approach is six, and the base is compacted 21AA. Not the cheapest bid.",
+    "areaIntro": "Driveways, approaches, flatwork, stamped concrete, and pavers in {{areaName}}. Faber Concrete takes some ZIP codes in the county, not every address. The work is for homes and commercial properties that want the thicker slab.",
+    "areaBody": "This site is only the concrete company. If the address fits, the driveway is five inches, never four, and the approach is six. Under it is 21AA, graded across the whole area and compacted before anyone forms or pours. We never pour over dirt, and we do not compact sand and call it a base. Skipping that inch saves the other crew on the order of $600 to $700 on an average driveway. A sand base saves a few hundred dollars. Both of those shortcuts are how a bid gets cheaper, and both of them are how a Michigan driveway starts to crack before you are ready to replace it. If you are looking for a cheap deal, this is not it. The bid is the best quality one, priced down the middle.",
     "areaServicesNote": "driveways, approaches, flatwork, and stamped concrete in {{areaName}}.",
     "areaServicesHeading": "Services in {{areaName}}",
     "areaHighlights": [
@@ -106,11 +108,15 @@
     "areaFaqs": [
       {
         "q": "Do you work in {{areaName}}?",
-        "a": "Some ZIP codes in {{areaName}}, not the whole county. Send the address and ask."
+        "a": "Some ZIP codes in {{areaName}}, not the whole county. The carve-out is about who wants this kind of slab, not a published list of cities. Send the address and ask before you assume the job is in or out."
       },
       {
         "q": "How do I get an estimate in {{areaName}}?",
-        "a": "Send the form with the address. The phone number is not published on this site yet."
+        "a": "Send the form with the address and what you want poured. Matt looks at the site, then writes the estimate and the contract. The phone number is not published on this site yet. April and May fill first."
+      },
+      {
+        "q": "What is different about a Faber Concrete driveway in {{areaName}}?",
+        "a": "Five inches on the driveway, six on the approach, compacted 21AA under both. Never four inches, never dirt, never sand alone. Finishers with more than 25 years. Priced down the middle, not at the bottom."
       }
     ],
     "jobAreaLink": "Concrete contractor in Metro Detroit",
@@ -120,7 +126,7 @@
       "headingLine2": "",
       "headingAccent": "on every driveway",
       "headline": "Five inches on every driveway.",
-      "subheading": "Driveways, approaches, flatwork, and stamped concrete. Never a four-inch slab. Six inches on the approach. Compacted 21AA under all of it. Nothing mixed in from another trade.",
+      "subheading": "Driveways, approaches, flatwork, stamped concrete, and pavers. Never a four-inch slab. Six inches where the street meets the drive. Compacted 21AA under all of it. This site is only the concrete company.",
       "benefits": [
         {
           "icon": "home",
@@ -137,7 +143,7 @@
       ],
       "ctaCall": "Send the form",
       "scheduleHref": "/contact",
-      "financingNote": "Not the cheapest bid. The best quality bid, priced down the middle.",
+      "financingNote": "If you are looking for a cheap deal, we are not going to be it. Best quality bid, priced down the middle.",
       "locationNote": "Wayne, Oakland, Macomb, Washtenaw, and Livingston counties",
       "trustLine": "Finishers with more than 25 years on the tools",
       "reviewCard": {
@@ -145,7 +151,7 @@
         "count": "Google reviews",
         "href": "/reviews"
       },
-      "ownerNote": "Matt Faber owns Faber Concrete. Send the form and he follows up.",
+      "ownerNote": "Matt Faber owns Faber Concrete. He looks at the site, then writes the estimate and the contract. Send the form.",
       "ownerCta": "Request an estimate"
     },
     "trustBar": {
@@ -184,52 +190,52 @@
     "process": {
       "label": "How it works",
       "title": "From the call to a finished slab",
-      "subtitle": "Grade, compact 21AA, then pour. You see that on the estimate before you approve it.",
-      "meetMessage": "Send the address. Matt follows up with the next opening. April and May fill first.",
+      "subtitle": "We look at the site, write the spec, then grade and compact 21AA before a yard of concrete shows up.",
+      "meetMessage": "Send the address. Matt follows up with the next opening. The rest of this year is for finishing what is already booked. April and May fill first, and he will take a spring job.",
       "steps": [
         {
           "title": "Send the form",
           "meta": "The address",
-          "description": "Driveway, approach, flatwork, or stamped concrete, and where it is."
+          "description": "Driveway, approach, flatwork, stamped concrete, or pavers, plus the address. Some ZIP codes in each county are outside the work. We say so after we see where it is."
         },
         {
           "title": "Look at the site",
           "meta": "Before a price",
-          "description": "We look at the grade and access. We do not pour over dirt or sand."
+          "description": "Matt looks at the grade and the access before he prices anything. A number guessed from the curb is how a driveway gets poured too thin."
         },
         {
           "title": "Written estimate",
           "meta": "The spec",
-          "description": "Five inches on the driveway. Six inches on the approach. Compacted 21AA. Priced down the middle."
+          "description": "Five inches on the driveway, every time. Six inches on the approach. 21AA graded and compacted under both. The price sits down the middle of a quality bid. If you want the cheap deal, he will tell you this is not it."
         },
         {
-          "title": "Form and pour",
+          "title": "The contract",
+          "meta": "Before anyone forms",
+          "description": "He writes a contract, not only an estimate. Nothing is formed or poured until you approve it."
+        },
+        {
+          "title": "Grade, compact, pour",
           "meta": "The job",
-          "description": "Grade the 21AA, compact it, form, then pour. Finishers with more than 25 years."
-        },
-        {
-          "title": "Cure",
-          "meta": "After the pour",
-          "description": "We walk the slab and go over cure time before anyone drives on it."
+          "description": "Grade the whole area, compact 21AA, form, then pour. Never over dirt. Never over sand alone. Finishers with more than 25 years put the finish on it."
         }
       ]
     },
     "offersSection": {
       "label": "Getting started",
       "title": "Get a clear next step.",
-      "subtitle": "April and May are the months that get filled first."
+      "subtitle": "The rest of this year is for finishing what is already on the books. April and May are the months that get filled first."
     },
     "offers": [
       {
         "slug": "site-estimate",
         "title": "Site estimate",
         "price": "Custom quote",
-        "hook": "A look at the site before a price.",
+        "hook": "A look at the site, then a written estimate and a contract.",
         "includes": [
-          "Site visit",
-          "Repair or replacement called out",
-          "Thickness on the estimate",
-          "Base on the estimate"
+          "Site visit before a price",
+          "Five inches, six on the approach",
+          "Compacted 21AA named on the estimate",
+          "A contract, not only a number"
         ],
         "ctaText": "Request an estimate",
         "ctaHref": "/contact",
@@ -241,12 +247,12 @@
         "slug": "spring-booking",
         "title": "Spring booking",
         "price": "Custom quote",
-        "hook": "Hold a spring pour before the schedule fills.",
+        "hook": "April and May are the months Matt likes on the calendar next.",
         "includes": [
-          "Season window",
+          "Spring window",
           "Address and scope",
           "Follow-up with the next opening",
-          "No pour until you approve"
+          "No pour until you approve the contract"
         ],
         "ctaText": "Hold a spring date",
         "ctaHref": "/contact",
@@ -256,61 +262,61 @@
         "slug": "replacement",
         "title": "Replacement",
         "price": "Custom quote",
-        "hook": "Failed slabs removed and poured back to a written scope.",
+        "hook": "The driveway you already hate, poured back at five inches.",
         "includes": [
-          "Removal",
-          "Base in the scope",
-          "New concrete",
-          "Walk-through"
+          "Failed slab removed",
+          "Whole area graded",
+          "Compacted 21AA, not sand",
+          "Five inches, six on the approach"
         ],
         "ctaText": "Ask about replacement",
         "ctaHref": "/contact",
         "icon": "tools"
       }
     ],
-    "servicesHeading": "Driveways, approaches, flatwork, and stamped concrete",
+    "servicesHeading": "Driveways, approaches, flatwork, stamped concrete, and pavers",
     "servicesLabel": "Services",
-    "servicesIntro": "Here is the concrete work we take on in Wayne, Oakland, Macomb, Washtenaw, and Livingston counties.",
+    "servicesIntro": "Concrete only, in Wayne, Oakland, Macomb, Washtenaw, and Livingston counties. Homes and commercial properties. Fewer companies know how to do this work, and a lot of the ones who do never advertise. That is the opening, and it only works if the slab stays a specialty.",
     "valueProps": [
       {
         "icon": "layer-group",
-        "title": "The base is part of the job",
-        "description": "What goes under the slab is written down, not left as a surprise."
+        "title": "21AA, compacted",
+        "description": "We grade the whole area and compact 21AA before we form. Never dirt. Never a load of sand called a base."
       },
       {
         "icon": "ruler-combined",
-        "title": "Thickness is on the estimate",
-        "description": "The inches for that pour are a line you can read before you say yes."
+        "title": "Five inches, never four",
+        "description": "The extra inch is on the whole driveway. The approach is six. Skipping it is how the other bid saves on the order of $600 to $700."
       },
       {
         "icon": "home",
-        "title": "Homes and light commercial",
-        "description": "Driveways, approaches, patios, walks, pads, and garage slabs."
+        "title": "Homes and commercial",
+        "description": "Driveways, approaches, flatwork, stamped concrete, and pavers. Residential and commercial, for people who want the thicker slab."
       },
       {
         "icon": "map-marker-alt",
-        "title": "Local from Metro Detroit",
-        "description": "You are calling Wayne, Oakland, Macomb, Washtenaw, and Livingston counties."
+        "title": "Five counties, not every ZIP",
+        "description": "Wayne, Oakland, Macomb, Washtenaw, and Livingston. Some ZIP codes in each county are outside the work. Send the address."
       }
     ],
     "whyChoose": {
-      "title": "Why the concrete lasts",
+      "title": "Why the slab is thicker",
       "items": [
         {
-          "title": "The base is compacted before the pour",
-          "body": "A slab is only as steady as what is under it. The estimate names that base."
+          "title": "Michigan cold",
+          "body": "The extra inch is on the whole driveway because this is a cold climate, not because a spec sheet said so. Freeze and thaw work on a four-inch slab. So does a 20-ton delivery truck coming in and out. The approach takes that hit first, which is why it is six inches, and the rest of the drive is still five."
         },
         {
-          "title": "Thickness matches the use",
-          "body": "A driveway, an approach, and a patio are not the same pour. Each one gets its own thickness on the estimate."
+          "title": "The cheap inch",
+          "body": "Most contractors pour four inches. They skip the inch because it is cheaper, on the order of $600 to $700 on an average driveway. Matt's line for it is that they are tripping over dollars to pick up pennies. If you are looking for a cheap deal, Faber Concrete is not going to be it. The bid is the best quality one, priced down the middle, with a better finish."
         },
         {
-          "title": "Joints and slope are in the scope",
-          "body": "Control joints and drainage away from the building are decided before concrete shows up."
+          "title": "What is under it",
+          "body": "We never pour over dirt. We also do not deliver sand, compact the sand, and call that a base. That shortcut saves a few hundred dollars, and sand and the soil under a slab can erode out from underneath. We take 21AA, grade the whole area, compact the whole area, and then pour. That is how it is supposed to be done, every time."
         },
         {
-          "title": "You can book before the season fills",
-          "body": "Spring dates go on the books early. Send the form. April and May fill first."
+          "title": "The crack you live with",
+          "body": "A thin slab does not always fail the year it is poured. It cracks enough that you hate the driveway long before you are ready to tear it out. The finishers have been finishing concrete for more than 25 years. The finish is what you see. The inches and the 21AA are what keep you from living with that crack early."
         }
       ]
     },
@@ -318,12 +324,12 @@
       "label": "Reviews",
       "title": "Google reviews are not on this site yet",
       "titleLine2": "",
-      "subtitle": "Nothing here is a borrowed review from another company.",
+      "subtitle": "Faber Concrete has not published Google reviews on this site. Nothing here is borrowed from another company, including the roofing work.",
       "bullets": [
-        "Concrete contractor",
-        "Based in Metro Detroit",
+        "Concrete only",
+        "Five-inch driveways",
         "Matt Faber, owner",
-        "Driveways and flatwork"
+        "Homes and commercial"
       ],
       "ctaText": "Read more reviews on Google",
       "viewAllHref": "/reviews",
@@ -332,7 +338,7 @@
     "reviewsPage": {
       "label": "Reviews",
       "title": "Reviews",
-      "subtitle": "No Google reviews are published for Faber Concrete on this site yet.",
+      "subtitle": "No Google reviews are published for Faber Concrete on this site yet. We are not filling this page with reviews from another company.",
       "description": "Faber Concrete has not published Google reviews on this site yet."
     },
     "shop": {
@@ -340,14 +346,14 @@
       "hours": [
         {
           "days": "Hours",
-          "time": "Call for hours"
+          "time": "Not published. Send the form."
         }
       ]
     },
     "workGallery": {
       "label": "Illustrations",
-      "title": "Driveways and stamped patterns",
-      "intro": "These are illustrations and one field photo, not a list of named completed jobs."
+      "title": "Crews, driveways, and stamped patterns",
+      "intro": "The crew stills, the finished driveway, and the stamped patterns are AI illustrations. They are not photos of a completed Faber Concrete job. The new-construction approach is a field photo of a house still in scaffolding, not a named project."
     },
     "ownerStory": {
       "label": "About Us",
@@ -357,39 +363,42 @@
       "ctaHref": "/contact",
       "quoteAttribution": "Matt Faber",
       "quoteRole": "Owner, Faber Concrete",
-      "homepageParagraphLimit": 2,
+      "homepageParagraphLimit": 4,
       "paragraphs": [
-        "Matt Faber owns Faber Concrete. It is a separate company from the roofing work. This site is only about the slab.",
-        "The extra inch and the 21AA cost more than pouring four inches over compacted sand. That is the product. The price sits down the middle."
+        "Matt Faber owns Faber Concrete. It is a separate company on purpose. A page that sells roofs and driveways together reads like a jack of all trades, and concrete is a specialty. Fewer companies even know how to do it, and a lot of the ones who do never advertise. This site is only the slab.",
+        "We never pour a four-inch driveway. Five inches, every time, no matter the driveway, and six inches on the approach. That is an inch more than what most contractors pour, on the driveway and again where it meets the street. They skip it because it is cheaper, on the order of $600 to $700 on an average driveway. Matt tells people, when he gives the estimate, that if they are looking for a cheap deal, this is not it. The bid is the highest quality one, priced down the middle, with a superior finish.",
+        "The extra inch is there because Michigan is cold, and because a 20-ton delivery truck uses a driveway. A thinner slab can crack enough that you hate it long before you are ready to replace it. That is the expensive failure. It is not always bad enough to tear out this year. It is bad enough that you live with a driveway you do not like.",
+        "Thickness does not save a slab on the wrong ground. We never pour over dirt. We never compact a layer of sand and call it a base. That sand shortcut saves a few hundred dollars, and the ground under the slab can erode out. We grade 21AA across the whole area, compact it, then form, then pour. The finishers have been finishing concrete for more than 25 years. After the site look, Matt writes a contract, not only an estimate."
       ]
     },
     "teamSection": {
       "label": "The team",
       "title": "People who do the work",
-      "intro": "Scope first, then the pour."
+      "intro": "Matt looks at the site, writes the contract, and the finishers put the surface on a slab that was not thinned out to win the price."
     },
     "teamMembers": [
       {
         "name": "Matt Faber",
         "role": "Owner",
-        "headline": "Leads with a site look and a written estimate.",
+        "headline": "Looks at the site, then writes the estimate and the contract.",
         "bio": [
-          "Matt Faber runs Faber Concrete from Metro Detroit."
+          "Matt Faber runs Faber Concrete from Metro Detroit. He books April and May first, and he will take a spring job while the rest of this year is for finishing what is already on the books.",
+          "He prices the five-inch driveway, the six-inch approach, and the compacted 21AA, and he says so on the estimate. If the job is a cheap deal, he will tell you this company is not it."
         ]
       }
     ],
     "serviceArea": {
       "heading": "Areas We Serve",
-      "body": "Based in Metro Detroit, MI — serving Wayne, Oakland, Macomb, Washtenaw, and Livingston counties.",
+      "body": "Based in Metro Detroit. Homes and commercial properties in Wayne, Oakland, Macomb, Washtenaw, and Livingston counties. Some ZIP codes in each county are outside the work. Send the address.",
       "country": "US"
     },
     "ctaBanner": {
       "title": "April and May fill first",
-      "subtitle": "Hold a spring date before the season gets away.",
-      "body": "Five inches, six on the approach, compacted 21AA. No pour until you approve the estimate.",
+      "subtitle": "The rest of this year is for finishing what is already booked. He will take a spring job.",
+      "body": "Five inches on the driveway, six on the approach, compacted 21AA. A written contract after the site look. Nothing is poured until you approve it.",
       "scheduleHref": "/contact",
       "scheduleLabel": "Hold a spring date",
-      "scheduleSub": "No obligation",
+      "scheduleSub": "Send the address",
       "callSub": "Send the form"
     },
     "beforeAfter": {
@@ -406,47 +415,57 @@
       "baseMaterial": "The whole area is graded, then compacted 21AA, before forming and pouring. Never dirt. Never sand alone.",
       "yearsExperience": "Finishers on these jobs have been finishing concrete for more than 25 years."
     },
-    "footerBlurb": "Concrete driveways, approaches, flatwork, and stamped concrete. A separate company from the roofing work.",
+    "footerBlurb": "Concrete driveways, approaches, flatwork, stamped concrete, and pavers. A separate company, priced down the middle.",
     "schemaKnowsAbout": [
       "Concrete driveways",
       "Driveway approaches",
       "Concrete flatwork",
       "Stamped concrete",
+      "Concrete pavers",
       "5-inch concrete slabs",
+      "6-inch driveway approaches",
       "21AA aggregate base"
     ],
     "faqs": [
       {
         "q": "What concrete work do you take on?",
-        "a": "Driveways, approaches, flatwork, and stamped concrete. Pavers are part of the work too. This site does not have a paver pattern board yet."
+        "a": "Driveways, approaches, flatwork, stamped concrete, and pavers. This site does not have a paver pattern board yet. It is a concrete company only. Roofing is a different company and is not sold from these pages."
       },
       {
         "q": "How thick is the slab?",
-        "a": "Five inches on the driveway, every time. Never four. Six inches on the approach."
+        "a": "Five inches on the driveway, every time. Never four. Six inches on the approach. Most contractors pour four and skip the inch because it is cheaper, on the order of $600 to $700 on an average driveway."
       },
       {
         "q": "What goes under it?",
-        "a": "We grade the area and compact 21AA before we form and pour. We do not pour over dirt or over sand alone."
+        "a": "We grade the whole area and compact 21AA before we form and pour. We never pour over dirt. We do not compact sand and call it a base. That shortcut saves a few hundred dollars, and the ground under a slab can erode out."
+      },
+      {
+        "q": "Why not the cheaper bid?",
+        "a": "The cheaper bid is usually four inches, often on sand. If you are looking for a cheap deal, Faber Concrete is not going to be it. The price sits down the middle of a quality bid, with a better finish from people who have been finishing for more than 25 years."
       },
       {
         "q": "Where do you work?",
-        "a": "Wayne, Oakland, Macomb, Washtenaw, and Livingston counties. Matt takes some ZIP codes in each county, not every address."
+        "a": "Wayne, Oakland, Macomb, Washtenaw, and Livingston counties, homes and commercial properties. Matt takes some ZIP codes in each county, aimed at people who want this slab, not every address. Send the address. He does not publish the ZIP codes he skips."
+      },
+      {
+        "q": "Do you do stamped concrete and pavers?",
+        "a": "Yes. Stamped concrete and pavers are part of the work, for a driveway or patio that should look finished. A stamp still sits on five inches over compacted 21AA, six inches if it is an approach. The pattern photos on this site are AI illustrations, not completed jobs. Pavers do not have a pattern board here yet."
       },
       {
         "q": "How do I get an estimate?",
-        "a": "Send the form with the address. The phone number is not published on this site yet. April and May fill first."
+        "a": "Send the form with the address. Matt looks at the site, then writes the estimate and the contract. The phone number is not published on this site yet. April and May fill first. He will take a spring job."
       },
       {
         "q": "Are the photos finished Faber jobs?",
-        "a": "The crew, finished driveway, and stamped patterns on this site are AI illustrations. They are not photos of a specific completed job. The new-construction approach is a field photo of a house still going up, not a named project."
+        "a": "The crew stills, finished driveway, and stamped patterns on this site are AI illustrations. They are not photos of a specific completed job. The new-construction approach is a field photo of a house still going up, not a named project."
       }
     ]
   },
   "form": {
     "title": "Get a concrete estimate",
-    "subtitle": "Share the address — Matt Faber will follow up.",
+    "subtitle": "Share the address. Matt Faber looks at the site, then follows up with the estimate.",
     "submitText": "Send my request",
-    "finalNote": "No obligation. We look at the site before anyone forms or pours.",
+    "finalNote": "No pour until you approve the contract. We look at the site before anyone forms.",
     "trustBullets": [
       "Five-inch slabs",
       "Compacted 21AA",

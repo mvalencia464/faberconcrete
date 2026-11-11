@@ -3,8 +3,11 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import Header from '../components/Header.astro';
 import Hero from '../components/Hero.astro';
 import ServicesGrid from '../components/ServicesGrid.astro';
+import HomeCopy from '../components/HomeCopy.astro';
+import OwnerStorySection from '../components/OwnerStorySection.astro';
 import WhyChooseReviews from '../components/WhyChooseReviews.astro';
 import RecentJobs from '../components/RecentJobs.astro';
+import ServiceAreaSection from '../components/ServiceAreaSection.astro';
 import BeforeAfterSection from '../components/BeforeAfterSection.astro';
 import CTABanner from '../components/CTABanner.astro';
 import Footer from '../components/Footer.astro';
@@ -16,8 +19,12 @@ import { SITE } from '../config/site';
   <main class="home-main">
     <Hero />
     <ServicesGrid />
+    <HomeCopy part="story" />
+    <OwnerStorySection />
     <WhyChooseReviews />
     <RecentJobs />
+    <ServiceAreaSection />
+    <HomeCopy part="faq" />
     <BeforeAfterSection />
     <CTABanner />
   </main>

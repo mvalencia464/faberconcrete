@@ -26,17 +26,21 @@ const areaByName: Record<string, string> = {
           );
         })}
       </div>
-      <p class="service-area__radius">
-        Within {SITE.map.radiusMiles} miles of {SITE.city}, {SITE.state}
-      </p>
-      <a
-        class="service-area__maps-link"
-        href={SITE.map.listingUrl}
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Open in Google Maps →
-      </a>
+      {SITE.map.radiusMiles > 0 && (
+        <p class="service-area__radius">
+          Within {SITE.map.radiusMiles} miles of {SITE.city}, {SITE.state}
+        </p>
+      )}
+      {SITE.map.listingUrl && (
+        <a
+          class="service-area__maps-link"
+          href={SITE.map.listingUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Open in Google Maps →
+        </a>
+      )}
     </div>
     <div class="service-area__map-wrap">
       <LazyGoogleMap title={mapTitle} />
@@ -60,7 +64,7 @@ const areaByName: Record<string, string> = {
     color: var(--muted);
     font-size: 1.05rem;
     line-height: 1.7;
-    max-width: 42ch;
+    max-width: 62ch;
     margin-bottom: 1.25rem;
   }
 

@@ -68,14 +68,14 @@ export const SITE = {
   mediaOrigin: new URL(BRAND.mediaBase).origin,
 
   brandLogoUrl: r2img(images.logo),
-  brandLogoLightUrl: r2img(images.logo),
-  brandLogoDarkUrl: r2img(images.logo),
+  brandLogoLightUrl: r2img(images.logoLight || images.logo),
+  brandLogoDarkUrl: r2img(images.logoDark || images.logo),
   faviconUrl: r2img(images.favicon),
-  brandLogoWidth: 800,
-  brandLogoHeight: 800,
+  brandLogoWidth: 972,
+  brandLogoHeight: 102,
   ogImage: r2img(images.hero),
 
-  businessHours: "Call for hours",
+  businessHours: "Hours are not published. Send the form.",
 
   seoTitle: client.seo.title,
   seoDescription: client.seo.description,
@@ -83,7 +83,7 @@ export const SITE = {
 
   topBar: {
     location: `${BRAND.city}, ${BRAND.state} · ${BRAND.region}`,
-    emergency: "Free estimates",
+    emergency: "Site look first",
     financing: "Residential · Commercial",
     rating: client.googleReviews.rating,
     reviewCount: String(client.googleReviews.count),

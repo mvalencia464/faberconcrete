@@ -34,7 +34,8 @@ type PackService = {
   icon: string;
   iconStyle?: string;
   image: string;
-  gallery?: string[];
+  gallery?: (string | { image: string; alt?: string })[];
+  sections?: { heading: string; body: string }[];
 };
 
 const PACKS: Record<string, PackService[]> = {
@@ -76,20 +77,22 @@ export const SERVICES: SiteService[] = pack.map((raw) => {
     image,
     galleryImages: [
       { image, alt: `${service.title} by ${BRAND.name}` },
-      ...(service.gallery ?? []).map((src) => ({
-        image: src,
-        alt: `${service.title} by ${BRAND.name}`,
-      })),
+      ...(service.gallery ?? []).map((item) => {
+        const fallback = `${service.title} by ${BRAND.name}`;
+        if (typeof item === "string") return { image: item, alt: fallback };
+        return { image: item.image, alt: item.alt?.trim() || fallback };
+      }),
     ],
     fullDesc: service.fullDesc,
     highlights: service.highlights,
     bodySections: [
       { heading: service.heading, body: service.body },
+      ...(service.sections ?? []),
       {
         heading: `${BRAND.tradeLabel} across ${BRAND.region}`,
         body: hasPublishedPhone()
           ? `${BRAND.legalName} serves ${BRAND.city} and ${BRAND.region}. Call ${BRAND.phone}.`
-          : `${BRAND.legalName} serves ${BRAND.region}. Send the form with the address.`,
+          : `${BRAND.legalName} works in ${BRAND.region}. Some ZIP codes in each county are outside the work we take. Send the address and ask.`,
       },
     ],
     faqs: where ? [service.faq, where] : [service.faq],
