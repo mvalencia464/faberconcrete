@@ -2,11 +2,13 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
+import Picture from "../components/Picture.astro";
 import { services } from "../data/services";
+import { crew, finishedDriveway, patterns } from "../data/media";
 
 const title = "Concrete Driveways in Michigan | Faber Concrete";
 const description =
-  "Faber Concrete pours five-inch driveways and six-inch approaches on a compacted 21AA base. A premium slab for Michigan, priced down the middle. Book April and May first.";
+  "Faber Concrete pours five-inch driveways and six-inch approaches on a compacted 21AA base, including stamped concrete. A premium slab for Michigan, priced down the middle. Book April and May first.";
 ---
 
 <BaseLayout title={title} description={description}>
@@ -18,7 +20,7 @@ const description =
           <p class="eyebrow">Michigan concrete specialist</p>
           <h1>Five inches. Every driveway.</h1>
           <p class="lede">
-            Faber Concrete is a concrete company. Driveways, approaches, and flatwork — and nothing mixed in from another trade. Most contractors pour a four-inch slab. We never do. You get five inches on the driveway, six inches on the approach, and a compacted 21AA base under all of it.
+            Faber Concrete is a concrete company. Driveways, approaches, flatwork, and stamped concrete — and nothing mixed in from another trade. Most contractors pour a four-inch slab. We never do. You get five inches on the driveway, six inches on the approach, and a compacted 21AA base under all of it.
           </p>
           <div class="actions">
             <a class="btn btn--tide" href="/estimate">Request an estimate</a>
@@ -30,7 +32,21 @@ const description =
             <a href="/estimate">Hold a spring date</a>
           </div>
         </div>
-        <div class="spec-row" aria-label="What every pour includes">
+        <figure class="frame frame--cover">
+          <Picture
+            avif={crew.avif}
+            webp={crew.webp}
+            alt={crew.alt}
+            width={crew.width}
+            height={crew.height}
+            sizes="(min-width: 720px) 38vw, 100vw"
+            loading="eager"
+            fetchpriority="high"
+          />
+          <figcaption>{crew.caption}</figcaption>
+        </figure>
+      </div>
+      <div class="wrap spec-row" aria-label="What every pour includes">
           <div class="spec">
             <b>5 in</b>
             <span>Slab on the driveway. Never four.</span>
@@ -44,7 +60,6 @@ const description =
             <span>Graded and compacted before we form and pour. Never dirt. Never just sand.</span>
           </div>
         </div>
-      </div>
     </section>
 
     <section class="section section--paper">
@@ -65,12 +80,53 @@ const description =
     </section>
 
     <section class="section">
-      <div class="wrap split">
-        <blockquote class="quote">
-          <p>“If you’re looking for a cheap deal, we’re not going to be it. We’re going to be your best, highest quality bid.”</p>
-          <footer>Matt Faber, owner</footer>
-        </blockquote>
+      <div class="wrap">
+        <p class="eyebrow">Stamped concrete</p>
+        <h2>Pattern options for the same slab.</h2>
+        <p class="lede">
+          Stamped concrete is poured to the same spec: five inches, six on the approach, compacted 21AA underneath. These close-ups show pattern and color. They are illustrations, not photos of a finished Faber job.
+        </p>
+        <div class="pattern-grid">
+          {
+            patterns.map((pattern) => (
+              <figure class="frame">
+                <Picture
+                  avif={pattern.avif}
+                  webp={pattern.webp}
+                  alt={pattern.alt}
+                  width={pattern.width}
+                  height={pattern.height}
+                  sizes="(min-width: 900px) 20vw, 50vw"
+                />
+                <figcaption>{pattern.label}</figcaption>
+              </figure>
+            ))
+          }
+        </div>
+        <p class="form-note">
+          <a href="/gallery">All patterns and driveway scenes</a>
+        </p>
+      </div>
+    </section>
+
+    <section class="section section--paper">
+      <div class="wrap split split--even">
+        <figure class="frame">
+          <Picture
+            avif={finishedDriveway.avif}
+            webp={finishedDriveway.webp}
+            alt={finishedDriveway.alt}
+            width={finishedDriveway.width}
+            height={finishedDriveway.height}
+            sizes="(min-width: 720px) 50vw, 100vw"
+          />
+          <figcaption>{finishedDriveway.caption}</figcaption>
+        </figure>
         <div>
+          <blockquote class="quote">
+            <p>“If you’re looking for a cheap deal, we’re not going to be it. We’re going to be your best, highest quality bid.”</p>
+            <footer>Matt Faber, owner</footer>
+          </blockquote>
           <p>
             The price sits down the middle. Not the cheapest number on the sheet, and not an outrageous one either. The extra inch and the 21AA cost more than pouring four inches over compacted sand. That is the product.
           </p>

@@ -4,13 +4,19 @@ export type GalleryPhoto = {
   /** Full https URL to the WebP fallback */
   webp: string;
   alt: string;
+  /** Short name, without the AI disclosure. */
+  label?: string;
   caption?: string;
+  /** True when the file is an AI illustration, not a field photo. */
+  ai?: boolean;
   width?: number;
   height?: number;
 };
 
 /**
- * Job photos go here after Matt uploads them.
+ * Real job photos go here after they are uploaded.
+ * Illustrations live in src/data/media.ts and are not mixed into this list.
+ *
  * Example (do not ship invented project names):
  *
  * {

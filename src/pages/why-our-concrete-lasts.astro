@@ -2,6 +2,8 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
+import Picture from "../components/Picture.astro";
+import { methodology } from "../data/media";
 
 const title = "Why Our Concrete Lasts | 5-Inch Slabs and 21AA | Faber Concrete";
 const description =
@@ -11,13 +13,26 @@ const description =
 <BaseLayout title={title} description={description}>
   <Header />
   <main class="section">
-    <div class="wrap prose">
+    <div class="wrap">
+    <div class="prose">
       <p class="eyebrow">The spec</p>
       <h1>Why our concrete lasts</h1>
       <p class="lede">
         Two decisions do most of the work: an extra inch of concrete, and a real base under it. We do it this way every time. We do not cut the corner.
       </p>
-
+    </div>
+    <figure class="frame infographic">
+      <Picture
+        avif={methodology.avif}
+        webp={methodology.webp}
+        alt={methodology.alt}
+        width={methodology.width}
+        height={methodology.height}
+        sizes="(min-width: 1120px) 1120px, 100vw"
+      />
+      <figcaption>{methodology.caption}</figcaption>
+    </figure>
+    <div class="prose">
       <h2>Five inches, not four</h2>
       <p>
         We never pour a four-inch slab. Five inches, every time, no matter the job. Six inches on the approach. That is an inch more than what most contractors pour.
@@ -60,6 +75,7 @@ const description =
         <a class="btn btn--tide" href="/estimate">Request an estimate</a>
         <a class="btn btn--ghost" href="/services/driveways">Driveways</a>
       </div>
+    </div>
     </div>
   </main>
   <Footer />

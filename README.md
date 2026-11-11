@@ -40,7 +40,9 @@ First deploy can pass `--name faberconcrete` if the Worker name needs creating. 
 
 ## Images
 
-`src/components/Picture.astro` takes an AVIF URL and a WebP URL (plus alt text). Job photos from https://media.stokeleads.com go in `src/data/gallery.ts` as `{ avif, webp, alt, caption }`. The gallery page is an empty state until that list has real photos.
+`src/components/Picture.astro` takes an AVIF URL and a WebP URL (plus alt text). Illustrations live in `src/data/media.ts` and are captioned as AI-generated, not as a completed Faber job. Real job photos still go in `src/data/gallery.ts` as `{ avif, webp, alt, caption }` and stay a separate list on the gallery page.
+
+The methodology graphic is the chosen bold version (cream background, light teal footer). Pattern files were renamed on the CDN; the labels in `media.ts` match what each file shows: irregular stone, grey slate, warm limestone (`large-lime-tile`), cream travertine (`large-tile`), and charcoal. Roofing images are not used on this site. `new-construction-stone-house` is a field photo of an approach, not a named completed job.
 
 ## Pages
 
@@ -50,7 +52,7 @@ First deploy can pass `--name faberconcrete` if the Worker name needs creating. 
 | `/services/driveways` | Driveways and approaches |
 | `/services/flatwork` | Flatwork |
 | `/why-our-concrete-lasts` | 5-inch slab and 21AA base |
-| `/gallery` | Photo grid, empty until real jobs are added |
+| `/gallery` | Stamped-pattern illustrations, driveway scenes, then completed-job photos when they exist |
 | `/estimate` | Estimate form |
 | `/photos` | 302 to the Stoke Leads upload URL |
 
@@ -72,7 +74,7 @@ All of these are in `src/config/site.ts` unless noted.
 
 Also still open, not guessed:
 
-- Job photos in `src/data/gallery.ts` (no sample images are shipped).
+- Completed-job photos in `src/data/gallery.ts`. The illustrations in `src/data/media.ts` are not a substitute for those.
 - A logo file, if Matt wants a mark besides the text wordmark in `src/components/Wordmark.astro`.
 - Service-area cities, once Matt names them. Schema currently says the state of Michigan only.
 - Business hours. Not stated on the call, so they are omitted.

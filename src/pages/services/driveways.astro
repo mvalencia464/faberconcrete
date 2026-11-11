@@ -2,6 +2,8 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import Header from "../../components/Header.astro";
 import Footer from "../../components/Footer.astro";
+import Picture from "../../components/Picture.astro";
+import { finishedDriveway, newConstruction } from "../../data/media";
 
 const title = "Concrete Driveways and Approaches in Michigan | Faber Concrete";
 const description =
@@ -17,10 +19,32 @@ const description =
       <p class="lede">
         The driveway is five inches. The approach — the section that takes the hit from the street — is six. Both sit on 21AA that has been graded and compacted before anyone sets a form.
       </p>
+      <figure class="frame">
+        <Picture
+          avif={finishedDriveway.avif}
+          webp={finishedDriveway.webp}
+          alt={finishedDriveway.alt}
+          width={finishedDriveway.width}
+          height={finishedDriveway.height}
+          sizes="(min-width: 720px) 44rem, 100vw"
+        />
+        <figcaption>{finishedDriveway.caption}</figcaption>
+      </figure>
       <p>
         Most concrete contractors pour four inches. Skipping that extra inch is how a bid gets cheaper. Matt Faber puts it plainly: those crews are tripping over dollars to pick up pennies. On an average driveway, one less inch saves them on the order of $600 to $700. Faber Concrete charges for the inch and pours it.
       </p>
       <h2>Why the approach is thicker</h2>
+      <figure class="frame frame--approach">
+        <Picture
+          avif={newConstruction.avif}
+          webp={newConstruction.webp}
+          alt={newConstruction.alt}
+          width={newConstruction.width}
+          height={newConstruction.height}
+          sizes="(min-width: 720px) 44rem, 100vw"
+        />
+        <figcaption>{newConstruction.caption}</figcaption>
+      </figure>
       <p>
         Michigan is a cold climate. An extra inch on the whole driveway, and another inch on the approach, is what you want when the slab has to live through freeze and thaw. Then there is the truck. A 20-ton delivery truck coming in and out of the driveway is a different load than a passenger car. The approach is where that weight lands first, which is why it is six inches.
       </p>
