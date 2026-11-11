@@ -8,6 +8,8 @@ export const PHOTO_UPLOAD_URL = "https://upload.stokeleads.com/c/TOKEN";
 export function cloudflareRedirects() {
   return [
     "/service-areas /areas 301",
+    "/jobs/how-the-slab-goes-in /services/driveways#slab 301",
+    "/jobs/how-the-slab-goes-in/ /services/driveways#slab 301",
     `/photos ${PHOTO_UPLOAD_URL} 302`,
     "",
   ].join("\n");

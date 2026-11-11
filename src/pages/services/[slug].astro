@@ -145,6 +145,20 @@ const pageSchema = {
             </div>
           ))}
 
+          <figure class="slab-method" id="slab">
+            <h3>How the slab goes in</h3>
+            <img
+              src={r2img("faber-concrete-methodology-infographic.avif")}
+              alt="Illustration of the Faber Concrete method: grade the area, compact 21AA, pour five inches, six inches on the approach. Not a photo of a completed job."
+              width="1920"
+              height="1280"
+              loading="lazy"
+            />
+            <figcaption>
+              Grade, compacted 21AA, five inches on the driveway, six on the approach. Illustration, not a photo of a completed Faber Concrete job.
+            </figcaption>
+          </figure>
+
           {galleryImages.length > 0 && (
             <>
               <h3>Service Gallery</h3>
@@ -378,6 +392,26 @@ const pageSchema = {
     color: var(--muted);
     line-height: 1.7;
     max-width: none;
+  }
+
+  .slab-method {
+    margin: 2rem 0 0.5rem;
+    scroll-margin-top: 6.5rem;
+  }
+
+  .slab-method img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--border);
+    border-radius: 2px;
+  }
+
+  .slab-method figcaption {
+    margin-top: 0.65rem;
+    color: var(--muted);
+    font-size: 0.95rem;
+    line-height: 1.6;
   }
 
   .service-areas-intro {

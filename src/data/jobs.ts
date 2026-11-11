@@ -137,22 +137,6 @@ export const JOBS: Job[] = [
       { pain: "No way to see color and scale before the pour.", fix: "These close-ups are illustrations, not a finished Faber job, and not a paver catalog." },
     ],
   }),
-  photoJob({
-    slug: "how-the-slab-goes-in",
-    title: "How the slab goes in",
-    serviceLabel: "Flatwork",
-    serviceSlug: "flatwork",
-    cover: "faber-concrete-methodology-infographic.avif",
-    caption: `An illustration of the Faber Concrete method: grade the area, compact 21AA, pour five inches, six on the approach. ${AI}`,
-    summary:
-      "The order is the product. Grade the whole area. Compact 21AA. Never dirt, never sand alone. Then pour five inches on the driveway and six on the approach. The picture is an illustration of that method, not a photo of a job.",
-    workPerformed:
-      "Grade, compact 21AA, form, then pour. The finishers have been finishing for more than 25 years. The bid is the best quality one, priced down the middle.",
-    rows: [
-      { pain: "A bid that never names the base, or that calls compacted sand a base.", fix: "21AA, graded and compacted across the whole area, before the pour." },
-      { pain: "Four inches because it saves on the order of $600 to $700.", fix: "Five inches on the slab. Six on the approach. If you want the cheap deal, this is not it." },
-    ],
-  }),
 ];
 
 export function jobsForArea(areaSlug: string): Job[] {
