@@ -1,0 +1,202 @@
+{
+  "ctaPrimaryLabel": "{{ctaPrimaryLabel}}",
+  "phoneCtaLabel": "{{phoneCtaLabel}}",
+  "serviceType": "{{serviceType}}",
+  "serviceNoun": "{{serviceNoun}}",
+  "ogImageAlt": "{{name}} — {{tradeLabel}} in {{city}}, {{state}}",
+  "heroImageAlt": "{{name}} project in {{city}}",
+  "formConsent": "and consent to be contacted about my {{serviceNoun}} estimate. Msg & data rates may apply.",
+  "sidebarTitle": "Request an estimate",
+  "sidebarBody": "Call for the next step. We look at the site before we quote a pour.",
+  "serviceAreasIntro": "{{name}} is a local {{tradeLabel}} serving these {{region}} communities:",
+  "contactTitle": "{{ctaPrimaryLabel}} | {{name}}",
+  "contactDescription": "Request a concrete estimate from {{name}} in {{city}}. Call {{phone}}.",
+  "contactHeading": "{{ctaPrimaryLabel}}",
+  "contactIntro": "Tell us what you want poured or replaced.",
+  "aboutDescription": "Meet {{ownerName}} and {{legalName}} — {{tradeLabel}} in {{city}} serving {{region}}.",
+  "policyDescription": "How {{name}} collects, uses, and protects your information when you request an estimate in {{city}} and {{region}}.",
+  "termsDescription": "Terms governing use of the {{name}} website and estimate requests in {{city}} and {{region}}.",
+  "areaEyebrow": "{{tradeLabel}} · Service area",
+  "areaPageTitle": "{{tradeLabel}} in {{areaName}} | {{name}}",
+  "areaHeadline": "{{tradeLabel}} in {{areaName}}",
+  "areaIntro": "When your {{areaName}} property needs a driveway, patio, sidewalk, or other flatwork, you get a site look and a written estimate.",
+  "areaBody": "{{legalName}} serves {{areaName}} and nearby {{region}} from {{city}}.",
+  "areaServicesNote": "concrete for {{areaName}} homes and light-commercial lots.",
+  "areaServicesHeading": "Services in {{areaName}}",
+  "areaHighlights": ["Driveways", "Patios", "Garage slabs", "Repair and replacement"],
+  "areaFaqs": [
+    { "q": "Do you work in {{areaName}}?", "a": "Yes. Call {{phone}}." },
+    { "q": "How do I get an estimate in {{areaName}}?", "a": "Call {{phone}} or send the form." }
+  ],
+  "jobAreaLink": "{{tradeLabel}} in {{city}}",
+  "hero": {
+    "trustBadge": "{{city}} · {{region}}",
+    "headingLine1": "Concrete that",
+    "headingLine2": "",
+    "headingAccent": "starts with the base",
+    "headline": "Concrete that starts with the base.",
+    "subheading": "Driveways, approaches, patios, sidewalks, and slabs. You see thickness and base on the estimate before anyone pours.",
+    "benefits": [
+      { "icon": "road", "label": "Driveways" },
+      { "icon": "th-large", "label": "Patios" },
+      { "icon": "clipboard-list", "label": "Written\nestimate" }
+    ],
+    "ctaCall": "Call {{phone}}",
+    "scheduleHref": "/contact",
+    "financingNote": "Look at the site first. Clear next steps.",
+    "locationNote": "Serving {{region}} from {{city}}",
+    "trustLine": "Residential and light commercial",
+    "reviewCard": { "rating": 5, "count": "Google Reviews", "href": "/reviews" },
+    "ownerNote": "Call or send the form — {{ownerName}} will follow up.",
+    "ownerCta": "Talk to {{ownerName}}"
+  },
+  "trustBar": {
+    "heading": "Flatwork for {{region}}",
+    "badges": [
+      { "type": "google", "rating": 5, "label": "Google reviews", "eyebrow": "Google", "title": "Google reviews", "icon": "star" },
+      { "type": "cert", "label": "Based in\n{{city}}, {{state}}", "eyebrow": "Based in", "title": "{{city}}, {{state}}", "icon": "map-marker-alt" },
+      { "type": "cert", "label": "Base before\nthe pour", "eyebrow": "Before we pour", "title": "Base in the scope", "icon": "layer-group" },
+      { "type": "cert", "label": "New &\nreplacement", "eyebrow": "New &", "title": "Replacement", "icon": "tools" }
+    ]
+  },
+  "process": {
+    "label": "How it works",
+    "title": "From the call to a finished slab",
+    "subtitle": "You see the scope before you approve a pour.",
+    "meetMessage": "Tell us what you want poured or replaced. We follow up with the next opening.",
+    "steps": [
+      { "title": "Call or send the form", "meta": "Fast start", "description": "Driveway, patio, sidewalk, garage slab, or a repair — and the address." },
+      { "title": "Look at the site", "meta": "See the ground", "description": "We look at the old concrete, the grade, and access before we price it." },
+      { "title": "Written estimate", "meta": "No guessing", "description": "Thickness, base, and finish are on the estimate you approve." },
+      { "title": "Form and pour", "meta": "The job", "description": "We form, place the base named in the scope, and pour." },
+      { "title": "Walk-through", "meta": "Done", "description": "We walk the slab with you and go over cure time." }
+    ]
+  },
+  "offersSection": {
+    "label": "Getting started",
+    "title": "Get a clear next step.",
+    "subtitle": "New flatwork, replacement, or a spring date on the books."
+  },
+  "offers": [
+    {
+      "slug": "site-estimate",
+      "title": "Site estimate",
+      "price": "Custom quote",
+      "hook": "A look at the site before a price.",
+      "includes": ["Site visit", "Repair or replacement called out", "Thickness on the estimate", "Base on the estimate"],
+      "ctaText": "Request an estimate",
+      "ctaHref": "/contact",
+      "icon": "clipboard-list",
+      "featured": true,
+      "financingAnchor": true
+    },
+    {
+      "slug": "spring-booking",
+      "title": "Spring booking",
+      "price": "Custom quote",
+      "hook": "Hold a spring pour before the schedule fills.",
+      "includes": ["Season window", "Address and scope", "Follow-up with the next opening", "No pour until you approve"],
+      "ctaText": "Hold a spring date",
+      "ctaHref": "/contact",
+      "icon": "calendar-alt"
+    },
+    {
+      "slug": "replacement",
+      "title": "Replacement",
+      "price": "Custom quote",
+      "hook": "Failed slabs removed and poured back to a written scope.",
+      "includes": ["Removal", "Base in the scope", "New concrete", "Walk-through"],
+      "ctaText": "Ask about replacement",
+      "ctaHref": "/contact",
+      "icon": "tools"
+    }
+  ],
+  "servicesHeading": "Driveways, patios, and flatwork",
+  "servicesLabel": "Services",
+  "servicesIntro": "Here is the concrete work we take on in {{region}}.",
+  "valueProps": [
+    { "icon": "layer-group", "title": "The base is part of the job", "description": "What goes under the slab is written down, not left as a surprise." },
+    { "icon": "ruler-combined", "title": "Thickness is on the estimate", "description": "The inches for that pour are a line you can read before you say yes." },
+    { "icon": "home", "title": "Homes and light commercial", "description": "Driveways, approaches, patios, walks, pads, and garage slabs." },
+    { "icon": "map-marker-alt", "title": "Local from {{city}}", "description": "You are calling {{region}}." }
+  ],
+  "whyChoose": {
+    "title": "Why the concrete lasts",
+    "items": [
+      { "title": "The base is compacted before the pour", "body": "A slab is only as steady as what is under it. The estimate names that base." },
+      { "title": "Thickness matches the use", "body": "A driveway, an approach, and a patio are not the same pour. Each one gets its own thickness on the estimate." },
+      { "title": "Joints and slope are in the scope", "body": "Control joints and drainage away from the building are decided before concrete shows up." },
+      { "title": "You can book before the season fills", "body": "Spring dates go on the books early. Call {{phone}} or send the form." }
+    ]
+  },
+  "reviewsSection": {
+    "label": "Google reviews",
+    "title": "What neighbors are saying",
+    "titleLine2": "",
+    "subtitle": "Work across {{city}} and {{region}}.",
+    "bullets": ["{{tradeLabel}}", "Based in {{city}}", "{{ownerName}}, owner", "Driveways and flatwork"],
+    "ctaText": "Read more reviews on Google",
+    "viewAllHref": "/reviews",
+    "viewAllText": "See all reviews"
+  },
+  "reviewsPage": {
+    "label": "Google Reviews",
+    "title": "What customers are saying",
+    "subtitle": "Feedback from people who hired {{name}}.",
+    "description": "Read reviews for {{legalName}} — {{tradeLabel}} in {{city}} and {{region}}."
+  },
+  "shop": { "heading": "Contact Us", "hours": [{ "days": "Hours", "time": "Call for hours" }] },
+  "workGallery": {
+    "label": "Recent work",
+    "title": "Recent work in your area",
+    "intro": "Job photos show up here when they are on file."
+  },
+  "ownerStory": {
+    "label": "About Us",
+    "quote": "{{tagline}}",
+    "caption": "{{ownerName}} · {{ownerRole}}",
+    "ctaText": "{{ctaPrimaryLabel}}",
+    "ctaHref": "/contact",
+    "quoteAttribution": "{{ownerName}}",
+    "quoteRole": "{{ownerRole}}, {{legalName}}",
+    "homepageParagraphLimit": 2,
+    "paragraphs": [
+      "{{ownerName}} built {{name}} around a written scope: what gets poured, how thick, and what goes under it.",
+      "We serve {{region}} from {{city}}. Call {{phone}}."
+    ]
+  },
+  "teamSection": { "label": "The team", "title": "People who do the work", "intro": "Scope first, then the pour." },
+  "teamMembers": [
+    {
+      "name": "{{ownerName}}",
+      "role": "{{ownerRole}}",
+      "headline": "Leads with a site look and a written estimate.",
+      "bio": ["{{ownerName}} runs {{name}} from {{city}}."]
+    }
+  ],
+  "serviceArea": { "heading": "Areas We Serve", "body": "Based in {{city}}, {{state}} — serving {{region}}.", "country": "US" },
+  "ctaBanner": {
+    "title": "Book a spring pour",
+    "subtitle": "Hold a date before the season fills up.",
+    "body": "Driveways, patios, sidewalks, and slabs across {{region}}. No pour until you approve the estimate.",
+    "scheduleHref": "/contact",
+    "scheduleLabel": "Hold a spring date",
+    "scheduleSub": "No obligation",
+    "callSub": "Call to schedule"
+  },
+  "beforeAfter": {
+    "enabled": false,
+    "title": "Before and after",
+    "intro": "Drag the slider to compare the job.",
+    "beforeImage": "/placeholders/hero.svg",
+    "afterImage": "/placeholders/hero.svg",
+    "beforeLabel": "Before",
+    "afterLabel": "After"
+  },
+  "practice": {
+    "slabThickness": "Slab thickness for each pour is written on your estimate.",
+    "baseMaterial": "Base material under the slab is written on your estimate.",
+    "yearsExperience": ""
+  },
+  "footerBlurb": "{{tradeLabel}}. Serving {{region}} from {{city}}."
+}
