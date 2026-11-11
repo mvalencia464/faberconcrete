@@ -1,47 +1,44 @@
-import { defineConfig } from "astro/config";
-import sitemap from "@astrojs/sitemap";
-import { writeFileSync, rmSync, mkdirSync } from "node:fs";
-import { photoUploadUrl, siteUrl } from "./src/config/site.ts";
+import { writeFile } from 'node:fs/promises';
+import { defineConfig } from 'astro/config';
+import sitemap from '@astrojs/sitemap';
+import { cloudflareRedirects } from './src/config/photo-upload.mjs';
 
-/** Emit a real Cloudflare 302 so /photos is not a meta-refresh HTML page. */
-function photosRedirect() {
+function cloudflareRedirectsFile() {
   return {
-    name: "photos-redirect",
+    name: 'cloudflare-redirects',
     hooks: {
-      "astro:build:done": ({ dir }) => {
-        const root = dir.pathname;
-        rmSync(new URL("photos", dir), { recursive: true, force: true });
-        mkdirSync(root, { recursive: true });
-        const line = `/photos ${photoUploadUrl} 302\n/photos/ ${photoUploadUrl} 302\n`;
-        writeFileSync(new URL("_redirects", dir), line);
+      'astro:build:done': async ({ dir }) => {
+        await writeFile(new URL('_redirects', dir), cloudflareRedirects());
       },
     },
   };
 }
 
 export default defineConfig({
-  site: siteUrl,
-  integrations: [sitemap(), photosRedirect()],
-  image: {
-    remotePatterns: [{ protocol: "https", hostname: "media.stokeleads.com" }],
-  },
+  site: process.env.SITE_URL || 'https://faberconcrete.com',
+  integrations: [
+    sitemap({
+      filter: (page) => !page.includes('/admin'),
+    }),
+    cloudflareRedirectsFile(),
+  ],
+  // Google Drive FS often skips native file events — poll so HMR actually fires
   vite: {
-    plugins: [
-      {
-        name: "photos-302",
-        configureServer(server) {
-          server.middlewares.use((req, res, next) => {
-            const path = req.url?.split("?")[0];
-            if (path === "/photos" || path === "/photos/") {
-              res.statusCode = 302;
-              res.setHeader("Location", photoUploadUrl);
-              res.end();
-              return;
-            }
-            next();
-          });
-        },
+    envPrefix: ['PUBLIC_', 'SITE_'],
+    server: {
+      watch: {
+        usePolling: true,
+        interval: 800,
       },
+    },
+  },
+  image: {
+    domains: ['media.stokeleads.com', 'lh3.googleusercontent.com', 'randomuser.me'],
+    remotePatterns: [
+      { protocol: 'https', hostname: 'media.stokeleads.com' },
+      { protocol: 'https', hostname: '*.r2.dev' },
+      { protocol: 'https', hostname: 'lh3.googleusercontent.com' },
+      { protocol: 'https', hostname: 'randomuser.me' },
     ],
   },
 });

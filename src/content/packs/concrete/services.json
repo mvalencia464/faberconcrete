@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "driveways",
+    "title": "Driveways",
+    "shortDesc": "Five inches on every driveway. Never four. Compacted 21AA under the slab.",
+    "fullDesc": "{{name}} pours driveways in {{region}}. The slab is five inches, every time. The estimate names that thickness and the 21AA base.",
+    "highlights": ["Five inches, never four", "Compacted 21AA", "Residential and commercial", "Priced down the middle"],
+    "heading": "Five inches, not four",
+    "body": "Most contractors pour four inches. Skipping that inch is how a bid gets cheaper. {{name}} charges for the inch and pours it. The finishers have been finishing concrete for more than 25 years.",
+    "faq": {
+      "q": "Why not a four-inch driveway?",
+      "a": "Michigan cold and a heavy delivery truck work on a thin slab. Five inches is the driveway. Six inches is the approach."
+    },
+    "icon": "road",
+    "iconStyle": "navy",
+    "image": "faber-concrete-finished-driveway.avif"
+  },
+  {
+    "slug": "approaches",
+    "title": "Driveway approaches",
+    "shortDesc": "Six inches where the street meets the drive, on the same compacted 21AA base.",
+    "fullDesc": "{{name}} pours the approach at six inches. That is the section a 20-ton delivery truck hits first.",
+    "highlights": ["Six inches", "Takes the street load", "Same 21AA base", "Written on the estimate"],
+    "heading": "The approach is thicker",
+    "body": "The approach is its own thickness because that is where the weight from the street lands. It is still graded and compacted 21AA before anyone sets a form.",
+    "faq": {
+      "q": "Is the approach included with a driveway?",
+      "a": "When we pour the driveway, the approach is part of the spec: six inches there, five on the rest."
+    },
+    "icon": "sign-out-alt",
+    "iconStyle": "navy",
+    "image": "new-construction-stone-house.avif"
+  },
+  {
+    "slug": "flatwork",
+    "title": "Flatwork",
+    "shortDesc": "Pads and other slabs poured to the same spec as a driveway.",
+    "fullDesc": "{{name}} pours flatwork to the driveway spec: five inches, six where it is an approach, compacted 21AA.",
+    "highlights": ["Same five-inch spec", "Never four to win the bid", "Compacted 21AA", "A specialist, not a side job"],
+    "heading": "Flatwork, not a side hobby",
+    "body": "Concrete is its own company here. The flatwork is not a cheaper four-inch pour. Finishers with more than 25 years do the surface you live with.",
+    "faq": {
+      "q": "Is flatwork poured thinner than a driveway?",
+      "a": "No. Five inches, every time, unless the section is an approach. Approaches are six."
+    },
+    "icon": "border-all",
+    "iconStyle": "navy",
+    "image": "concrete-crew-finishing-driveway.avif"
+  },
+  {
+    "slug": "patios",
+    "title": "Stamped concrete",
+    "shortDesc": "Stamped patterns on the same five-inch slab and compacted 21AA base.",
+    "fullDesc": "{{name}} stamps concrete to the same spec as a plain driveway: five inches, six on an approach, compacted 21AA. Pattern photos on this site are illustrations, not finished jobs.",
+    "highlights": ["Same slab spec", "Irregular stone and large tile", "Not a separate thinner pour", "Illustrations, not a job list"],
+    "heading": "A pattern on the same slab",
+    "body": "The stamp is the finish. The body of the slab is still five inches over compacted 21AA. Pavers are part of the work too. This site does not have a paver pattern board yet.",
+    "faq": {
+      "q": "Are the pattern photos your jobs?",
+      "a": "No. They are AI illustrations of pattern and color, so you can see the options. They are not photos of a completed Faber Concrete job."
+    },
+    "icon": "th-large",
+    "iconStyle": "red",
+    "image": "stamped-concrete-paving-closeup.avif",
+    "gallery": [
+      "faber-concrete-large-tile-grey.avif",
+      "faber-concrete-large-lime-tile.avif",
+      "faber-concrete-large-tile.avif",
+      "faber-concrete-large-charcoal-tile.avif"
+    ]
+  }
+]
