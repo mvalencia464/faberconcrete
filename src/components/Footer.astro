@@ -62,10 +62,18 @@ const year = new Date().getFullYear();
             <i class="fas fa-phone" aria-hidden="true"></i>
             <a href={telHref}>{SITE.phone}</a>
           </li>
-          <li>
-            <i class="fas fa-envelope" aria-hidden="true"></i>
-            <a href={`mailto:${SITE.email}`}>{SITE.email}</a>
-          </li>
+          {SITE.address ? (
+            <li>
+              <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+              <a href={SITE.map.directionsUrl}>{SITE.address}, {SITE.city}, {SITE.state} {SITE.zip}</a>
+            </li>
+          ) : null}
+          {SITE.email.includes("@") ? (
+            <li>
+              <i class="fas fa-envelope" aria-hidden="true"></i>
+              <a href={`mailto:${SITE.email}`}>{SITE.email}</a>
+            </li>
+          ) : null}
           <li>
             <i class="fas fa-clock" aria-hidden="true"></i>
             <span>{SITE.businessHours}</span>

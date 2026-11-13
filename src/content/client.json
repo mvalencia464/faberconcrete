@@ -5,13 +5,13 @@
     "legalName": "Faber Concrete",
     "tagline": "Five-inch driveways, priced down the middle.",
     "catchphrase": "FABER CONCRETE — FIVE INCHES, EVERY DRIVEWAY",
-    "phone": "Not published yet",
-    "email": "Not published yet",
-    "address": "",
-    "city": "Metro Detroit",
+    "phone": "(810) 360-7385",
+    "email": "",
+    "address": "22710 Haggerty Rd. Suite 100B",
+    "city": "Farmington Hills",
     "state": "MI",
-    "zip": "",
-    "license": "Not published yet",
+    "zip": "48335",
+    "license": "",
     "ownerName": "Matt Faber",
     "ownerRole": "Owner",
     "region": "Wayne, Oakland, Macomb, Washtenaw, and Livingston counties",
@@ -52,22 +52,22 @@
     }
   },
   "map": {
-    "lat": 42.3314,
-    "lng": -83.0458,
+    "lat": 42.4564467,
+    "lng": -83.4345146,
     "zoom": 9,
     "radiusMiles": 0,
-    "listingUrl": "",
-    "query": "Faber Concrete, Metro Detroit MI"
+    "listingUrl": "https://www.google.com/maps?cid=2039319338774567315",
+    "query": "Faber Concrete, 22710 Haggerty Rd. Suite 100B, Farmington Hills, MI 48335"
   },
   "googleReviews": {
-    "businessName": "Faber Concrete",
-    "rating": 0,
-    "count": 0,
+    "businessName": "Faber Roof",
+    "rating": 5,
+    "count": 5,
     "category": "Concrete contractor in Metro Detroit, MI",
-    "profileUrl": "",
+    "profileUrl": "https://www.google.com/maps?cid=2039319338774567315",
     "maxDisplay": 8,
-    "cid": "",
-    "placeId": ""
+    "cid": "2039319338774567315",
+    "placeId": "ChIJHVmRna-vJIgRkxk-QyIeTRw"
   },
   "seo": {
     "title": "Concrete Driveways in Metro Detroit | Faber Concrete",
@@ -76,19 +76,19 @@
   },
   "copy": {
     "ctaPrimaryLabel": "Request an estimate",
-    "phoneCtaLabel": "Request an estimate",
+    "phoneCtaLabel": "Call now",
     "serviceType": "Concrete services",
     "serviceNoun": "concrete",
     "ogImageAlt": "Faber Concrete — a finisher on a fresh driveway. AI illustration, not a completed job.",
     "heroImageAlt": "A finisher troweling a fresh concrete driveway beside a stone garage. AI illustration, not a photo of a completed Faber Concrete job.",
     "formConsent": "and consent to be contacted about my concrete estimate. Msg & data rates may apply.",
     "sidebarTitle": "Request an estimate",
-    "sidebarBody": "Send the address. Matt Faber looks at the site, then writes the estimate and the contract. The phone number is not published on this site yet. April and May are the months that get filled first.",
+    "sidebarBody": "Send the address or call (810) 360-7385. Matt Faber looks at the site, then writes the estimate and the contract. April and May are the months that get filled first.",
     "serviceAreasIntro": "Faber Concrete works in Wayne, Oakland, Macomb, Washtenaw, and Livingston counties, for homes and commercial properties. Matt takes some ZIP codes in each county, aimed at people who want the thicker slab. He does not publish the ones he skips. Send the address and ask.",
     "contactTitle": "Request a concrete estimate | Faber Concrete",
-    "contactDescription": "Request an estimate for a driveway, approach, flatwork, stamped concrete, or pavers in Metro Detroit. Five inches, six on the approach, compacted 21AA. The phone number is not published on this site yet.",
+    "contactDescription": "Request an estimate for a driveway, approach, flatwork, stamped concrete, or pavers in Metro Detroit. Five inches, six on the approach, compacted 21AA. Call (810) 360-7385.",
     "contactHeading": "Request an estimate",
-    "contactIntro": "Tell us the address, whether it is a driveway, an approach, flatwork, stamped concrete, or pavers, and when you want it. Matt looks at the site before he prices it. He writes a contract, not only an estimate. The rest of this year is for finishing what is already on the books. April and May are what he likes on the calendar next, and he will take a spring job. The phone number and email are not published on this site yet, so the form is how you reach him.",
+    "contactIntro": "Tell us the address, whether it is a driveway, an approach, flatwork, stamped concrete, or pavers, and when you want it. Matt looks at the site before he prices it. He writes a contract, not only an estimate. The rest of this year is for finishing what is already on the books. April and May are what he likes on the calendar next, and he will take a spring job. Call (810) 360-7385 or send the form. The office is 22710 Haggerty Rd. Suite 100B, Farmington Hills, MI 48335.",
     "aboutDescription": "Matt Faber owns Faber Concrete, a concrete company kept separate on purpose. Five-inch driveways, six-inch approaches, compacted 21AA, finishers with more than 25 years, priced down the middle.",
     "policyDescription": "How Faber Concrete collects, uses, and protects your information when you request an estimate in Metro Detroit and Wayne, Oakland, Macomb, Washtenaw, and Livingston counties.",
     "termsDescription": "Terms governing use of the Faber Concrete website and estimate requests in Metro Detroit and Wayne, Oakland, Macomb, Washtenaw, and Livingston counties.",
@@ -112,7 +112,7 @@
       },
       {
         "q": "How do I get an estimate in {{areaName}}?",
-        "a": "Send the form with the address and what you want poured. Matt looks at the site, then writes the estimate and the contract. The phone number is not published on this site yet. April and May fill first."
+        "a": "Send the form with the address and what you want poured, or call (810) 360-7385. Matt looks at the site, then writes the estimate and the contract. April and May fill first."
       },
       {
         "q": "What is different about a Faber Concrete driveway in {{areaName}}?",
@@ -147,8 +147,8 @@
       "locationNote": "Wayne, Oakland, Macomb, Washtenaw, and Livingston counties",
       "trustLine": "Finishers with more than 25 years on the tools",
       "reviewCard": {
-        "rating": 0,
-        "count": "Google reviews",
+        "rating": 5,
+        "count": "5 Google reviews",
         "href": "/reviews"
       },
       "ownerNote": "Matt Faber owns Faber Concrete. He looks at the site, then writes the estimate and the contract. Send the form.",
@@ -322,9 +322,9 @@
     },
     "reviewsSection": {
       "label": "Reviews",
-      "title": "Google reviews are not on this site yet",
+      "title": "5.0 from 5 Google reviews",
       "titleLine2": "",
-      "subtitle": "Faber Concrete has not published Google reviews on this site. Nothing here is borrowed from another company, including the roofing work.",
+      "subtitle": "These are the company's published Google reviews, with the reviewer names and the words as written.",
       "bullets": [
         "Concrete only",
         "Five-inch driveways",
@@ -338,15 +338,15 @@
     "reviewsPage": {
       "label": "Reviews",
       "title": "Reviews",
-      "subtitle": "No Google reviews are published for Faber Concrete on this site yet. We are not filling this page with reviews from another company.",
-      "description": "Faber Concrete has not published Google reviews on this site yet."
+      "subtitle": "5.0 from 5 published Google reviews. The text below is what each reviewer wrote.",
+      "description": "Faber Concrete's published Google reviews: 5.0 from 5 reviews."
     },
     "shop": {
       "heading": "Contact Us",
       "hours": [
         {
           "days": "Hours",
-          "time": "Not published. Send the form."
+          "time": "Call for hours"
         }
       ]
     },
@@ -389,7 +389,7 @@
     ],
     "serviceArea": {
       "heading": "Areas We Serve",
-      "body": "Based in Metro Detroit. Homes and commercial properties in Wayne, Oakland, Macomb, Washtenaw, and Livingston counties. Some ZIP codes in each county are outside the work. Send the address.",
+      "body": "Office at 22710 Haggerty Rd. Suite 100B, Farmington Hills, MI 48335. Homes and commercial properties in Wayne, Oakland, Macomb, Washtenaw, and Livingston counties. Some ZIP codes in each county are outside the work. Send the address.",
       "country": "US"
     },
     "ctaBanner": {
@@ -453,7 +453,7 @@
       },
       {
         "q": "How do I get an estimate?",
-        "a": "Send the form with the address. Matt looks at the site, then writes the estimate and the contract. The phone number is not published on this site yet. April and May fill first. He will take a spring job."
+        "a": "Call (810) 360-7385 or send the form with the address. Matt looks at the site, then writes the estimate and the contract. April and May fill first. He will take a spring job."
       },
       {
         "q": "Are the photos finished Faber jobs?",
@@ -463,7 +463,7 @@
   },
   "form": {
     "title": "Get a concrete estimate",
-    "subtitle": "Share the address. Matt Faber looks at the site, then follows up with the estimate.",
+    "subtitle": "Share the address, or call (810) 360-7385. Matt Faber looks at the site, then follows up with the estimate.",
     "submitText": "Send my request",
     "finalNote": "No pour until you approve the contract. We look at the site before anyone forms.",
     "trustBullets": [

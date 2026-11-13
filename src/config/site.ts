@@ -75,7 +75,7 @@ export const SITE = {
   brandLogoHeight: 102,
   ogImage: r2img(images.hero),
 
-  businessHours: "Hours are not published. Send the form.",
+  businessHours: "Call for hours",
 
   seoTitle: client.seo.title,
   seoDescription: client.seo.description,
