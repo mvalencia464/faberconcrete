@@ -25,9 +25,10 @@ const telHref = SITE.callHref;
           </p>
           <ul class="contact-page__facts">
             <li>Site look before a price</li>
-            <li>{SITE.city}, {SITE.state}</li>
+            <li>{SITE.address}</li>
+            <li>{SITE.city}, {SITE.state} {SITE.zip}</li>
             <li>Residential and commercial</li>
-            <li>{SITE.email.includes("@") ? SITE.email : "Email not published yet"}</li>
+            {SITE.email.includes("@") ? <li>{SITE.email}</li> : null}
           </ul>
         </div>
         <HeroLeadForm />
