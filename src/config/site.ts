@@ -75,7 +75,9 @@ export const SITE = {
   brandLogoHeight: 102,
   ogImage: r2img(images.hero),
 
-  businessHours: "Hours are not published. Send the form.",
+  businessHours: copy.shop.hours
+    .map((entry) => (entry.days === "Hours" ? entry.time : `${entry.days}: ${entry.time}`))
+    .join(" · "),
 
   seoTitle: client.seo.title,
   seoDescription: client.seo.description,

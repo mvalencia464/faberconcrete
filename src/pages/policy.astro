@@ -6,6 +6,8 @@ import { SITE, formatSiteAddress } from '../config/site';
 
 const telHref = SITE.callHref;
 const address = formatSiteAddress();
+const publishedEmail = SITE.email.includes("@");
+const publishedLicense = Boolean(SITE.license) && !/not published/i.test(SITE.license);
 ---
 
 <BaseLayout
@@ -134,9 +136,17 @@ const address = formatSiteAddress();
       <p>
         <strong>{SITE.name}</strong><br />
         {address}<br />
-        Email: <a href={`mailto:${SITE.email}`}>{SITE.email}</a><br />
+        {publishedEmail ? (
+          <>
+            Email: <a href={`mailto:${SITE.email}`}>{SITE.email}</a><br />
+          </>
+        ) : null}
         Phone: <a href={telHref}>{SITE.phone}</a><br />
-        License: {SITE.license}
+        {publishedLicense ? (
+          <>
+            License: {SITE.license}
+          </>
+        ) : null}
       </p>
     </div>
   </main>
