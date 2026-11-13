@@ -52,6 +52,7 @@ const jsonLd = {
     "addressCountry": "US",
   },
   "url": canonical,
+  ...(SITE.googleReviews.profileUrl ? { sameAs: [SITE.googleReviews.profileUrl] } : {}),
   "description": SITE.seoDescription,
   "priceRange": "$$",
   "additionalType": "https://schema.org/HomeAndConstructionBusiness",

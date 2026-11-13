@@ -216,7 +216,9 @@ const pageSchema = {
             <a href={telHref} class="btn btn--primary sidebar-call">
               {SITE.callLabel}
             </a>
-            <a href={`mailto:${SITE.email}`} class="sidebar-email">{SITE.email}</a>
+            {SITE.email.includes("@") ? (
+              <a href={`mailto:${SITE.email}`} class="sidebar-email">{SITE.email}</a>
+            ) : null}
           </div>
 
           <div class="sidebar-card panel-card">
