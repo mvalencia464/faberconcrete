@@ -134,11 +134,19 @@ const outlineIcons: Record<string, string> = {
     z-index: 0;
   }
 
+  .hero-js__bg picture {
+    position: absolute;
+    inset: 0;
+    display: block;
+  }
+
   .hero-js__bg-img {
+    position: absolute;
+    inset: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: center 30%;
+    object-position: center bottom;
   }
 
   .hero-js__overlay {
@@ -358,7 +366,7 @@ const outlineIcons: Record<string, string> = {
     }
 
     .hero-js__bg-img {
-      object-position: right 30%;
+      object-position: right bottom;
     }
 
     .hero-js__overlay {
