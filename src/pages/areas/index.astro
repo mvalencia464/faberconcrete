@@ -1,20 +1,64 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import Header from '../../components/Header.astro';
-import Footer from '../../components/Footer.astro';
-import ServiceAreaSection from '../../components/ServiceAreaSection.astro';
-import CTABanner from '../../components/CTABanner.astro';
-import { SITE } from '../../config/site';
+import { SITE, AREAS } from '../../data/site';
+
+const counties = AREAS.filter((a) => a.type === 'county');
+const cities = AREAS.filter((a) => a.type === 'city');
 ---
 
 <BaseLayout
-  title={`Service Areas | ${SITE.name}`}
-  description={`${SITE.name} serves ${SITE.region}. Send the address to ask about your ZIP code.`}
+  title="Service Areas in Metro Detroit | Faber Concrete"
+  description="Faber Concrete serves select ZIP codes in Wayne, Oakland, Macomb, Washtenaw, and Livingston counties. Send your address to confirm coverage."
+  breadcrumbs={[
+    { name: 'Home', url: SITE.url },
+    { name: 'Service Areas', url: `${SITE.url}/areas` }
+  ]}
 >
-  <Header />
-  <main>
-    <ServiceAreaSection />
-    <CTABanner />
-  </main>
-  <Footer />
+  <section class="bg-deep text-white py-14 border-b-4 border-accent">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-xs font-bold uppercase tracking-wider text-gold">Metro Detroit Service Footprint</div>
+      <h1 class="font-display font-bold text-4xl sm:text-5xl uppercase mt-2">
+        Areas We Serve Across Southeast Michigan
+      </h1>
+      <p class="text-lg text-white/85 mt-4 max-w-3xl leading-relaxed">
+        Based at 22710 Haggerty Rd. Suite 100B in Farmington Hills, MI. Faber Concrete takes select ZIP codes across Wayne, Oakland, Macomb, Washtenaw, and Livingston counties aimed at homeowners and businesses who want our 5-inch / 6-inch 21AA specification.
+      </p>
+    </div>
+  </section>
+
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 space-y-14">
+    <div>
+      <h2 class="font-display font-bold text-3xl uppercase">Counties We Serve</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+        {counties.map((county) => (
+          <a
+            href={`/areas/${county.slug}`}
+            class="bg-white rounded-xl p-6 border border-deep/10 hover:border-accent shadow-sm transition block"
+          >
+            <div class="text-xs font-bold uppercase text-accent">County Service Page</div>
+            <h3 class="font-display font-bold text-2xl uppercase mt-1">{county.name}</h3>
+            <p class="text-sm text-muted mt-2 leading-relaxed">{county.intro}</p>
+            <div class="mt-4 text-xs font-bold text-deep">View {county.name} Specs &amp; Codes →</div>
+          </a>
+        ))}
+      </div>
+    </div>
+
+    <div>
+      <h2 class="font-display font-bold text-3xl uppercase">Featured Cities &amp; Suburbs</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-6">
+        {cities.map((city) => (
+          <a
+            href={`/areas/${city.slug}`}
+            class="bg-white rounded-xl p-5 border border-deep/10 hover:border-accent transition block"
+          >
+            <div class="text-[11px] font-bold uppercase text-muted">{city.county} County</div>
+            <h3 class="font-display font-bold text-xl uppercase mt-1">{city.name}</h3>
+            <p class="text-xs text-muted mt-2 line-clamp-2">{city.intro}</p>
+            <div class="mt-3 text-xs font-bold text-accent">Local Concrete Info →</div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
 </BaseLayout>

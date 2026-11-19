@@ -1,0 +1,68 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { SITE, GUIDES, SERVICES } from '../../data/site';
+
+export function getStaticPaths() {
+  return GUIDES.map((guide) => ({
+    params: { slug: guide.slug },
+    props: { guide }
+  }));
+}
+
+const { guide } = Astro.props;
+const relatedService = SERVICES.find((s) => s.slug === guide.relatedServiceSlug) || SERVICES[0];
+---
+
+<BaseLayout
+  title={guide.seoTitle}
+  description={guide.seoDescription}
+  breadcrumbs={[
+    { name: 'Home', url: SITE.url },
+    { name: 'Guides', url: `${SITE.url}/guides` },
+    { name: guide.title, url: `${SITE.url}/guides/${guide.slug}` }
+  ]}
+>
+  <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
+    <nav class="text-xs text-muted mb-4">
+      <a href="/" class="hover:text-deep">Home</a> / <a href="/guides" class="hover:text-deep">Guides</a> / <span>{guide.category}</span>
+    </nav>
+    <div class="text-xs font-bold uppercase tracking-wider text-accent">{guide.category} · {guide.readTime}</div>
+    <h1 class="font-display font-bold text-3xl sm:text-5xl uppercase mt-2 text-deep leading-tight">
+      {guide.title}
+    </h1>
+    <p class="text-lg text-muted mt-4 leading-relaxed border-l-4 border-accent pl-4">
+      {guide.summary}
+    </p>
+
+    <div class="mt-10 space-y-8">
+      {guide.sections.map((sec) => (
+        <section>
+          <h2 class="font-display font-bold text-2xl uppercase text-deep">{sec.heading}</h2>
+          <p class="text-base text-deep/85 mt-3 leading-relaxed">{sec.body}</p>
+        </section>
+      ))}
+    </div>
+
+    <div class="mt-12 p-6 sm:p-8 rounded-xl bg-deep text-white flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
+      <div>
+        <div class="text-xs font-bold uppercase text-gold">Related Service Specification</div>
+        <h3 class="font-display font-bold text-2xl uppercase mt-1">{relatedService.title}</h3>
+        <p class="text-sm text-white/80 mt-1">{relatedService.shortDescription}</p>
+      </div>
+      <div class="flex flex-col sm:flex-row gap-3 shrink-0">
+        <a
+          href={`/services/${relatedService.slug}`}
+          class="px-4 py-2.5 rounded bg-white text-deep font-bold text-sm"
+        >
+          View {relatedService.title} →
+        </a>
+        <a
+          href="/contact"
+          class="px-4 py-2.5 rounded bg-accent hover:bg-accentHover text-white font-bold text-sm"
+        >
+          Request Estimate
+        </a>
+      </div>
+    </div>
+  </article>
+</BaseLayout>

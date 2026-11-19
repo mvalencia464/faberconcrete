@@ -1,20 +1,50 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
-import OwnerStorySection from '../components/OwnerStorySection.astro';
-import CTABanner from '../components/CTABanner.astro';
-import { SITE } from '../config/site';
+import { SITE } from '../data/site';
 ---
 
 <BaseLayout
-  title={`About Us | ${SITE.name}`}
-  description={SITE.aboutDescription}
+  title="About Matt Faber & Faber Concrete | Metro Detroit Concrete Specialist"
+  description="Matt Faber owns Faber Concrete, a dedicated concrete company in Farmington Hills, MI pouring 5-inch driveways and 6-inch approaches on compacted 21AA."
+  breadcrumbs={[
+    { name: 'Home', url: SITE.url },
+    { name: 'About Us', url: `${SITE.url}/about` }
+  ]}
 >
-  <Header />
-  <main>
-    <OwnerStorySection />
-    <CTABanner />
-  </main>
-  <Footer />
+  <section class="bg-deep text-white py-14 border-b-4 border-accent">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-xs font-bold uppercase tracking-wider text-gold">Dedicated Concrete Specialist</div>
+      <h1 class="font-display font-bold text-4xl sm:text-5xl uppercase mt-2">
+        About Faber Concrete
+      </h1>
+      <p class="text-lg text-white/85 mt-4 max-w-3xl leading-relaxed">
+        “If you are looking for a cheap deal, we are not going to be it. We are going to be your best, highest quality bid, priced down the middle.” — Matt Faber, Owner
+      </p>
+    </div>
+  </section>
+
+  <section class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-14 space-y-8 text-base leading-relaxed">
+    <p>
+      <strong>Matt Faber owns Faber Concrete.</strong> It is a separate company on purpose. A website that sells roofs and driveways together reads like a jack of all trades, and concrete is a specialty. Fewer companies even know how to do it properly, and a lot of the ones who do never advertise. This site is only the slab.
+    </p>
+    <p>
+      We never pour a four-inch driveway. <strong>Five inches, every time</strong>, no matter the driveway, and <strong>six inches on the approach</strong>. That is an inch more than what most contractors pour, on the driveway and again where it meets the street. They skip it because it is cheaper, on the order of $600 to $700 on an average driveway.
+    </p>
+    <p>
+      The extra inch is there because Michigan is cold, and because a 20-ton delivery truck uses a driveway. A thinner slab can crack enough that you hate it long before you are ready to replace it.
+    </p>
+    <p>
+      Thickness does not save a slab on the wrong ground. We never pour over dirt. We never compact a layer of sand and call it a base. We grade <strong>21AA crushed limestone</strong> across the whole area, compact it, then form, then pour. The finishers have been finishing concrete for more than 25 years. After the site look, Matt writes a contract, not only an estimate.
+    </p>
+
+    <div class="bg-panel rounded-xl p-6 border border-deep/10 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div>
+        <div class="font-display font-bold text-xl uppercase">Ready for an On-Site Look?</div>
+        <div class="text-sm text-muted">April and May fill first on our spring calendar.</div>
+      </div>
+      <a href="/contact" class="px-6 py-3 rounded-lg bg-accent hover:bg-accentHover text-white font-bold text-sm">
+        Request a Concrete Estimate →
+      </a>
+    </div>
+  </section>
 </BaseLayout>
