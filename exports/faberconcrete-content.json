@@ -1,0 +1,2380 @@
+{
+  "meta": {
+    "siteName": "Faber Concrete",
+    "siteUrl": "https://faberconcrete.com",
+    "mediaBase": "https://media.stokeleads.com/faberconcrete",
+    "exportedAt": "2026-11-19T14:54:48.575Z",
+    "generatedBy": "scripts/export-site-content.mjs",
+    "notes": [
+      "Image files that are not site-root paths are public R2 URLs under media.stokeleads.com/faberconcrete.",
+      "Crew stills, the finished driveway, and stamped patterns are AI illustrations. The new-construction approach is a field photo of a house still in scaffolding, not a named completed job.",
+      "Google review avatar filenames are stored, but no matching files are in the site, so avatars are not displayed.",
+      "One stored Google review has no text and is omitted from the live reviews pages. It is listed under reviews.omitted.",
+      "The reviews file still names the business Faber Roof. The public site name is Faber Concrete.",
+      "/admin is excluded from the sitemap. /thanks is included because the sitemap filter only drops /admin."
+    ]
+  },
+  "identity": {
+    "name": "Faber Concrete",
+    "shortName": "Faber",
+    "legalName": "Faber Concrete",
+    "tagline": "Five-inch driveways, priced down the middle.",
+    "catchphrase": "FABER CONCRETE — FIVE INCHES, EVERY DRIVEWAY",
+    "phone": "(810) 360-7385",
+    "email": "",
+    "address": "22710 Haggerty Rd. Suite 100B",
+    "city": "Farmington Hills",
+    "state": "MI",
+    "zip": "48335",
+    "license": "",
+    "ownerName": "Matt Faber",
+    "ownerRole": "Owner",
+    "region": "Wayne, Oakland, Macomb, Washtenaw, and Livingston counties",
+    "trade": "concrete",
+    "tradeLabel": "Concrete contractor",
+    "schemaType": "GeneralContractor",
+    "slug": "faberconcrete",
+    "serviceNoun": "concrete",
+    "serviceType": "Concrete services",
+    "knowsAbout": [
+      "Concrete driveways",
+      "Driveway approaches",
+      "Concrete flatwork",
+      "Stamped concrete",
+      "Concrete pavers",
+      "5-inch concrete slabs",
+      "6-inch driveway approaches",
+      "21AA aggregate base"
+    ]
+  },
+  "brand": {
+    "palette": {
+      "deep": "#1c2328",
+      "surface": "#f4f5f4",
+      "panel": "#e7ebe8",
+      "panel2": "#d8dfda",
+      "border": "rgba(28, 35, 40, 0.12)",
+      "accent": "#c45c26",
+      "accent2": "#1c2328",
+      "accentHover": "#9a4518",
+      "gold": "#d4a24c",
+      "text": "#1c2328",
+      "muted": "#5c6560"
+    },
+    "fonts": {
+      "display": "Oswald",
+      "body": "Open Sans",
+      "stylesheet": "https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&family=Open%20Sans:wght@400;600&display=swap"
+    },
+    "logos": {
+      "wordmark": "https://faberconcrete.com/logo-wordmark.png",
+      "wordmarkLight": "https://faberconcrete.com/logo-wordmark-light.png",
+      "wordmarkDark": "https://faberconcrete.com/logo-wordmark.png",
+      "favicon": "https://faberconcrete.com/favicon.png",
+      "svg": "https://faberconcrete.com/logo.svg",
+      "ownerPlaceholder": "https://faberconcrete.com/placeholders/logo.svg"
+    }
+  },
+  "contact": {
+    "phone": "(810) 360-7385",
+    "phoneHref": "tel:8103607385",
+    "callLabel": "Call (810) 360-7385",
+    "email": null,
+    "address": {
+      "street": "22710 Haggerty Rd. Suite 100B",
+      "city": "Farmington Hills",
+      "state": "MI",
+      "zip": "48335",
+      "formatted": "22710 Haggerty Rd. Suite 100B, Farmington Hills, MI 48335"
+    },
+    "hours": [
+      {
+        "days": "Hours",
+        "time": "Call for hours"
+      }
+    ],
+    "hoursLine": "Call for hours",
+    "map": {
+      "lat": 42.4564467,
+      "lng": -83.4345146,
+      "zoom": 9,
+      "radiusMiles": 0,
+      "query": "22710 Haggerty Rd. Suite 100B, Farmington Hills, MI 48335",
+      "listingUrl": "https://www.google.com/maps?cid=2039319338774567315",
+      "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=42.4564467,-83.4345146",
+      "embedUrl": "https://www.google.com/maps?q=22710%20Haggerty%20Rd.%20Suite%20100B%2C%20Farmington%20Hills%2C%20MI%2048335&output=embed",
+      "openLabel": "Open in Google Maps →"
+    },
+    "google": {
+      "businessNameOnFile": "Faber Roof",
+      "category": "Concrete contractor in Farmington Hills, MI",
+      "rating": 5,
+      "count": 5,
+      "cid": "2039319338774567315",
+      "placeId": "ChIJHVmRna-vJIgRkxk-QyIeTRw",
+      "profileUrl": "https://www.google.com/maps?cid=2039319338774567315",
+      "syncedAt": "2026-10-23T11:37:59.367Z"
+    }
+  },
+  "seo": {
+    "title": "Concrete Driveways in Metro Detroit | Faber Concrete",
+    "description": "Faber Concrete pours five-inch driveways and six-inch approaches on compacted 21AA in Wayne, Oakland, Macomb, Washtenaw, and Livingston counties. Not the cheapest bid. Priced down the middle. April and May book first.",
+    "keywords": "Faber Concrete, concrete driveway, stamped concrete, Metro Detroit, 21AA"
+  },
+  "navigation": {
+    "servicesLabel": "Services",
+    "areasLabel": "Service Areas",
+    "links": [
+      {
+        "label": "All Services",
+        "href": "/#services"
+      },
+      {
+        "label": "Driveways",
+        "href": "/services/driveways"
+      },
+      {
+        "label": "Driveway approaches",
+        "href": "/services/approaches"
+      },
+      {
+        "label": "Flatwork",
+        "href": "/services/flatwork"
+      },
+      {
+        "label": "Stamped concrete and pavers",
+        "href": "/services/patios"
+      },
+      {
+        "label": "All Service Areas",
+        "href": "/areas"
+      },
+      {
+        "label": "Wayne County",
+        "href": "/areas/wayne-county"
+      },
+      {
+        "label": "Oakland County",
+        "href": "/areas/oakland-county"
+      },
+      {
+        "label": "Macomb County",
+        "href": "/areas/macomb-county"
+      },
+      {
+        "label": "Washtenaw County",
+        "href": "/areas/washtenaw-county"
+      },
+      {
+        "label": "Livingston County",
+        "href": "/areas/livingston-county"
+      },
+      {
+        "label": "About Us",
+        "href": "/about"
+      },
+      {
+        "label": "Reviews",
+        "href": "/#reviews"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact"
+      }
+    ],
+    "topBar": {
+      "location": "Farmington Hills, MI · Wayne, Oakland, Macomb, Washtenaw, and Livingston counties",
+      "emergency": "Site look first",
+      "financing": "Residential · Commercial",
+      "rating": 5,
+      "reviewCount": 5
+    }
+  },
+  "callsToAction": {
+    "primary": "Request an estimate",
+    "phone": "Call for an estimate",
+    "primaryHref": "/contact"
+  },
+  "homepage": {
+    "url": "https://faberconcrete.com/",
+    "title": "Concrete Driveways in Metro Detroit | Faber Concrete",
+    "description": "Faber Concrete pours five-inch driveways and six-inch approaches on compacted 21AA in Wayne, Oakland, Macomb, Washtenaw, and Livingston counties. Not the cheapest bid. Priced down the middle. April and May book first.",
+    "sections": [
+      {
+        "id": "hero",
+        "trustBadge": "Metro Detroit · Wayne, Oakland, Macomb, Washtenaw, and Livingston counties",
+        "headingLine1": "Five inches",
+        "headingLine2": "",
+        "headingAccent": "on every driveway",
+        "headline": "Five inches on every driveway.",
+        "subheading": "Driveways, approaches, flatwork, stamped concrete, and pavers. Never a four-inch slab. Six inches where the street meets the drive. Compacted 21AA under all of it. This site is only the concrete company.",
+        "benefits": [
+          {
+            "icon": "home",
+            "label": "5 in\nnever four"
+          },
+          {
+            "icon": "building",
+            "label": "6 in\non the approach"
+          },
+          {
+            "icon": "clipboard-list",
+            "label": "21AA\ncompacted base"
+          }
+        ],
+        "ctaCall": "Send the form",
+        "scheduleHref": "/contact",
+        "financingNote": "If you are looking for a cheap deal, we are not going to be it. Best quality bid, priced down the middle.",
+        "locationNote": "Wayne, Oakland, Macomb, Washtenaw, and Livingston counties",
+        "trustLine": "Finishers with more than 25 years on the tools",
+        "reviewCard": {
+          "rating": 0,
+          "count": "Google reviews",
+          "href": "/reviews"
+        },
+        "ownerNote": "Matt Faber owns Faber Concrete. He looks at the site, then writes the estimate and the contract. Send the form.",
+        "ownerCta": "Request an estimate",
+        "image": {
+          "url": "https://media.stokeleads.com/faberconcrete/concrete-crew-finishing-driveway.avif",
+          "alt": "A finisher troweling a fresh concrete driveway beside a stone garage. AI illustration, not a photo of a completed Faber Concrete job."
+        },
+        "owner": {
+          "name": "Matt Faber",
+          "role": "Owner",
+          "image": "https://faberconcrete.com/placeholders/logo.svg",
+          "alt": "Matt Faber, owner of Faber Concrete",
+          "note": "Matt Faber owns Faber Concrete. He looks at the site, then writes the estimate and the contract. Send the form.",
+          "cta": "Request an estimate"
+        }
+      },
+      {
+        "id": "trust",
+        "heading": "The same slab spec on every pour",
+        "badges": [
+          {
+            "type": "cert",
+            "label": "5 inches\nnever four",
+            "eyebrow": "Driveway",
+            "title": "Five inches",
+            "icon": "clipboard-list"
+          },
+          {
+            "type": "cert",
+            "label": "6 inches\non the approach",
+            "eyebrow": "Approach",
+            "title": "Six inches",
+            "icon": "road"
+          },
+          {
+            "type": "cert",
+            "label": "Compacted\n21AA",
+            "eyebrow": "Under the slab",
+            "title": "21AA base",
+            "icon": "layer-group"
+          },
+          {
+            "type": "cert",
+            "label": "Priced down\nthe middle",
+            "eyebrow": "The bid",
+            "title": "Best quality",
+            "icon": "tools"
+          }
+        ]
+      },
+      {
+        "id": "services",
+        "label": "Services",
+        "heading": "Driveways, approaches, flatwork, stamped concrete, and pavers",
+        "intro": "Concrete only, in Wayne, Oakland, Macomb, Washtenaw, and Livingston counties. Homes and commercial properties. Fewer companies know how to do this work, and a lot of the ones who do never advertise. That is the opening, and it only works if the slab stays a specialty.",
+        "items": [
+          {
+            "title": "Driveways",
+            "href": "/services/driveways",
+            "shortDescription": "Five inches on every driveway. Never four. A compacted 21AA base under the slab, and a finish from people who have been doing it for more than 25 years.",
+            "image": {
+              "url": "https://media.stokeleads.com/faberconcrete/faber-concrete-finished-driveway.avif",
+              "alt": "Driveways by Faber Concrete",
+              "file": "faber-concrete-finished-driveway.avif"
+            }
+          },
+          {
+            "title": "Driveway approaches",
+            "href": "/services/approaches",
+            "shortDescription": "Six inches where the street meets the drive. That is the section a heavy truck hits first, on the same compacted 21AA base as the rest of the slab.",
+            "image": {
+              "url": "https://media.stokeleads.com/faberconcrete/new-construction-stone-house.avif",
+              "alt": "Driveway approaches by Faber Concrete",
+              "file": "new-construction-stone-house.avif"
+            }
+          },
+          {
+            "title": "Flatwork",
+            "href": "/services/flatwork",
+            "shortDescription": "Pads, stoops, and other slabs poured to the driveway spec: five inches, six where it is an approach, compacted 21AA. Concrete is the company, not a side job.",
+            "image": {
+              "url": "https://media.stokeleads.com/faberconcrete/concrete-crew-finishing-driveway.avif",
+              "alt": "Flatwork by Faber Concrete",
+              "file": "concrete-crew-finishing-driveway.avif"
+            }
+          },
+          {
+            "title": "Stamped concrete and pavers",
+            "href": "/services/patios",
+            "shortDescription": "Stamped concrete and pavers for people who want a driveway or patio that looks finished, poured or set on the same standard: five inches, six on an approach, compacted 21AA.",
+            "image": {
+              "url": "https://media.stokeleads.com/faberconcrete/stamped-concrete-paving-closeup.avif",
+              "alt": "Stamped concrete and pavers by Faber Concrete",
+              "file": "stamped-concrete-paving-closeup.avif"
+            }
+          }
+        ]
+      },
+      {
+        "id": "why",
+        "label": "The slab",
+        "title": "Why the slab is thicker",
+        "items": [
+          {
+            "title": "Michigan cold",
+            "body": "The extra inch is on the whole driveway because this is a cold climate, not because a spec sheet said so. Freeze and thaw work on a four-inch slab. So does a 20-ton delivery truck coming in and out. The approach takes that hit first, which is why it is six inches, and the rest of the drive is still five."
+          },
+          {
+            "title": "The cheap inch",
+            "body": "Most contractors pour four inches. They skip the inch because it is cheaper, on the order of $600 to $700 on an average driveway. Matt's line for it is that they are tripping over dollars to pick up pennies. If you are looking for a cheap deal, Faber Concrete is not going to be it. The bid is the best quality one, priced down the middle, with a better finish."
+          },
+          {
+            "title": "What is under it",
+            "body": "We never pour over dirt. We also do not deliver sand, compact the sand, and call that a base. That shortcut saves a few hundred dollars, and sand and the soil under a slab can erode out from underneath. We take 21AA, grade the whole area, compact the whole area, and then pour. That is how it is supposed to be done, every time."
+          },
+          {
+            "title": "The crack you live with",
+            "body": "A thin slab does not always fail the year it is poured. It cracks enough that you hate the driveway long before you are ready to tear it out. The finishers have been finishing concrete for more than 25 years. The finish is what you see. The inches and the 21AA are what keep you from living with that crack early."
+          }
+        ]
+      },
+      {
+        "id": "process",
+        "label": "How it works",
+        "title": "From the call to a finished slab",
+        "subtitle": "We look at the site, write the spec, then grade and compact 21AA before a yard of concrete shows up.",
+        "meetMessage": "Send the address. Matt follows up with the next opening. The rest of this year is for finishing what is already booked. April and May fill first, and he will take a spring job.",
+        "steps": [
+          {
+            "title": "Send the form",
+            "meta": "The address",
+            "description": "Driveway, approach, flatwork, stamped concrete, or pavers, plus the address. Some ZIP codes in each county are outside the work. We say so after we see where it is."
+          },
+          {
+            "title": "Look at the site",
+            "meta": "Before a price",
+            "description": "Matt looks at the grade and the access before he prices anything. A number guessed from the curb is how a driveway gets poured too thin."
+          },
+          {
+            "title": "Written estimate",
+            "meta": "The spec",
+            "description": "Five inches on the driveway, every time. Six inches on the approach. 21AA graded and compacted under both. The price sits down the middle of a quality bid. If you want the cheap deal, he will tell you this is not it."
+          },
+          {
+            "title": "The contract",
+            "meta": "Before anyone forms",
+            "description": "He writes a contract, not only an estimate. Nothing is formed or poured until you approve it."
+          },
+          {
+            "title": "Grade, compact, pour",
+            "meta": "The job",
+            "description": "Grade the whole area, compact 21AA, form, then pour. Never over dirt. Never over sand alone. Finishers with more than 25 years put the finish on it."
+          }
+        ],
+        "meet": {
+          "name": "Matt Faber",
+          "role": "Owner",
+          "message": "Send the address. Matt follows up with the next opening. The rest of this year is for finishing what is already booked. April and May fill first, and he will take a spring job.",
+          "image": "https://faberconcrete.com/placeholders/logo.svg"
+        }
+      },
+      {
+        "id": "about",
+        "label": "About Us",
+        "quote": "“If you are looking for a cheap deal, we are not going to be it. We are going to be your best, highest quality bid.”",
+        "caption": "Matt Faber · Owner",
+        "ctaText": "Get a concrete estimate",
+        "ctaHref": "/contact",
+        "quoteAttribution": "Matt Faber",
+        "quoteRole": "Owner, Faber Concrete",
+        "homepageParagraphLimit": 4,
+        "paragraphs": [
+          "Matt Faber owns Faber Concrete. It is a separate company on purpose. A page that sells roofs and driveways together reads like a jack of all trades, and concrete is a specialty. Fewer companies even know how to do it, and a lot of the ones who do never advertise. This site is only the slab.",
+          "We never pour a four-inch driveway. Five inches, every time, no matter the driveway, and six inches on the approach. That is an inch more than what most contractors pour, on the driveway and again where it meets the street. They skip it because it is cheaper, on the order of $600 to $700 on an average driveway. Matt tells people, when he gives the estimate, that if they are looking for a cheap deal, this is not it. The bid is the highest quality one, priced down the middle, with a superior finish.",
+          "The extra inch is there because Michigan is cold, and because a 20-ton delivery truck uses a driveway. A thinner slab can crack enough that you hate it long before you are ready to replace it. That is the expensive failure. It is not always bad enough to tear out this year. It is bad enough that you live with a driveway you do not like.",
+          "Thickness does not save a slab on the wrong ground. We never pour over dirt. We never compact a layer of sand and call it a base. That sand shortcut saves a few hundred dollars, and the ground under the slab can erode out. We grade 21AA across the whole area, compact it, then form, then pour. The finishers have been finishing concrete for more than 25 years. After the site look, Matt writes a contract, not only an estimate."
+        ],
+        "image": "https://faberconcrete.com/placeholders/logo.svg",
+        "practice": [
+          "Five inches on the driveway, every time. Never four. Six inches on the approach.",
+          "The whole area is graded, then compacted 21AA, before forming and pouring. Never dirt. Never sand alone.",
+          "Finishers on these jobs have been finishing concrete for more than 25 years."
+        ]
+      },
+      {
+        "id": "team",
+        "label": "The team",
+        "title": "People who do the work",
+        "intro": "Matt looks at the site, writes the contract, and the finishers put the surface on a slab that was not thinned out to win the price.",
+        "members": [
+          {
+            "name": "Matt Faber",
+            "role": "Owner",
+            "headline": "Looks at the site, then writes the estimate and the contract.",
+            "bio": [
+              "Matt Faber runs Faber Concrete from Metro Detroit. He books April and May first, and he will take a spring job while the rest of this year is for finishing what is already on the books.",
+              "He prices the five-inch driveway, the six-inch approach, and the compacted 21AA, and he says so on the estimate. If the job is a cheap deal, he will tell you this company is not it."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "reviews",
+        "label": "Reviews",
+        "title": "Google reviews",
+        "titleLine2": "",
+        "subtitle": "5.0 from 5 Google reviews, shown as written.",
+        "bullets": [
+          "Concrete only",
+          "Five-inch driveways",
+          "Matt Faber, owner",
+          "Homes and commercial"
+        ],
+        "ctaText": "Read more reviews on Google",
+        "viewAllHref": "/reviews",
+        "viewAllText": "See all reviews",
+        "ratingLabel": "5.0",
+        "countLabel": "5 Google Reviews",
+        "viewOnGoogle": "View on Google",
+        "emptyState": "No Google reviews are published here yet."
+      },
+      {
+        "id": "work",
+        "label": "Illustrations",
+        "title": "Crews, driveways, and stamped patterns",
+        "intro": "The crew stills, the finished driveway, and the stamped patterns are AI illustrations. They are not photos of a completed Faber Concrete job. The new-construction approach is a field photo of a house still in scaffolding, not a named project."
+      },
+      {
+        "id": "service-areas",
+        "label": "Service Map",
+        "heading": "Areas We Serve",
+        "body": "Based in Metro Detroit. Homes and commercial properties in Wayne, Oakland, Macomb, Washtenaw, and Livingston counties. Some ZIP codes in each county are outside the work. Send the address.",
+        "country": "US",
+        "areas": [
+          {
+            "name": "Wayne County",
+            "href": "/areas/wayne-county"
+          },
+          {
+            "name": "Oakland County",
+            "href": "/areas/oakland-county"
+          },
+          {
+            "name": "Macomb County",
+            "href": "/areas/macomb-county"
+          },
+          {
+            "name": "Washtenaw County",
+            "href": "/areas/washtenaw-county"
+          },
+          {
+            "name": "Livingston County",
+            "href": "/areas/livingston-county"
+          }
+        ]
+      },
+      {
+        "id": "value-props",
+        "items": [
+          {
+            "icon": "layer-group",
+            "title": "21AA, compacted",
+            "description": "We grade the whole area and compact 21AA before we form. Never dirt. Never a load of sand called a base."
+          },
+          {
+            "icon": "ruler-combined",
+            "title": "Five inches, never four",
+            "description": "The extra inch is on the whole driveway. The approach is six. Skipping it is how the other bid saves on the order of $600 to $700."
+          },
+          {
+            "icon": "home",
+            "title": "Homes and commercial",
+            "description": "Driveways, approaches, flatwork, stamped concrete, and pavers. Residential and commercial, for people who want the thicker slab."
+          },
+          {
+            "icon": "map-marker-alt",
+            "title": "Five counties, not every ZIP",
+            "description": "Wayne, Oakland, Macomb, Washtenaw, and Livingston. Some ZIP codes in each county are outside the work. Send the address."
+          }
+        ]
+      },
+      {
+        "id": "offers",
+        "label": "Getting started",
+        "title": "Get a clear next step.",
+        "subtitle": "The rest of this year is for finishing what is already on the books. April and May are the months that get filled first.",
+        "offers": [
+          {
+            "slug": "site-estimate",
+            "title": "Site estimate",
+            "price": "Custom quote",
+            "hook": "A look at the site, then a written estimate and a contract.",
+            "includes": [
+              "Site visit before a price",
+              "Five inches, six on the approach",
+              "Compacted 21AA named on the estimate",
+              "A contract, not only a number"
+            ],
+            "ctaText": "Request an estimate",
+            "ctaHref": "/contact",
+            "icon": "clipboard-list",
+            "featured": true,
+            "financingAnchor": true
+          },
+          {
+            "slug": "spring-booking",
+            "title": "Spring booking",
+            "price": "Custom quote",
+            "hook": "April and May are the months Matt likes on the calendar next.",
+            "includes": [
+              "Spring window",
+              "Address and scope",
+              "Follow-up with the next opening",
+              "No pour until you approve the contract"
+            ],
+            "ctaText": "Hold a spring date",
+            "ctaHref": "/contact",
+            "icon": "calendar-alt"
+          },
+          {
+            "slug": "replacement",
+            "title": "Replacement",
+            "price": "Custom quote",
+            "hook": "The driveway you already hate, poured back at five inches.",
+            "includes": [
+              "Failed slab removed",
+              "Whole area graded",
+              "Compacted 21AA, not sand",
+              "Five inches, six on the approach"
+            ],
+            "ctaText": "Ask about replacement",
+            "ctaHref": "/contact",
+            "icon": "tools"
+          }
+        ]
+      },
+      {
+        "id": "faq",
+        "label": "Questions",
+        "heading": "What people ask before the pour",
+        "faqs": [
+          {
+            "q": "What concrete work do you take on?",
+            "a": "Driveways, approaches, flatwork, stamped concrete, and pavers. This site does not have a paver pattern board yet. It is a concrete company only. Roofing is a different company and is not sold from these pages."
+          },
+          {
+            "q": "How thick is the slab?",
+            "a": "Five inches on the driveway, every time. Never four. Six inches on the approach. Most contractors pour four and skip the inch because it is cheaper, on the order of $600 to $700 on an average driveway."
+          },
+          {
+            "q": "What goes under it?",
+            "a": "We grade the whole area and compact 21AA before we form and pour. We never pour over dirt. We do not compact sand and call it a base. That shortcut saves a few hundred dollars, and the ground under a slab can erode out."
+          },
+          {
+            "q": "Why not the cheaper bid?",
+            "a": "The cheaper bid is usually four inches, often on sand. If you are looking for a cheap deal, Faber Concrete is not going to be it. The price sits down the middle of a quality bid, with a better finish from people who have been finishing for more than 25 years."
+          },
+          {
+            "q": "Where do you work?",
+            "a": "Wayne, Oakland, Macomb, Washtenaw, and Livingston counties, homes and commercial properties. Matt takes some ZIP codes in each county, aimed at people who want this slab, not every address. Send the address. He does not publish the ZIP codes he skips."
+          },
+          {
+            "q": "Do you do stamped concrete and pavers?",
+            "a": "Yes. Stamped concrete and pavers are part of the work, for a driveway or patio that should look finished. A stamp still sits on five inches over compacted 21AA, six inches if it is an approach. The pattern photos on this site are AI illustrations, not completed jobs. Pavers do not have a pattern board here yet."
+          },
+          {
+            "q": "How do I get an estimate?",
+            "a": "Call (810) 360-7385 or send the form with the address. Matt looks at the site, then writes the estimate and the contract. April and May fill first. He will take a spring job."
+          },
+          {
+            "q": "Are the photos finished Faber jobs?",
+            "a": "The crew stills, finished driveway, and stamped patterns on this site are AI illustrations. They are not photos of a specific completed job. The new-construction approach is a field photo of a house still going up, not a named project."
+          }
+        ]
+      },
+      {
+        "id": "before-after",
+        "label": "Compare",
+        "enabled": false,
+        "title": "Before and after",
+        "intro": "Drag the slider to compare the job.",
+        "beforeImage": "https://faberconcrete.com/placeholders/hero.svg",
+        "afterImage": "https://faberconcrete.com/placeholders/hero.svg",
+        "beforeLabel": "Before",
+        "afterLabel": "After",
+        "displayed": false
+      },
+      {
+        "id": "cta",
+        "title": "April and May fill first",
+        "subtitle": "The rest of this year is for finishing what is already booked. He will take a spring job.",
+        "body": "Five inches on the driveway, six on the approach, compacted 21AA. A written contract after the site look. Nothing is poured until you approve it.",
+        "scheduleHref": "/contact",
+        "scheduleLabel": "Hold a spring date",
+        "scheduleSub": "Send the address",
+        "callSub": "Send the form"
+      }
+    ]
+  },
+  "services": [
+    {
+      "slug": "driveways",
+      "url": "https://faberconcrete.com/services/driveways",
+      "title": "Driveways",
+      "seoTitle": "Driveways | Faber Concrete in Farmington Hills, MI",
+      "seoDescription": "Five inches on every driveway. Never four. A compacted 21AA base under the slab, and a finish from people who have been doing it for more than 25 years. Call (810) 360-7385.",
+      "shortDescription": "Five inches on every driveway. Never four. A compacted 21AA base under the slab, and a finish from people who have been doing it for more than 25 years.",
+      "fullDescription": "Faber Concrete pours driveways at five inches, every time. Most contractors pour four. That missing inch is how a bid gets cheaper, on the order of $600 to $700 on an average driveway, and it is the inch a Michigan winter and a heavy delivery truck use up. We charge for the inch. The bid will not be the cheapest one. It is the highest-quality bid, priced down the middle, with a better finish.",
+      "highlights": [
+        "Five inches, never four",
+        "Six inches where it meets the street",
+        "Graded and compacted 21AA",
+        "Priced down the middle"
+      ],
+      "sections": [
+        {
+          "heading": "Five inches, not four",
+          "body": "We never pour a four-inch slab. Five inches, every time, no matter the driveway. Six inches on the approach, the section that takes the hit from the street. That is an inch more than what most contractors pour, on the driveway and again on the approach. They skip it because it is cheaper. Matt Faber puts it plainly: those crews are tripping over dollars to pick up pennies. If you are looking for a cheap deal, this is not it. That is what he tells people when he gives the estimate."
+        },
+        {
+          "heading": "Cold climate, heavy trucks",
+          "body": "Michigan is why the extra inch is on the whole driveway, not a patch in the middle. Freeze and thaw work on a thin slab. So does traffic the old four-inch rule never really planned for. Picture a 20-ton delivery truck rolling in and out of the driveway. The approach takes that load first, which is why it is six inches, and the rest of the drive is still five. A thinner slab can crack enough that you hate the driveway long before you are ready to tear it out. The extra inch is there so that does not start early."
+        },
+        {
+          "heading": "What is under the driveway",
+          "body": "Thickness does not save a slab sitting on the wrong ground. We never pour over dirt. We also do not deliver a load of sand, compact the sand, and call it a base. A lot of bids save a few hundred dollars that way. Sand and the soil under a slab can erode out from underneath. We take 21AA, grade the whole area, compact the whole area, and then pour five inches over it. Six on the approach. That is the order, every time. That is the way it is supposed to be done."
+        },
+        {
+          "heading": "The finish you live with",
+          "body": "The finishers have been finishing concrete for more than 25 years. The finish is the surface you actually see on day one, sitting on a body of concrete that was not thinned out to win the price. You get a written contract after we look at the site, not a number guessed from the curb."
+        },
+        {
+          "heading": "Concrete contractor across Wayne, Oakland, Macomb, Washtenaw, and Livingston counties",
+          "body": "Faber Concrete serves Farmington Hills and Wayne, Oakland, Macomb, Washtenaw, and Livingston counties. Call (810) 360-7385."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Why not a four-inch driveway?",
+          "a": "Four inches is how a bid gets cheaper, on the order of $600 to $700 on an average driveway. Michigan cold and a heavy delivery truck work on that thin slab. Faber Concrete pours five inches on the driveway and six on the approach."
+        },
+        {
+          "q": "Where do you work?",
+          "a": "Wayne, Oakland, Macomb, Washtenaw, and Livingston counties, homes and commercial properties. Matt takes some ZIP codes in each county, aimed at people who want this slab, not every address. Send the address. He does not publish the ZIP codes he skips."
+        }
+      ],
+      "pageChrome": {
+        "breadcrumb": "All Services",
+        "aboutHeading": "About This Service",
+        "includedHeading": "What's Included",
+        "methodHeading": "How the slab goes in",
+        "methodImage": {
+          "url": "https://media.stokeleads.com/faberconcrete/faber-concrete-methodology-infographic.avif",
+          "alt": "Illustration of the Faber Concrete method: grade the area, compact 21AA, pour five inches, six inches on the approach. Not a photo of a completed job.",
+          "caption": "Grade, compacted 21AA, five inches on the driveway, six on the approach. Illustration, not a photo of a completed Faber Concrete job."
+        },
+        "galleryHeading": "Service Gallery",
+        "areasHeading": "Areas We Serve",
+        "areasIntro": "Faber Concrete works in Wayne, Oakland, Macomb, Washtenaw, and Livingston counties, for homes and commercial properties. Matt takes some ZIP codes in each county, aimed at people who want the thicker slab. He does not publish the ones he skips. Send the address and ask.",
+        "faqHeading": "Frequently Asked Questions",
+        "sidebarTitle": "Request an estimate",
+        "sidebarBody": "Call (810) 360-7385 or send the address. Matt Faber looks at the site, then writes the estimate and the contract. April and May are the months that get filled first.",
+        "hoursHeading": "Business Hours",
+        "otherServicesHeading": "Other Services",
+        "seeServiceLabel": "See this service →"
+      },
+      "heroImage": {
+        "url": "https://media.stokeleads.com/faberconcrete/faber-concrete-finished-driveway.avif",
+        "alt": "Driveways by Faber Concrete",
+        "file": "faber-concrete-finished-driveway.avif"
+      },
+      "gallery": [
+        {
+          "url": "https://media.stokeleads.com/faberconcrete/media-generation-faber-concrete-video2-still-a-0-42c077c0-9e28-442e-9c52-86bfc60788a1.avif",
+          "alt": "Three finishers placing concrete in driveway forms. AI illustration, not a photo of a completed Faber Concrete job.",
+          "file": "media-generation-faber-concrete-video2-still-a-0-42c077c0-9e28-442e-9c52-86bfc60788a1.avif"
+        },
+        {
+          "url": "https://media.stokeleads.com/faberconcrete/media-generation-faber-concrete-video2-still-b-0-38739a68-2567-4789-b4c4-abcc5a78a39f.avif",
+          "alt": "A person standing on a new driveway, looking toward the street. AI illustration, not a photo of a completed Faber Concrete job.",
+          "file": "media-generation-faber-concrete-video2-still-b-0-38739a68-2567-4789-b4c4-abcc5a78a39f.avif"
+        }
+      ]
+    },
+    {
+      "slug": "approaches",
+      "url": "https://faberconcrete.com/services/approaches",
+      "title": "Driveway approaches",
+      "seoTitle": "Driveway approaches | Faber Concrete in Farmington Hills, MI",
+      "seoDescription": "Six inches where the street meets the drive. That is the section a heavy truck hits first, on the same compacted 21AA base as the rest of the slab. Call (810) 360-7385.",
+      "shortDescription": "Six inches where the street meets the drive. That is the section a heavy truck hits first, on the same compacted 21AA base as the rest of the slab.",
+      "fullDescription": "The approach is not the same pour as the rest of the driveway. Faber Concrete makes it six inches. The driveway behind it is five. Both sit on 21AA that has been graded and compacted before anyone sets a form. Most contractors pour four inches and treat the apron as an afterthought.",
+      "highlights": [
+        "Six inches at the street",
+        "Five inches on the drive behind it",
+        "Built for a heavy delivery truck",
+        "Same compacted 21AA base"
+      ],
+      "sections": [
+        {
+          "heading": "The approach is its own thickness",
+          "body": "The approach is where the street meets the driveway. It takes the first hit from a 20-ton delivery truck coming in and out, and it takes the weather at the curb. We pour six inches there. An extra inch on the approach, on top of the extra inch already on the driveway, is what you want in a Michigan cold climate. We do not pour the apron at four inches to make the number look smaller."
+        },
+        {
+          "heading": "Same base as the driveway",
+          "body": "A thicker approach on sand or dirt still fails. We grade 21AA across the whole area, compact it, then form, then pour. We never pour over dirt. We never compact a layer of sand and call that the base. The shortcut on the other bid is familiar, and it saves a few hundred dollars. It also leaves a slab that can have the ground erode out from under it."
+        },
+        {
+          "heading": "New construction and replacements",
+          "body": "A new house still needs the apron thought through before the first truck uses it. A failed approach on an older drive is often the piece that goes first, because that is where the weight lands. Tell us whether you want the approach with the driveway or the approach on its own. The thickness is written down either way: six inches there."
+        },
+        {
+          "heading": "Concrete contractor across Wayne, Oakland, Macomb, Washtenaw, and Livingston counties",
+          "body": "Faber Concrete serves Farmington Hills and Wayne, Oakland, Macomb, Washtenaw, and Livingston counties. Call (810) 360-7385."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Is the approach included with a driveway?",
+          "a": "When we pour the driveway, the approach is part of the spec. Six inches at the street, five inches on the rest, both on compacted 21AA. If you only need the apron, say so on the form and we will price that section."
+        },
+        {
+          "q": "Where do you work?",
+          "a": "Wayne, Oakland, Macomb, Washtenaw, and Livingston counties, homes and commercial properties. Matt takes some ZIP codes in each county, aimed at people who want this slab, not every address. Send the address. He does not publish the ZIP codes he skips."
+        }
+      ],
+      "pageChrome": {
+        "breadcrumb": "All Services",
+        "aboutHeading": "About This Service",
+        "includedHeading": "What's Included",
+        "methodHeading": "How the slab goes in",
+        "methodImage": {
+          "url": "https://media.stokeleads.com/faberconcrete/faber-concrete-methodology-infographic.avif",
+          "alt": "Illustration of the Faber Concrete method: grade the area, compact 21AA, pour five inches, six inches on the approach. Not a photo of a completed job.",
+          "caption": "Grade, compacted 21AA, five inches on the driveway, six on the approach. Illustration, not a photo of a completed Faber Concrete job."
+        },
+        "galleryHeading": "Service Gallery",
+        "areasHeading": "Areas We Serve",
+        "areasIntro": "Faber Concrete works in Wayne, Oakland, Macomb, Washtenaw, and Livingston counties, for homes and commercial properties. Matt takes some ZIP codes in each county, aimed at people who want the thicker slab. He does not publish the ones he skips. Send the address and ask.",
+        "faqHeading": "Frequently Asked Questions",
+        "sidebarTitle": "Request an estimate",
+        "sidebarBody": "Call (810) 360-7385 or send the address. Matt Faber looks at the site, then writes the estimate and the contract. April and May are the months that get filled first.",
+        "hoursHeading": "Business Hours",
+        "otherServicesHeading": "Other Services",
+        "seeServiceLabel": "See this service →"
+      },
+      "heroImage": {
+        "url": "https://media.stokeleads.com/faberconcrete/new-construction-stone-house.avif",
+        "alt": "Driveway approaches by Faber Concrete",
+        "file": "new-construction-stone-house.avif"
+      },
+      "gallery": [
+        {
+          "url": "https://media.stokeleads.com/faberconcrete/media-generation-faber-concrete-video2-still-c-0-083b9d97-5947-4a2c-8a5e-d6326287d03f.avif",
+          "alt": "Two finishers working a driveway apron at the street, one with a long float and one with a hand trowel. AI illustration, not a photo of a completed Faber Concrete job.",
+          "file": "media-generation-faber-concrete-video2-still-c-0-083b9d97-5947-4a2c-8a5e-d6326287d03f.avif"
+        }
+      ]
+    },
+    {
+      "slug": "flatwork",
+      "url": "https://faberconcrete.com/services/flatwork",
+      "title": "Flatwork",
+      "seoTitle": "Flatwork | Faber Concrete in Farmington Hills, MI",
+      "seoDescription": "Pads, stoops, and other slabs poured to the driveway spec: five inches, six where it is an approach, compacted 21AA. Concrete is the company, not a side job. Call (810) 360-7385.",
+      "shortDescription": "Pads, stoops, and other slabs poured to the driveway spec: five inches, six where it is an approach, compacted 21AA. Concrete is the company, not a side job.",
+      "fullDescription": "Faber Concrete is a concrete company. Flatwork gets the same rules as a driveway. We never pour four inches to win the bid. There are not as many crews who actually know how to do concrete, and a lot of the ones who do never advertise. We stay a specialist so the slab does not look like a jack-of-all-trades add-on.",
+      "highlights": [
+        "Same five-inch spec",
+        "Six inches on an approach",
+        "Compacted 21AA, never dirt",
+        "A concrete company, not a side trade"
+      ],
+      "sections": [
+        {
+          "heading": "The same rules as a driveway",
+          "body": "A pad, a stoop, or another flat slab is not a place to thin the concrete out. We pour five inches. If the section is an approach, it is six. Under it is 21AA, graded across the whole area and compacted before forming and before the pour. We never pour over dirt, and we do not compact sand and call it a base. The finishers have been finishing for more than 25 years. The finish is part of what you are paying for, on a slab that was not cut back to look cheaper."
+        },
+        {
+          "heading": "Why this is its own company",
+          "body": "Matt wanted concrete kept separate on purpose. A page that sells roofs and driveways together reads like a jack of all trades. This site is only the slab. Concrete is less crowded than a lot of other trades. Fewer companies even know how to do it, and a lot of them do not advertise. That is the opening, and it only works if the work stays a specialty."
+        },
+        {
+          "heading": "Priced down the middle",
+          "body": "The extra inch and the 21AA cost more than four inches over compacted sand. We charge the customer for that. The bid will not be the cheapest number on the sheet, and it will not be an outrageous one either. Highest quality, priced down the middle, with a superior finish. If you want the cheap deal, we are not going to be it."
+        },
+        {
+          "heading": "Concrete contractor across Wayne, Oakland, Macomb, Washtenaw, and Livingston counties",
+          "body": "Faber Concrete serves Farmington Hills and Wayne, Oakland, Macomb, Washtenaw, and Livingston counties. Call (810) 360-7385."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Is flatwork poured thinner than a driveway?",
+          "a": "No. Five inches, every time, unless the section is an approach. Approaches are six. The base is compacted 21AA either way."
+        },
+        {
+          "q": "Where do you work?",
+          "a": "Wayne, Oakland, Macomb, Washtenaw, and Livingston counties, homes and commercial properties. Matt takes some ZIP codes in each county, aimed at people who want this slab, not every address. Send the address. He does not publish the ZIP codes he skips."
+        }
+      ],
+      "pageChrome": {
+        "breadcrumb": "All Services",
+        "aboutHeading": "About This Service",
+        "includedHeading": "What's Included",
+        "methodHeading": "How the slab goes in",
+        "methodImage": {
+          "url": "https://media.stokeleads.com/faberconcrete/faber-concrete-methodology-infographic.avif",
+          "alt": "Illustration of the Faber Concrete method: grade the area, compact 21AA, pour five inches, six inches on the approach. Not a photo of a completed job.",
+          "caption": "Grade, compacted 21AA, five inches on the driveway, six on the approach. Illustration, not a photo of a completed Faber Concrete job."
+        },
+        "galleryHeading": "Service Gallery",
+        "areasHeading": "Areas We Serve",
+        "areasIntro": "Faber Concrete works in Wayne, Oakland, Macomb, Washtenaw, and Livingston counties, for homes and commercial properties. Matt takes some ZIP codes in each county, aimed at people who want the thicker slab. He does not publish the ones he skips. Send the address and ask.",
+        "faqHeading": "Frequently Asked Questions",
+        "sidebarTitle": "Request an estimate",
+        "sidebarBody": "Call (810) 360-7385 or send the address. Matt Faber looks at the site, then writes the estimate and the contract. April and May are the months that get filled first.",
+        "hoursHeading": "Business Hours",
+        "otherServicesHeading": "Other Services",
+        "seeServiceLabel": "See this service →"
+      },
+      "heroImage": {
+        "url": "https://media.stokeleads.com/faberconcrete/concrete-crew-finishing-driveway.avif",
+        "alt": "Flatwork by Faber Concrete",
+        "file": "concrete-crew-finishing-driveway.avif"
+      },
+      "gallery": []
+    },
+    {
+      "slug": "patios",
+      "url": "https://faberconcrete.com/services/patios",
+      "title": "Stamped concrete and pavers",
+      "seoTitle": "Stamped concrete and pavers | Faber Concrete in Farmington Hills, MI",
+      "seoDescription": "Stamped concrete and pavers for people who want a driveway or patio that looks finished, poured or set on the same standard: five inches, six on an approach, compacted 21AA. Call (810) 360-7385.",
+      "shortDescription": "Stamped concrete and pavers for people who want a driveway or patio that looks finished, poured or set on the same standard: five inches, six on an approach, compacted 21AA.",
+      "fullDescription": "Faber Concrete does stamped concrete and pavers, aimed at homeowners and commercial properties that want the nicer surface, not the cheapest slab. The stamp or the paver is the finish. The body under a stamped pour is still five inches over compacted 21AA, six inches on an approach. The pattern close-ups on this site are illustrations, not photos of a finished Faber job.",
+      "highlights": [
+        "Stamped concrete",
+        "Pavers",
+        "Same five-inch slab under a stamp",
+        "Illustrations, not a job list"
+      ],
+      "sections": [
+        {
+          "heading": "The pattern sits on the same slab",
+          "body": "A stamp does not make a thin slab a good one. We pour five inches, every time, and six on the approach, then stamp the pattern. Under it is 21AA that has been graded and compacted. We never pour the decorative surface over dirt or over sand alone. The finishers have been finishing for more than 25 years, and the finish is the part you live with. Pavers are part of the work too, for a driveway or a patio that should not be a broom finish."
+        },
+        {
+          "heading": "What the pictures are",
+          "body": "The close-ups show irregular stone and large tile in grey slate, warm limestone, cream travertine, and charcoal. They are AI illustrations so you can see pattern and color. They are not photos of a completed Faber Concrete job, and they are not a promise that every pattern is in stock. Pavers do not have a pattern board on this site yet. Tell us what you want and we will say what we can do after we see the site."
+        },
+        {
+          "heading": "Who this is for",
+          "body": "Stamped concrete and pavers are for people who want the driveway or patio to look like it was done on purpose. The price sits down the middle of a quality bid, not at the bottom. Some ZIP codes in Wayne, Oakland, Macomb, Washtenaw, and Livingston counties are outside the work we take. Send the address. We do not publish a list of the ones we skip."
+        },
+        {
+          "heading": "Concrete contractor across Wayne, Oakland, Macomb, Washtenaw, and Livingston counties",
+          "body": "Faber Concrete serves Farmington Hills and Wayne, Oakland, Macomb, Washtenaw, and Livingston counties. Call (810) 360-7385."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Are the pattern photos your jobs?",
+          "a": "No. They are AI illustrations of pattern and color. They are not photos of a completed Faber Concrete job. A real job photo goes up after it is uploaded from the field."
+        },
+        {
+          "q": "Where do you work?",
+          "a": "Wayne, Oakland, Macomb, Washtenaw, and Livingston counties, homes and commercial properties. Matt takes some ZIP codes in each county, aimed at people who want this slab, not every address. Send the address. He does not publish the ZIP codes he skips."
+        }
+      ],
+      "pageChrome": {
+        "breadcrumb": "All Services",
+        "aboutHeading": "About This Service",
+        "includedHeading": "What's Included",
+        "methodHeading": "How the slab goes in",
+        "methodImage": {
+          "url": "https://media.stokeleads.com/faberconcrete/faber-concrete-methodology-infographic.avif",
+          "alt": "Illustration of the Faber Concrete method: grade the area, compact 21AA, pour five inches, six inches on the approach. Not a photo of a completed job.",
+          "caption": "Grade, compacted 21AA, five inches on the driveway, six on the approach. Illustration, not a photo of a completed Faber Concrete job."
+        },
+        "galleryHeading": "Service Gallery",
+        "areasHeading": "Areas We Serve",
+        "areasIntro": "Faber Concrete works in Wayne, Oakland, Macomb, Washtenaw, and Livingston counties, for homes and commercial properties. Matt takes some ZIP codes in each county, aimed at people who want the thicker slab. He does not publish the ones he skips. Send the address and ask.",
+        "faqHeading": "Frequently Asked Questions",
+        "sidebarTitle": "Request an estimate",
+        "sidebarBody": "Call (810) 360-7385 or send the address. Matt Faber looks at the site, then writes the estimate and the contract. April and May are the months that get filled first.",
+        "hoursHeading": "Business Hours",
+        "otherServicesHeading": "Other Services",
+        "seeServiceLabel": "See this service →"
+      },
+      "heroImage": {
+        "url": "https://media.stokeleads.com/faberconcrete/stamped-concrete-paving-closeup.avif",
+        "alt": "Stamped concrete and pavers by Faber Concrete",
+        "file": "stamped-concrete-paving-closeup.avif"
+      },
+      "gallery": [
+        {
+          "url": "https://media.stokeleads.com/faberconcrete/faber-concrete-large-tile-grey.avif",
+          "alt": "Stamped concrete and pavers by Faber Concrete",
+          "file": "faber-concrete-large-tile-grey.avif"
+        },
+        {
+          "url": "https://media.stokeleads.com/faberconcrete/faber-concrete-large-lime-tile.avif",
+          "alt": "Stamped concrete and pavers by Faber Concrete",
+          "file": "faber-concrete-large-lime-tile.avif"
+        },
+        {
+          "url": "https://media.stokeleads.com/faberconcrete/faber-concrete-large-tile.avif",
+          "alt": "Stamped concrete and pavers by Faber Concrete",
+          "file": "faber-concrete-large-tile.avif"
+        },
+        {
+          "url": "https://media.stokeleads.com/faberconcrete/faber-concrete-large-charcoal-tile.avif",
+          "alt": "Stamped concrete and pavers by Faber Concrete",
+          "file": "faber-concrete-large-charcoal-tile.avif"
+        }
+      ]
+    }
+  ],
+  "serviceAreas": {
+    "index": {
+      "url": "https://faberconcrete.com/areas",
+      "title": "Service Areas | Faber Concrete",
+      "description": "Faber Concrete serves Wayne, Oakland, Macomb, Washtenaw, and Livingston counties. Send the address to ask about your ZIP code.",
+      "intro": "Faber Concrete works in Wayne, Oakland, Macomb, Washtenaw, and Livingston counties, for homes and commercial properties. Matt takes some ZIP codes in each county, aimed at people who want the thicker slab. He does not publish the ones he skips. Send the address and ask."
+    },
+    "areas": [
+      {
+        "slug": "wayne-county",
+        "url": "https://faberconcrete.com/areas/wayne-county",
+        "name": "Wayne County",
+        "county": "Wayne",
+        "state": "MI",
+        "eyebrow": "Concrete contractor · Service area",
+        "seoTitle": "Concrete contractor in Wayne County | Faber Concrete",
+        "headline": "Concrete contractor in Wayne County",
+        "intro": "Driveways, approaches, flatwork, stamped concrete, and pavers in Wayne County. Faber Concrete takes some ZIP codes in the county, not every address. The work is for homes and commercial properties that want the thicker slab.",
+        "body": "This site is only the concrete company. If the address fits, the driveway is five inches, never four, and the approach is six. Under it is 21AA, graded across the whole area and compacted before anyone forms or pours. We never pour over dirt, and we do not compact sand and call it a base. Skipping that inch saves the other crew on the order of $600 to $700 on an average driveway. A sand base saves a few hundred dollars. Both of those shortcuts are how a bid gets cheaper, and both of them are how a Michigan driveway starts to crack before you are ready to replace it. If you are looking for a cheap deal, this is not it. The bid is the best quality one, priced down the middle.",
+        "homeownersHeading": "What Wayne County homeowners get with Faber Concrete",
+        "highlights": [
+          "Five-inch driveways",
+          "Six-inch approaches",
+          "Compacted 21AA",
+          "Stamped concrete"
+        ],
+        "servicesNote": "driveways, approaches, flatwork, and stamped concrete in Wayne County.",
+        "servicesHeading": "Services in Wayne County",
+        "faqHeading": "Frequently asked questions",
+        "nearbyHeading": "Nearby areas",
+        "nearbyNote": "Wayne County & nearby",
+        "fullMapLabel": "Full service map",
+        "faqs": [
+          {
+            "q": "Do you work in Wayne County?",
+            "a": "Some ZIP codes in Wayne County, not the whole county. The carve-out is about who wants this kind of slab, not a published list of cities. Send the address and ask before you assume the job is in or out."
+          },
+          {
+            "q": "How do I get an estimate in Wayne County?",
+            "a": "Call (810) 360-7385 or send the form with the address and what you want poured. Matt looks at the site, then writes the estimate and the contract. April and May fill first."
+          },
+          {
+            "q": "What is different about a Faber Concrete driveway in Wayne County?",
+            "a": "Five inches on the driveway, six on the approach, compacted 21AA under both. Never four inches, never dirt, never sand alone. Finishers with more than 25 years. Priced down the middle, not at the bottom."
+          }
+        ]
+      },
+      {
+        "slug": "oakland-county",
+        "url": "https://faberconcrete.com/areas/oakland-county",
+        "name": "Oakland County",
+        "county": "Oakland",
+        "state": "MI",
+        "eyebrow": "Concrete contractor · Service area",
+        "seoTitle": "Concrete contractor in Oakland County | Faber Concrete",
+        "headline": "Concrete contractor in Oakland County",
+        "intro": "Driveways, approaches, flatwork, stamped concrete, and pavers in Oakland County. Faber Concrete takes some ZIP codes in the county, not every address. The work is for homes and commercial properties that want the thicker slab.",
+        "body": "This site is only the concrete company. If the address fits, the driveway is five inches, never four, and the approach is six. Under it is 21AA, graded across the whole area and compacted before anyone forms or pours. We never pour over dirt, and we do not compact sand and call it a base. Skipping that inch saves the other crew on the order of $600 to $700 on an average driveway. A sand base saves a few hundred dollars. Both of those shortcuts are how a bid gets cheaper, and both of them are how a Michigan driveway starts to crack before you are ready to replace it. If you are looking for a cheap deal, this is not it. The bid is the best quality one, priced down the middle.",
+        "homeownersHeading": "What Oakland County homeowners get with Faber Concrete",
+        "highlights": [
+          "Five-inch driveways",
+          "Six-inch approaches",
+          "Compacted 21AA",
+          "Stamped concrete"
+        ],
+        "servicesNote": "driveways, approaches, flatwork, and stamped concrete in Oakland County.",
+        "servicesHeading": "Services in Oakland County",
+        "faqHeading": "Frequently asked questions",
+        "nearbyHeading": "Nearby areas",
+        "nearbyNote": "Oakland County & nearby",
+        "fullMapLabel": "Full service map",
+        "faqs": [
+          {
+            "q": "Do you work in Oakland County?",
+            "a": "Some ZIP codes in Oakland County, not the whole county. The carve-out is about who wants this kind of slab, not a published list of cities. Send the address and ask before you assume the job is in or out."
+          },
+          {
+            "q": "How do I get an estimate in Oakland County?",
+            "a": "Call (810) 360-7385 or send the form with the address and what you want poured. Matt looks at the site, then writes the estimate and the contract. April and May fill first."
+          },
+          {
+            "q": "What is different about a Faber Concrete driveway in Oakland County?",
+            "a": "Five inches on the driveway, six on the approach, compacted 21AA under both. Never four inches, never dirt, never sand alone. Finishers with more than 25 years. Priced down the middle, not at the bottom."
+          }
+        ]
+      },
+      {
+        "slug": "macomb-county",
+        "url": "https://faberconcrete.com/areas/macomb-county",
+        "name": "Macomb County",
+        "county": "Macomb",
+        "state": "MI",
+        "eyebrow": "Concrete contractor · Service area",
+        "seoTitle": "Concrete contractor in Macomb County | Faber Concrete",
+        "headline": "Concrete contractor in Macomb County",
+        "intro": "Driveways, approaches, flatwork, stamped concrete, and pavers in Macomb County. Faber Concrete takes some ZIP codes in the county, not every address. The work is for homes and commercial properties that want the thicker slab.",
+        "body": "This site is only the concrete company. If the address fits, the driveway is five inches, never four, and the approach is six. Under it is 21AA, graded across the whole area and compacted before anyone forms or pours. We never pour over dirt, and we do not compact sand and call it a base. Skipping that inch saves the other crew on the order of $600 to $700 on an average driveway. A sand base saves a few hundred dollars. Both of those shortcuts are how a bid gets cheaper, and both of them are how a Michigan driveway starts to crack before you are ready to replace it. If you are looking for a cheap deal, this is not it. The bid is the best quality one, priced down the middle.",
+        "homeownersHeading": "What Macomb County homeowners get with Faber Concrete",
+        "highlights": [
+          "Five-inch driveways",
+          "Six-inch approaches",
+          "Compacted 21AA",
+          "Stamped concrete"
+        ],
+        "servicesNote": "driveways, approaches, flatwork, and stamped concrete in Macomb County.",
+        "servicesHeading": "Services in Macomb County",
+        "faqHeading": "Frequently asked questions",
+        "nearbyHeading": "Nearby areas",
+        "nearbyNote": "Macomb County & nearby",
+        "fullMapLabel": "Full service map",
+        "faqs": [
+          {
+            "q": "Do you work in Macomb County?",
+            "a": "Some ZIP codes in Macomb County, not the whole county. The carve-out is about who wants this kind of slab, not a published list of cities. Send the address and ask before you assume the job is in or out."
+          },
+          {
+            "q": "How do I get an estimate in Macomb County?",
+            "a": "Call (810) 360-7385 or send the form with the address and what you want poured. Matt looks at the site, then writes the estimate and the contract. April and May fill first."
+          },
+          {
+            "q": "What is different about a Faber Concrete driveway in Macomb County?",
+            "a": "Five inches on the driveway, six on the approach, compacted 21AA under both. Never four inches, never dirt, never sand alone. Finishers with more than 25 years. Priced down the middle, not at the bottom."
+          }
+        ]
+      },
+      {
+        "slug": "washtenaw-county",
+        "url": "https://faberconcrete.com/areas/washtenaw-county",
+        "name": "Washtenaw County",
+        "county": "Washtenaw",
+        "state": "MI",
+        "eyebrow": "Concrete contractor · Service area",
+        "seoTitle": "Concrete contractor in Washtenaw County | Faber Concrete",
+        "headline": "Concrete contractor in Washtenaw County",
+        "intro": "Driveways, approaches, flatwork, stamped concrete, and pavers in Washtenaw County. Faber Concrete takes some ZIP codes in the county, not every address. The work is for homes and commercial properties that want the thicker slab.",
+        "body": "This site is only the concrete company. If the address fits, the driveway is five inches, never four, and the approach is six. Under it is 21AA, graded across the whole area and compacted before anyone forms or pours. We never pour over dirt, and we do not compact sand and call it a base. Skipping that inch saves the other crew on the order of $600 to $700 on an average driveway. A sand base saves a few hundred dollars. Both of those shortcuts are how a bid gets cheaper, and both of them are how a Michigan driveway starts to crack before you are ready to replace it. If you are looking for a cheap deal, this is not it. The bid is the best quality one, priced down the middle.",
+        "homeownersHeading": "What Washtenaw County homeowners get with Faber Concrete",
+        "highlights": [
+          "Five-inch driveways",
+          "Six-inch approaches",
+          "Compacted 21AA",
+          "Stamped concrete"
+        ],
+        "servicesNote": "driveways, approaches, flatwork, and stamped concrete in Washtenaw County.",
+        "servicesHeading": "Services in Washtenaw County",
+        "faqHeading": "Frequently asked questions",
+        "nearbyHeading": "Nearby areas",
+        "nearbyNote": "Washtenaw County & nearby",
+        "fullMapLabel": "Full service map",
+        "faqs": [
+          {
+            "q": "Do you work in Washtenaw County?",
+            "a": "Some ZIP codes in Washtenaw County, not the whole county. The carve-out is about who wants this kind of slab, not a published list of cities. Send the address and ask before you assume the job is in or out."
+          },
+          {
+            "q": "How do I get an estimate in Washtenaw County?",
+            "a": "Call (810) 360-7385 or send the form with the address and what you want poured. Matt looks at the site, then writes the estimate and the contract. April and May fill first."
+          },
+          {
+            "q": "What is different about a Faber Concrete driveway in Washtenaw County?",
+            "a": "Five inches on the driveway, six on the approach, compacted 21AA under both. Never four inches, never dirt, never sand alone. Finishers with more than 25 years. Priced down the middle, not at the bottom."
+          }
+        ]
+      },
+      {
+        "slug": "livingston-county",
+        "url": "https://faberconcrete.com/areas/livingston-county",
+        "name": "Livingston County",
+        "county": "Livingston",
+        "state": "MI",
+        "eyebrow": "Concrete contractor · Service area",
+        "seoTitle": "Concrete contractor in Livingston County | Faber Concrete",
+        "headline": "Concrete contractor in Livingston County",
+        "intro": "Driveways, approaches, flatwork, stamped concrete, and pavers in Livingston County. Faber Concrete takes some ZIP codes in the county, not every address. The work is for homes and commercial properties that want the thicker slab.",
+        "body": "This site is only the concrete company. If the address fits, the driveway is five inches, never four, and the approach is six. Under it is 21AA, graded across the whole area and compacted before anyone forms or pours. We never pour over dirt, and we do not compact sand and call it a base. Skipping that inch saves the other crew on the order of $600 to $700 on an average driveway. A sand base saves a few hundred dollars. Both of those shortcuts are how a bid gets cheaper, and both of them are how a Michigan driveway starts to crack before you are ready to replace it. If you are looking for a cheap deal, this is not it. The bid is the best quality one, priced down the middle.",
+        "homeownersHeading": "What Livingston County homeowners get with Faber Concrete",
+        "highlights": [
+          "Five-inch driveways",
+          "Six-inch approaches",
+          "Compacted 21AA",
+          "Stamped concrete"
+        ],
+        "servicesNote": "driveways, approaches, flatwork, and stamped concrete in Livingston County.",
+        "servicesHeading": "Services in Livingston County",
+        "faqHeading": "Frequently asked questions",
+        "nearbyHeading": "Nearby areas",
+        "nearbyNote": "Livingston County & nearby",
+        "fullMapLabel": "Full service map",
+        "faqs": [
+          {
+            "q": "Do you work in Livingston County?",
+            "a": "Some ZIP codes in Livingston County, not the whole county. The carve-out is about who wants this kind of slab, not a published list of cities. Send the address and ask before you assume the job is in or out."
+          },
+          {
+            "q": "How do I get an estimate in Livingston County?",
+            "a": "Call (810) 360-7385 or send the form with the address and what you want poured. Matt looks at the site, then writes the estimate and the contract. April and May fill first."
+          },
+          {
+            "q": "What is different about a Faber Concrete driveway in Livingston County?",
+            "a": "Five inches on the driveway, six on the approach, compacted 21AA under both. Never four inches, never dirt, never sand alone. Finishers with more than 25 years. Priced down the middle, not at the bottom."
+          }
+        ]
+      }
+    ]
+  },
+  "illustrations": [
+    {
+      "slug": "finisher-on-a-driveway",
+      "url": "https://faberconcrete.com/jobs/finisher-on-a-driveway",
+      "title": "Finisher on a fresh driveway",
+      "seoTitle": "Driveways in Metro Detroit, MI | Faber Concrete",
+      "seoDescription": "A finisher troweling the edge of a fresh driveway. AI-generated illustration. This is not a photo of a completed Faber Concrete job.",
+      "serviceLabel": "Driveways",
+      "serviceSlug": "driveways",
+      "serviceUrl": "https://faberconcrete.com/services/driveways",
+      "city": "Metro Detroit",
+      "state": "MI",
+      "caption": "A finisher troweling the edge of a fresh driveway. AI-generated illustration. This is not a photo of a completed Faber Concrete job.",
+      "summary": "The finish is what you see on day one. It sits on five inches of concrete, not four, over 21AA that was graded and compacted first. The people finishing these slabs have been doing it for more than 25 years.",
+      "analysis": {
+        "equipment": "21AA, forms, and a pour at the thickness on the estimate",
+        "workPerformed": "Hand-finish the surface after a five-inch pour. The illustration shows the edge work. It is not a photo of a completed Faber Concrete job.",
+        "outcome": "Send the form with the address if you want this kind of pour. Five inches on the driveway, six on the approach, compacted 21AA. Some ZIP codes in each county are outside the work."
+      },
+      "problemAndFix": [
+        {
+          "problem": "A finish sitting on a slab that was thinned out to win the price.",
+          "fix": "Five inches on the driveway. The finish sits on that slab."
+        },
+        {
+          "problem": "A crew that has not been finishing long enough to care about the edge.",
+          "fix": "Finishers with more than 25 years on the tools."
+        }
+      ],
+      "labels": {
+        "summary": "Job summary",
+        "involved": "What this job involved",
+        "equipment": "Equipment",
+        "workPerformed": "Work performed",
+        "outcome": "Outcome",
+        "problem": "The problem",
+        "fix": "Our fix"
+      },
+      "images": [
+        {
+          "url": "https://media.stokeleads.com/faberconcrete/concrete-crew-finishing-driveway.avif",
+          "file": "concrete-crew-finishing-driveway.avif",
+          "alt": "A finisher troweling the edge of a fresh driveway. AI-generated illustration. This is not a photo of a completed Faber Concrete job.",
+          "role": "cover"
+        }
+      ]
+    },
+    {
+      "slug": "crew-finishing-the-apron",
+      "url": "https://faberconcrete.com/jobs/crew-finishing-the-apron",
+      "title": "Crew finishing the apron",
+      "seoTitle": "Driveway approaches in Metro Detroit, MI | Faber Concrete",
+      "seoDescription": "A crew working the edge where a new driveway meets the street. One still shows two finishers, one with a long float and one with a hand trowel. The others show a long float across the apron and a hand finish at the edge. AI-generated illustration. This is not a photo of a completed Faber Concrete job.",
+      "serviceLabel": "Driveway approaches",
+      "serviceSlug": "approaches",
+      "serviceUrl": "https://faberconcrete.com/services/approaches",
+      "city": "Metro Detroit",
+      "state": "MI",
+      "caption": "A crew working the edge where a new driveway meets the street. One still shows two finishers, one with a long float and one with a hand trowel. The others show a long float across the apron and a hand finish at the edge. AI-generated illustration. This is not a photo of a completed Faber Concrete job.",
+      "summary": "The apron is where the street meets the drive, and it is finished by hand. These stills show a crew on that edge. They are illustrations, not photos of a completed Faber Concrete job. The approach is still six inches, on compacted 21AA.",
+      "analysis": {
+        "equipment": "21AA, forms, and a pour at the thickness on the estimate",
+        "workPerformed": "Finish the apron at the curb. A long float across the fresh concrete, then a hand trowel at the edge where the new slab meets the old pavement.",
+        "outcome": "Send the form with the address if you want this kind of pour. Five inches on the driveway, six on the approach, compacted 21AA. Some ZIP codes in each county are outside the work."
+      },
+      "problemAndFix": [
+        {
+          "problem": "The apron left rough because it is the last section.",
+          "fix": "The edge at the street is hand-finished."
+        },
+        {
+          "problem": "A thin apron that takes the delivery truck first.",
+          "fix": "Approaches are six inches, on compacted 21AA."
+        }
+      ],
+      "labels": {
+        "summary": "Job summary",
+        "involved": "What this job involved",
+        "equipment": "Equipment",
+        "workPerformed": "Work performed",
+        "outcome": "Outcome",
+        "problem": "The problem",
+        "fix": "Our fix"
+      },
+      "images": [
+        {
+          "url": "https://media.stokeleads.com/faberconcrete/media-generation-faber-concrete-video2-still-c-0-083b9d97-5947-4a2c-8a5e-d6326287d03f.avif",
+          "file": "media-generation-faber-concrete-video2-still-c-0-083b9d97-5947-4a2c-8a5e-d6326287d03f.avif",
+          "alt": "Two finishers on a driveway apron at the street, one with a long float and one with a hand trowel. AI-generated illustration. This is not a photo of a completed Faber Concrete job.",
+          "role": "cover"
+        },
+        {
+          "url": "https://media.stokeleads.com/faberconcrete/media-generation-faber-concrete-video-still-1-0-d1d461f7-f614-4371-920b-5976f069ba90.avif",
+          "file": "media-generation-faber-concrete-video-still-1-0-d1d461f7-f614-4371-920b-5976f069ba90.avif",
+          "alt": "A finisher pulling a long float across a fresh driveway apron, with another worker by the garage. AI-generated illustration. This is not a photo of a completed Faber Concrete job.",
+          "role": "gallery"
+        },
+        {
+          "url": "https://media.stokeleads.com/faberconcrete/media-generation-faber-concrete-video-still-2-0-491392bb-ecd4-4e97-9504-74a643c881ff.avif",
+          "file": "media-generation-faber-concrete-video-still-2-0-491392bb-ecd4-4e97-9504-74a643c881ff.avif",
+          "alt": "A finisher working the edge where new concrete meets the existing driveway. AI-generated illustration. This is not a photo of a completed Faber Concrete job.",
+          "role": "gallery"
+        }
+      ]
+    },
+    {
+      "slug": "crew-on-the-pour",
+      "url": "https://faberconcrete.com/jobs/crew-on-the-pour",
+      "title": "Crew on the pour",
+      "seoTitle": "Driveways in Metro Detroit, MI | Faber Concrete",
+      "seoDescription": "A crew placing and finishing concrete in the forms. One still is three people on the mud, with a float, a shovel, and a broom. The other is three people on a wider slab, one checking the surface and one floating it. AI-generated illustration. This is not a photo of a completed Faber Concrete job.",
+      "serviceLabel": "Driveways",
+      "serviceSlug": "driveways",
+      "serviceUrl": "https://faberconcrete.com/services/driveways",
+      "city": "Metro Detroit",
+      "state": "MI",
+      "caption": "A crew placing and finishing concrete in the forms. One still is three people on the mud, with a float, a shovel, and a broom. The other is three people on a wider slab, one checking the surface and one floating it. AI-generated illustration. This is not a photo of a completed Faber Concrete job.",
+      "summary": "A driveway pour is a crew, not one person with a trowel at the end. These stills show people placing and finishing the slab. They are illustrations, not photos of a completed Faber Concrete job.",
+      "analysis": {
+        "equipment": "21AA, forms, and a pour at the thickness on the estimate",
+        "workPerformed": "Place the concrete, pull it into the forms, and finish the surface while it is still workable.",
+        "outcome": "Send the form with the address if you want this kind of pour. Five inches on the driveway, six on the approach, compacted 21AA. Some ZIP codes in each county are outside the work."
+      },
+      "problemAndFix": [
+        {
+          "problem": "The finish rushed because the crew was too thin.",
+          "fix": "The stills show more than one person on the pour."
+        },
+        {
+          "problem": "Four inches because it is cheaper.",
+          "fix": "Five inches on the driveway. Six on the approach."
+        }
+      ],
+      "labels": {
+        "summary": "Job summary",
+        "involved": "What this job involved",
+        "equipment": "Equipment",
+        "workPerformed": "Work performed",
+        "outcome": "Outcome",
+        "problem": "The problem",
+        "fix": "Our fix"
+      },
+      "images": [
+        {
+          "url": "https://media.stokeleads.com/faberconcrete/media-generation-faber-concrete-video2-still-a-0-42c077c0-9e28-442e-9c52-86bfc60788a1.avif",
+          "file": "media-generation-faber-concrete-video2-still-a-0-42c077c0-9e28-442e-9c52-86bfc60788a1.avif",
+          "alt": "Three finishers placing concrete in driveway forms, one floating, one with a broom, one with a shovel. AI-generated illustration. This is not a photo of a completed Faber Concrete job.",
+          "role": "cover"
+        },
+        {
+          "url": "https://media.stokeleads.com/faberconcrete/media-generation-faber-concrete-video-still-3-0-40a95f50-a172-4fdb-8cbd-171f0bd60876.avif",
+          "file": "media-generation-faber-concrete-video-still-3-0-40a95f50-a172-4fdb-8cbd-171f0bd60876.avif",
+          "alt": "Three finishers on a fresh slab, one with a level, one with a float, and one with a shovel. AI-generated illustration. This is not a photo of a completed Faber Concrete job.",
+          "role": "gallery"
+        }
+      ]
+    },
+    {
+      "slug": "finished-driveway",
+      "url": "https://faberconcrete.com/jobs/finished-driveway",
+      "title": "Finished driveway",
+      "seoTitle": "Driveways in Metro Detroit, MI | Faber Concrete",
+      "seoDescription": "A new concrete driveway in front of a brick house. AI-generated illustration. This is not a photo of a completed Faber Concrete job.",
+      "serviceLabel": "Driveways",
+      "serviceSlug": "driveways",
+      "serviceUrl": "https://faberconcrete.com/services/driveways",
+      "city": "Metro Detroit",
+      "state": "MI",
+      "caption": "A new concrete driveway in front of a brick house. AI-generated illustration. This is not a photo of a completed Faber Concrete job.",
+      "summary": "This is the driveway people live with: five inches, six where it meets the street, compacted 21AA underneath. The cheaper bid skips an inch, on the order of $600 to $700 on an average driveway, and that is the driveway you end up hating before you are ready to replace it.",
+      "analysis": {
+        "equipment": "21AA, forms, and a pour at the thickness on the estimate",
+        "workPerformed": "A full driveway pour at five inches, with the approach at six, after the whole area is graded and compacted. The picture is an illustration, not a named Faber job.",
+        "outcome": "Send the form with the address if you want this kind of pour. Five inches on the driveway, six on the approach, compacted 21AA. Some ZIP codes in each county are outside the work."
+      },
+      "problemAndFix": [
+        {
+          "problem": "Four inches because it is cheaper.",
+          "fix": "Five inches on the driveway, every time. Never four."
+        },
+        {
+          "problem": "The approach and the drive poured as one thin slab.",
+          "fix": "The approach is six inches. The rest of the drive is five."
+        }
+      ],
+      "labels": {
+        "summary": "Job summary",
+        "involved": "What this job involved",
+        "equipment": "Equipment",
+        "workPerformed": "Work performed",
+        "outcome": "Outcome",
+        "problem": "The problem",
+        "fix": "Our fix"
+      },
+      "images": [
+        {
+          "url": "https://media.stokeleads.com/faberconcrete/faber-concrete-finished-driveway.avif",
+          "file": "faber-concrete-finished-driveway.avif",
+          "alt": "A new concrete driveway in front of a brick house. AI-generated illustration. This is not a photo of a completed Faber Concrete job.",
+          "role": "cover"
+        },
+        {
+          "url": "https://media.stokeleads.com/faberconcrete/media-generation-faber-concrete-video2-still-b-0-38739a68-2567-4789-b4c4-abcc5a78a39f.avif",
+          "file": "media-generation-faber-concrete-video2-still-b-0-38739a68-2567-4789-b4c4-abcc5a78a39f.avif",
+          "alt": "A person standing on a new driveway, looking toward the street, with a cone on the sidewalk. AI-generated illustration. This is not a photo of a completed Faber Concrete job.",
+          "role": "gallery"
+        }
+      ]
+    },
+    {
+      "slug": "new-construction-approach",
+      "url": "https://faberconcrete.com/jobs/new-construction-approach",
+      "title": "New-construction approach",
+      "seoTitle": "Driveway approaches in Metro Detroit, MI | Faber Concrete",
+      "seoDescription": "A new concrete approach at the street in front of a stone house that is still in scaffolding. A field photo, not a named completed job.",
+      "serviceLabel": "Driveway approaches",
+      "serviceSlug": "approaches",
+      "serviceUrl": "https://faberconcrete.com/services/approaches",
+      "city": "Metro Detroit",
+      "state": "MI",
+      "caption": "A new concrete approach at the street in front of a stone house that is still in scaffolding. A field photo, not a named completed job.",
+      "summary": "The approach is where a 20-ton delivery truck hits first. Faber Concrete pours it at six inches, on 21AA that has been graded and compacted, not as an afterthought on a four-inch driveway. This photo is a house still going up. It is not a named completed job.",
+      "analysis": {
+        "equipment": "21AA, forms, and a pour at the thickness on the estimate",
+        "workPerformed": "Pour the section where the street meets the drive at six inches, on the same compacted 21AA base as the rest of the slab.",
+        "outcome": "Send the form with the address if you want this kind of pour. Five inches on the driveway, six on the approach, compacted 21AA. Some ZIP codes in each county are outside the work."
+      },
+      "problemAndFix": [
+        {
+          "problem": "The apron is an afterthought on a new house.",
+          "fix": "The approach is its own thickness: six inches."
+        },
+        {
+          "problem": "A thin apron that takes the delivery truck first.",
+          "fix": "Approaches are six inches, on compacted 21AA, never on dirt or sand alone."
+        }
+      ],
+      "labels": {
+        "summary": "Job summary",
+        "involved": "What this job involved",
+        "equipment": "Equipment",
+        "workPerformed": "Work performed",
+        "outcome": "Outcome",
+        "problem": "The problem",
+        "fix": "Our fix"
+      },
+      "images": [
+        {
+          "url": "https://media.stokeleads.com/faberconcrete/new-construction-stone-house.avif",
+          "file": "new-construction-stone-house.avif",
+          "alt": "A new concrete approach at the street in front of a stone house that is still in scaffolding. A field photo, not a named completed job.",
+          "role": "cover"
+        }
+      ]
+    },
+    {
+      "slug": "stamped-patterns",
+      "url": "https://faberconcrete.com/jobs/stamped-patterns",
+      "title": "Stamped patterns",
+      "seoTitle": "Stamped concrete in Metro Detroit, MI | Faber Concrete",
+      "seoDescription": "Irregular stone, grey slate, warm limestone, cream travertine, and charcoal. AI-generated illustration. This is not a photo of a completed Faber Concrete job.",
+      "serviceLabel": "Stamped concrete",
+      "serviceSlug": "patios",
+      "serviceUrl": "https://faberconcrete.com/services/patios",
+      "city": "Metro Detroit",
+      "state": "MI",
+      "caption": "Irregular stone, grey slate, warm limestone, cream travertine, and charcoal. AI-generated illustration. This is not a photo of a completed Faber Concrete job.",
+      "summary": "Stamped concrete and pavers are for a driveway or patio that should look finished. The stamp is the surface. Under a stamped pour it is still five inches over compacted 21AA, six inches if it is an approach. These close-ups are illustrations of pattern and color. Pavers do not have a pattern board on this site yet.",
+      "analysis": {
+        "equipment": "21AA, forms, and a pour at the thickness on the estimate",
+        "workPerformed": "Show pattern and color before a site look. Irregular stone, grey slate, warm limestone, cream travertine, and charcoal. None of these pictures is a completed Faber Concrete job.",
+        "outcome": "Send the form with the address if you want this kind of pour. Five inches on the driveway, six on the approach, compacted 21AA. Some ZIP codes in each county are outside the work."
+      },
+      "problemAndFix": [
+        {
+          "problem": "A pattern poured on a four-inch slab.",
+          "fix": "The stamp is the finish. The slab is still five inches."
+        },
+        {
+          "problem": "No way to see color and scale before the pour.",
+          "fix": "These close-ups are illustrations, not a finished Faber job, and not a paver catalog."
+        }
+      ],
+      "labels": {
+        "summary": "Job summary",
+        "involved": "What this job involved",
+        "equipment": "Equipment",
+        "workPerformed": "Work performed",
+        "outcome": "Outcome",
+        "problem": "The problem",
+        "fix": "Our fix"
+      },
+      "images": [
+        {
+          "url": "https://media.stokeleads.com/faberconcrete/stamped-concrete-paving-closeup.avif",
+          "file": "stamped-concrete-paving-closeup.avif",
+          "alt": "Irregular stone, grey slate, warm limestone, cream travertine, and charcoal. AI-generated illustration. This is not a photo of a completed Faber Concrete job.",
+          "role": "cover"
+        },
+        {
+          "url": "https://media.stokeleads.com/faberconcrete/faber-concrete-large-tile-grey.avif",
+          "file": "faber-concrete-large-tile-grey.avif",
+          "alt": "Irregular stone, grey slate, warm limestone, cream travertine, and charcoal. AI-generated illustration. This is not a photo of a completed Faber Concrete job.",
+          "role": "gallery"
+        },
+        {
+          "url": "https://media.stokeleads.com/faberconcrete/faber-concrete-large-lime-tile.avif",
+          "file": "faber-concrete-large-lime-tile.avif",
+          "alt": "Irregular stone, grey slate, warm limestone, cream travertine, and charcoal. AI-generated illustration. This is not a photo of a completed Faber Concrete job.",
+          "role": "gallery"
+        },
+        {
+          "url": "https://media.stokeleads.com/faberconcrete/faber-concrete-large-tile.avif",
+          "file": "faber-concrete-large-tile.avif",
+          "alt": "Irregular stone, grey slate, warm limestone, cream travertine, and charcoal. AI-generated illustration. This is not a photo of a completed Faber Concrete job.",
+          "role": "gallery"
+        },
+        {
+          "url": "https://media.stokeleads.com/faberconcrete/faber-concrete-large-charcoal-tile.avif",
+          "file": "faber-concrete-large-charcoal-tile.avif",
+          "alt": "Irregular stone, grey slate, warm limestone, cream travertine, and charcoal. AI-generated illustration. This is not a photo of a completed Faber Concrete job.",
+          "role": "gallery"
+        }
+      ]
+    }
+  ],
+  "reviews": {
+    "summary": {
+      "businessNameOnFile": "Faber Roof",
+      "rating": 5,
+      "count": 5,
+      "profileUrl": "https://www.google.com/maps?cid=2039319338774567315",
+      "syncedAt": "2026-10-23T11:37:59.367Z"
+    },
+    "page": {
+      "label": "Reviews",
+      "title": "Google reviews",
+      "subtitle": "5.0 from 5 Google reviews. The words below are the review texts as published.",
+      "description": "Google reviews for Faber. 5.0 from 5 reviews.",
+      "url": "https://faberconcrete.com/reviews",
+      "backLink": "← Back to homepage reviews",
+      "ratingLine": "5 out of 5",
+      "basedOn": "Based on 5 Google reviews",
+      "viewOnGoogleMaps": "View on Google Maps",
+      "showing": "Showing 4 recent Google reviews",
+      "closingHeading": "Ready for a slab that is poured to the spec?",
+      "closingBody": "Five inches on the driveway, six on the approach, compacted 21AA, across Wayne, Oakland, Macomb, Washtenaw, and Livingston counties.",
+      "leaveReview": "Leave a Google Review"
+    },
+    "published": [
+      {
+        "author": "Lisa O'Brien",
+        "rating": 5,
+        "date": "March 2026",
+        "source": "Google",
+        "text": "I would recommend them to anyone, very satisfied with their price and service!",
+        "profileUrl": "https://www.google.com/maps?cid=2039319338774567315",
+        "avatarFile": "Ci9DQUlRQUNvZENodHljRjlvT25GbVNsUmxNRTFmTnpSRWFqQTNjbEpsVVZCZlluYxAB.jpg",
+        "avatarDisplayed": false
+      },
+      {
+        "author": "Property Services",
+        "rating": 5,
+        "date": "March 2026",
+        "source": "Google",
+        "text": "A commercial project was completed on budget. The team was professional, completed the work on time, and the quality of the work was outstanding!",
+        "profileUrl": "https://www.google.com/maps?cid=2039319338774567315",
+        "avatarFile": "Ci9DQUlRQUNvZENodHljRjlvT2tRNVdrRlljMmRGVm5RelVFRnRORXN0VTNCalFrRRAB.jpg",
+        "avatarDisplayed": false
+      },
+      {
+        "author": "Daniel knight",
+        "rating": 5,
+        "date": "March 2026",
+        "source": "Google",
+        "text": "Was on time, installed beautiful new roof! Clean up was like they were never there! Would recommend!",
+        "profileUrl": "https://www.google.com/maps?cid=2039319338774567315",
+        "avatarFile": "Ci9DQUlRQUNvZENodHljRjlvT25SNVRpMXNNRXRFZFVwRlZEVlJMVTlZWjIxV2FYYxAB.jpg",
+        "avatarDisplayed": false
+      },
+      {
+        "author": "Mario Goff",
+        "rating": 5,
+        "date": "March 2026",
+        "source": "Google",
+        "text": "Awesome roof company, they did my roof in one day tear off and re-shingled,",
+        "profileUrl": "https://www.google.com/maps?cid=2039319338774567315",
+        "avatarFile": "Ci9DQUlRQUNvZENodHljRjlvT2psVE9EZHlXRU5UUlVSZk5sQnhVM2hGTUdsaFNVRRAB.jpg",
+        "avatarDisplayed": false
+      }
+    ],
+    "omitted": [
+      {
+        "author": "Wesley Phillips",
+        "rating": 5,
+        "date": "March 2026",
+        "reason": "Empty review text is not shown on the site."
+      }
+    ]
+  },
+  "forms": {
+    "estimate": {
+      "title": "Get a concrete estimate",
+      "subtitle": "Share the address. Matt Faber looks at the site, then follows up with the estimate.",
+      "submitText": "Send my request",
+      "finalNote": "No pour until you approve the contract. We look at the site before anyone forms.",
+      "trustBullets": [
+        "Five-inch slabs",
+        "Compacted 21AA",
+        "Priced down the middle"
+      ],
+      "projectTypes": [
+        {
+          "value": "driveway",
+          "label": "Driveway",
+          "phIcon": "home"
+        },
+        {
+          "value": "approach",
+          "label": "Driveway approach",
+          "phIcon": "road"
+        },
+        {
+          "value": "flatwork",
+          "label": "Flatwork",
+          "phIcon": "border-all"
+        },
+        {
+          "value": "stamped",
+          "label": "Stamped concrete",
+          "phIcon": "th-large"
+        },
+        {
+          "value": "pavers",
+          "label": "Pavers",
+          "phIcon": "th"
+        },
+        {
+          "value": "other",
+          "label": "Something else",
+          "phIcon": "question"
+        }
+      ],
+      "roofTypes": [],
+      "timelines": [
+        {
+          "value": "spring",
+          "label": "Spring"
+        },
+        {
+          "value": "summer",
+          "label": "Summer"
+        },
+        {
+          "value": "fall",
+          "label": "Fall"
+        },
+        {
+          "value": "flexible",
+          "label": "Flexible"
+        }
+      ],
+      "consent": "I agree to Faber Concrete's Terms and Privacy Policy, and consent to be contacted about my concrete estimate. Msg & data rates may apply.",
+      "fields": [
+        {
+          "name": "first_name",
+          "label": "First name",
+          "required": true
+        },
+        {
+          "name": "last_name",
+          "label": "Last name",
+          "required": true
+        },
+        {
+          "name": "phone",
+          "label": "Phone",
+          "required": true
+        },
+        {
+          "name": "email",
+          "label": "Email (optional)",
+          "required": false
+        },
+        {
+          "name": "project_type",
+          "label": "Service needed",
+          "required": true,
+          "placeholder": "Select a service"
+        }
+      ],
+      "followUp": "Matt Faber will follow up directly.",
+      "action": "/api/lead"
+    },
+    "contactPage": {
+      "label": "Contact",
+      "heading": "Request an estimate",
+      "intro": "Call (810) 360-7385 or send the form. Tell us the address, whether it is a driveway, an approach, flatwork, stamped concrete, or pavers, and when you want it. Matt looks at the site before he prices it. He writes a contract, not only an estimate. The rest of this year is for finishing what is already on the books. April and May are what he likes on the calendar next, and he will take a spring job.",
+      "facts": [
+        "Site look before a price",
+        "22710 Haggerty Rd. Suite 100B, Farmington Hills, MI 48335",
+        "Residential and commercial"
+      ]
+    },
+    "thanks": {
+      "title": "Request Received!",
+      "body": "Thanks for contacting Faber Concrete. Matt Faber will follow up about a look at the site and an estimate.",
+      "note": "If you left the address out, send the form again.",
+      "back": "Back to homepage"
+    }
+  },
+  "footer": {
+    "blurb": "Concrete driveways, approaches, flatwork, stamped concrete, and pavers. A separate company, priced down the middle.",
+    "quickLinksHeading": "Quick Links",
+    "servicesHeading": "Services",
+    "contactHeading": "Contact Us",
+    "quickLinks": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "About Us",
+        "href": "/about"
+      },
+      {
+        "label": "Reviews",
+        "href": "/#reviews"
+      },
+      {
+        "label": "Service Areas",
+        "href": "/areas"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact"
+      }
+    ],
+    "serviceLinks": [
+      {
+        "label": "Driveways",
+        "href": "/services/driveways"
+      },
+      {
+        "label": "Driveway approaches",
+        "href": "/services/approaches"
+      },
+      {
+        "label": "Flatwork",
+        "href": "/services/flatwork"
+      },
+      {
+        "label": "Stamped concrete and pavers",
+        "href": "/services/patios"
+      },
+      {
+        "label": "Request an estimate",
+        "href": "/contact"
+      }
+    ],
+    "serving": "Serving Wayne, Oakland, Macomb, Washtenaw, and Livingston counties — Areas we serve",
+    "copyright": "© 2026 Faber Concrete. All Rights Reserved.",
+    "legalLinks": [
+      {
+        "label": "Privacy Policy",
+        "href": "/policy"
+      },
+      {
+        "label": "Terms & Conditions",
+        "href": "/terms"
+      }
+    ],
+    "badge": "Licensed & Insured",
+    "social": {
+      "google": "https://www.google.com/maps?cid=2039319338774567315",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    }
+  },
+  "legal": {
+    "privacy": {
+      "title": "Privacy Policy",
+      "path": "/policy",
+      "url": "https://faberconcrete.com/policy",
+      "lastUpdated": "July 22, 2026",
+      "description": "How Faber Concrete collects, uses, and protects your information when you request an estimate in Metro Detroit and Wayne, Oakland, Macomb, Washtenaw, and Livingston counties.",
+      "sections": [
+        {
+          "heading": null,
+          "paragraphs": [
+            "This Privacy Policy explains how Faber Concrete (“we,” “us,” or “our”) collects, uses, and shares information when you visit our website, request service, schedule an appointment, or otherwise contact us. The practices described here reflect how a Farmington Hills / Wayne, Oakland, Macomb, Washtenaw, and Livingston counties concrete company typically handles customer data."
+          ]
+        },
+        {
+          "heading": "1. Information We Collect",
+          "paragraphs": [
+            "We may collect information you provide directly, including:"
+          ],
+          "list": [
+            "Name, phone number, email address, and property address",
+            "Service details and project notes",
+            "Preferred appointment windows and messages you send through forms or chat",
+            "Photos or documents you voluntarily upload related to a job"
+          ]
+        },
+        {
+          "heading": "1. Information We Collect",
+          "paragraphs": [
+            "We may also collect limited technical information automatically, such as:"
+          ],
+          "list": [
+            "Browser type, device type, approximate location derived from IP address",
+            "Pages visited, referral source, and general site-usage metrics",
+            "Cookies or similar technologies used for basic analytics and site performance"
+          ]
+        },
+        {
+          "heading": "2. How We Use Information",
+          "paragraphs": [
+            "We use collected information to:"
+          ],
+          "list": [
+            "Respond to service, estimate, and appointment requests",
+            "Schedule appointments, coordinate crews, and communicate project updates",
+            "Provide quotes, warranties, and post-project follow-up",
+            "Improve our website, services, and local service coverage",
+            "Send marketing messages only when you have opted in",
+            "Comply with legal obligations and protect against fraud or misuse"
+          ]
+        },
+        {
+          "heading": "3. SMS & Phone Communications",
+          "paragraphs": [
+            "If you provide a phone number and consent to be contacted, we may call or text you about your estimate, consultation, or project status. Message frequency varies. Message and data rates may apply. Reply STOP to opt out of SMS at any time; reply HELP for help. SMS consent is not a condition of purchase and is not sold or shared with third parties for their own marketing."
+          ]
+        },
+        {
+          "heading": "4. How We Share Information",
+          "paragraphs": [
+            "We do not sell your personal information. We may share information with:"
+          ],
+          "list": [
+            "Service providers who help us operate forms, hosting, analytics, or communications",
+            "Financing partners, only when you request financing options",
+            "Insurance carriers or adjusters, only when you ask us to support a claim",
+            "Professional advisors or authorities when required by law or to protect our rights"
+          ],
+          "closing": "Any vendors we use are expected to process information only as needed to perform services for us and to protect it with reasonable safeguards."
+        },
+        {
+          "heading": "5. Cookies & Analytics",
+          "paragraphs": [
+            "Our site may use cookies or similar tools to remember preferences, measure traffic, and understand how visitors find our services. You can control cookies through your browser settings. Disabling cookies may affect some site features."
+          ]
+        },
+        {
+          "heading": "6. Data Retention",
+          "paragraphs": [
+            "We keep estimate and project-related information for as long as needed to provide services, maintain warranty records, resolve disputes, and meet legal or accounting requirements. When information is no longer needed, we delete or de-identify it when reasonably practical."
+          ]
+        },
+        {
+          "heading": "7. Your Choices & Rights",
+          "paragraphs": [
+            "Depending on where you live, you may have rights to:"
+          ],
+          "list": [
+            "Request access to personal information we hold about you",
+            "Ask us to correct inaccurate information",
+            "Request deletion of information, subject to legal or warranty retention needs",
+            "Opt out of marketing emails or texts"
+          ],
+          "closing": "To make a request, contact us using the details below. We may need to verify your identity before fulfilling certain requests."
+        },
+        {
+          "heading": "8. Children’s Privacy",
+          "paragraphs": [
+            "Our services are intended for adults seeking residential and commercial concrete work. We do not knowingly collect personal information from children under 13. If you believe a child has submitted information, contact us and we will delete it."
+          ]
+        },
+        {
+          "heading": "9. Data Security",
+          "paragraphs": [
+            "We use reasonable administrative, technical, and physical safeguards to protect information submitted through our site. No method of transmission or storage is 100% secure, so we cannot guarantee absolute security."
+          ]
+        },
+        {
+          "heading": "10. Third-Party Links",
+          "paragraphs": [
+            "Our website may link to Google Maps, financing partners, or other third-party sites. Their privacy practices are governed by their own policies, not this one."
+          ]
+        },
+        {
+          "heading": "11. Changes to This Policy",
+          "paragraphs": [
+            "We may update this Privacy Policy from time to time. The “Last updated” date at the top will change when we do. Continued use of the site after updates means you acknowledge the revised policy."
+          ]
+        },
+        {
+          "heading": "12. Contact Us",
+          "paragraphs": [
+            "Questions about this Privacy Policy or your information:"
+          ],
+          "contact": {
+            "name": "Faber Concrete",
+            "address": "22710 Haggerty Rd. Suite 100B, Farmington Hills, MI 48335",
+            "phone": "(810) 360-7385",
+            "phoneHref": "tel:8103607385",
+            "email": null,
+            "license": null
+          }
+        }
+      ]
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "path": "/terms",
+      "url": "https://faberconcrete.com/terms",
+      "footerLabel": "Terms & Conditions",
+      "lastUpdated": "July 22, 2026",
+      "description": "Terms governing use of the Faber Concrete website and estimate requests in Metro Detroit and Wayne, Oakland, Macomb, Washtenaw, and Livingston counties.",
+      "sections": [
+        {
+          "heading": null,
+          "paragraphs": [
+            "Welcome to Faber Concrete. By accessing this website or submitting a service or contact form, you agree to these Terms of Service. If you do not agree, please do not use the site. These terms mirror typical home-service website terms for a concrete business."
+          ]
+        },
+        {
+          "heading": "1. Who We Are",
+          "paragraphs": [
+            "Faber Concrete (Faber Concrete) provides residential and commercial concrete work in and around Farmington Hills and Wayne, Oakland, Macomb, Washtenaw, and Livingston counties. We are a locally owned business."
+          ]
+        },
+        {
+          "heading": "2. Use of This Website",
+          "paragraphs": [
+            "You agree to use this website only for lawful purposes and to:"
+          ],
+          "list": [
+            "Provide accurate information when submitting forms",
+            "Not attempt to disrupt, scrape, or misuse the site or its systems",
+            "Not submit harmful code, spam, or misleading project requests"
+          ],
+          "closing": "We may suspend or limit access to the site if we believe these terms are being violated."
+        },
+        {
+          "heading": "3. Estimate & Appointment Requests",
+          "paragraphs": [
+            "Submitting a form or booking a service visit does not create a binding service contract. Estimates, pricing, timelines, and scope are informational until confirmed in writing after an on-site look."
+          ],
+          "list": [
+            "Final pricing may change based on material selections, structural findings, permit requirements, and scope adjustments",
+            "Scheduling depends on crew availability, material lead times, and weather",
+            "Financing is subject to third-party lender approval and separate terms"
+          ]
+        },
+        {
+          "heading": "4. Services & Workmanship",
+          "paragraphs": [
+            "Actual work is governed by the written proposal, work authorization, invoices, and any warranty documents you receive. Unless otherwise stated in writing:"
+          ],
+          "list": [
+            "We perform work in a professional manner consistent with industry standards",
+            "Manufacturer warranties apply according to product terms; workmanship warranty details are provided at contract",
+            "Weather, material lead times, and HOA or permit requirements may affect scheduling"
+          ]
+        },
+        {
+          "heading": "5. Payments",
+          "paragraphs": [
+            "Payment terms are specified in your written agreement. Deposits, progress payments, or final balances may be required. Unpaid balances may result in delayed scheduling, collection activity, or lien rights as allowed by applicable MI law."
+          ]
+        },
+        {
+          "heading": "6. SMS & Marketing Communications",
+          "paragraphs": [
+            "If you opt in, Faber Concrete may send project updates and, where consented, marketing texts or emails. Message frequency varies. Message and data rates may apply. Reply STOP to cancel SMS; reply HELP for help. Consent is not required to receive an estimate."
+          ]
+        },
+        {
+          "heading": "7. Intellectual Property",
+          "paragraphs": [
+            "Site content — including text, branding, logos, photographs, and layout — is owned by or licensed to Faber Concrete. You may not copy, republish, or commercially reuse site materials without our prior written permission, except for personal, non-commercial viewing."
+          ]
+        },
+        {
+          "heading": "8. Third-Party Services",
+          "paragraphs": [
+            "The site may integrate maps, analytics, financing tools, or other third-party services. We are not responsible for third-party content, availability, or policies. Your use of those services may be subject to additional terms."
+          ]
+        },
+        {
+          "heading": "9. Disclaimers",
+          "paragraphs": [
+            "The website and demo content are provided “as is.” To the fullest extent permitted by law, we disclaim warranties of merchantability, fitness for a particular purpose, and non-infringement regarding website content. Online examples of pricing, reviews, team bios, and project photos may be illustrative for this demo environment."
+          ]
+        },
+        {
+          "heading": "10. Limitation of Liability",
+          "paragraphs": [
+            "To the fullest extent permitted by law, Faber Concrete and its owners, employees, and agents are not liable for indirect, incidental, special, consequential, or punitive damages arising from your use of the website. Our total liability related to website use shall not exceed one hundred dollars ($100), except where liability cannot be limited under MI law. This section does not limit liability arising from a signed service agreement, which is governed by that agreement."
+          ]
+        },
+        {
+          "heading": "11. Indemnification",
+          "paragraphs": [
+            "You agree to indemnify and hold harmless Faber Concrete from claims arising out of your misuse of the site, inaccurate form submissions, or violation of these terms, except to the extent caused by our willful misconduct."
+          ]
+        },
+        {
+          "heading": "12. Governing Law",
+          "paragraphs": [
+            "These terms are governed by the laws of the State of MI, without regard to conflict of law rules. Disputes related to website use shall be resolved in state or federal courts located in Farmington Hills, MI, unless another venue is required by a signed service contract."
+          ]
+        },
+        {
+          "heading": "13. Changes",
+          "paragraphs": [
+            "We may update these Terms of Service at any time. The “Last updated” date will reflect the latest revision. Continued use of the site after changes means you accept the updated terms."
+          ]
+        },
+        {
+          "heading": "14. Contact",
+          "paragraphs": [
+            "Questions about these Terms of Service:"
+          ],
+          "contact": {
+            "name": "Faber Concrete",
+            "address": "22710 Haggerty Rd. Suite 100B, Farmington Hills, MI 48335",
+            "phone": "(810) 360-7385",
+            "phoneHref": "tel:8103607385",
+            "email": null,
+            "license": null
+          }
+        }
+      ]
+    }
+  },
+  "images": [
+    {
+      "url": "https://faberconcrete.com/logo-wordmark.png",
+      "alt": "Faber Concrete wordmark",
+      "usedOn": "header",
+      "kind": "brand"
+    },
+    {
+      "url": "https://faberconcrete.com/logo-wordmark-light.png",
+      "alt": "Faber Concrete wordmark, light",
+      "usedOn": "footer",
+      "kind": "brand"
+    },
+    {
+      "url": "https://faberconcrete.com/favicon.png",
+      "alt": "Faber Concrete favicon",
+      "usedOn": "browser tab",
+      "kind": "brand"
+    },
+    {
+      "url": "https://media.stokeleads.com/faberconcrete/concrete-crew-finishing-driveway.avif",
+      "alt": "A finisher troweling a fresh concrete driveway beside a stone garage. AI illustration, not a photo of a completed Faber Concrete job.",
+      "usedOn": "homepage hero and social share",
+      "kind": "hero"
+    },
+    {
+      "url": "https://faberconcrete.com/placeholders/logo.svg",
+      "alt": "Matt Faber, owner of Faber Concrete",
+      "usedOn": "owner card and about",
+      "kind": "owner"
+    },
+    {
+      "url": "https://media.stokeleads.com/faberconcrete/faber-concrete-methodology-infographic.avif",
+      "alt": "Illustration of the Faber Concrete method: grade the area, compact 21AA, pour five inches, six inches on the approach. Not a photo of a completed job.",
+      "usedOn": "every service page",
+      "kind": "method"
+    },
+    {
+      "url": "https://media.stokeleads.com/faberconcrete/faber-concrete-finished-driveway.avif",
+      "alt": "Driveways by Faber Concrete",
+      "file": "faber-concrete-finished-driveway.avif",
+      "usedOn": "/services/driveways",
+      "kind": "service"
+    },
+    {
+      "url": "https://media.stokeleads.com/faberconcrete/media-generation-faber-concrete-video2-still-a-0-42c077c0-9e28-442e-9c52-86bfc60788a1.avif",
+      "alt": "Three finishers placing concrete in driveway forms. AI illustration, not a photo of a completed Faber Concrete job.",
+      "file": "media-generation-faber-concrete-video2-still-a-0-42c077c0-9e28-442e-9c52-86bfc60788a1.avif",
+      "usedOn": "/services/driveways",
+      "kind": "service-gallery"
+    },
+    {
+      "url": "https://media.stokeleads.com/faberconcrete/media-generation-faber-concrete-video2-still-b-0-38739a68-2567-4789-b4c4-abcc5a78a39f.avif",
+      "alt": "A person standing on a new driveway, looking toward the street. AI illustration, not a photo of a completed Faber Concrete job.",
+      "file": "media-generation-faber-concrete-video2-still-b-0-38739a68-2567-4789-b4c4-abcc5a78a39f.avif",
+      "usedOn": "/services/driveways",
+      "kind": "service-gallery"
+    },
+    {
+      "url": "https://media.stokeleads.com/faberconcrete/new-construction-stone-house.avif",
+      "alt": "Driveway approaches by Faber Concrete",
+      "file": "new-construction-stone-house.avif",
+      "usedOn": "/services/approaches",
+      "kind": "service"
+    },
+    {
+      "url": "https://media.stokeleads.com/faberconcrete/media-generation-faber-concrete-video2-still-c-0-083b9d97-5947-4a2c-8a5e-d6326287d03f.avif",
+      "alt": "Two finishers working a driveway apron at the street, one with a long float and one with a hand trowel. AI illustration, not a photo of a completed Faber Concrete job.",
+      "file": "media-generation-faber-concrete-video2-still-c-0-083b9d97-5947-4a2c-8a5e-d6326287d03f.avif",
+      "usedOn": "/services/approaches",
+      "kind": "service-gallery"
+    },
+    {
+      "url": "https://media.stokeleads.com/faberconcrete/concrete-crew-finishing-driveway.avif",
+      "alt": "Flatwork by Faber Concrete",
+      "file": "concrete-crew-finishing-driveway.avif",
+      "usedOn": "/services/flatwork",
+      "kind": "service"
+    },
+    {
+      "url": "https://media.stokeleads.com/faberconcrete/stamped-concrete-paving-closeup.avif",
+      "alt": "Stamped concrete and pavers by Faber Concrete",
+      "file": "stamped-concrete-paving-closeup.avif",
+      "usedOn": "/services/patios",
+      "kind": "service"
+    },
+    {
+      "url": "https://media.stokeleads.com/faberconcrete/faber-concrete-large-tile-grey.avif",
+      "alt": "Stamped concrete and pavers by Faber Concrete",
+      "file": "faber-concrete-large-tile-grey.avif",
+      "usedOn": "/services/patios",
+      "kind": "service-gallery"
+    },
+    {
+      "url": "https://media.stokeleads.com/faberconcrete/faber-concrete-large-lime-tile.avif",
+      "alt": "Stamped concrete and pavers by Faber Concrete",
+      "file": "faber-concrete-large-lime-tile.avif",
+      "usedOn": "/services/patios",
+      "kind": "service-gallery"
+    },
+    {
+      "url": "https://media.stokeleads.com/faberconcrete/faber-concrete-large-tile.avif",
+      "alt": "Stamped concrete and pavers by Faber Concrete",
+      "file": "faber-concrete-large-tile.avif",
+      "usedOn": "/services/patios",
+      "kind": "service-gallery"
+    },
+    {
+      "url": "https://media.stokeleads.com/faberconcrete/faber-concrete-large-charcoal-tile.avif",
+      "alt": "Stamped concrete and pavers by Faber Concrete",
+      "file": "faber-concrete-large-charcoal-tile.avif",
+      "usedOn": "/services/patios",
+      "kind": "service-gallery"
+    },
+    {
+      "url": "https://media.stokeleads.com/faberconcrete/concrete-crew-finishing-driveway.avif",
+      "alt": "A finisher troweling the edge of a fresh driveway. AI-generated illustration. This is not a photo of a completed Faber Concrete job.",
+      "usedOn": "/jobs/finisher-on-a-driveway",
+      "kind": "illustration"
+    },
+    {
+      "url": "https://media.stokeleads.com/faberconcrete/media-generation-faber-concrete-video2-still-c-0-083b9d97-5947-4a2c-8a5e-d6326287d03f.avif",
+      "alt": "Two finishers on a driveway apron at the street, one with a long float and one with a hand trowel. AI-generated illustration. This is not a photo of a completed Faber Concrete job.",
+      "usedOn": "/jobs/crew-finishing-the-apron",
+      "kind": "illustration"
+    },
+    {
+      "url": "https://media.stokeleads.com/faberconcrete/media-generation-faber-concrete-video-still-1-0-d1d461f7-f614-4371-920b-5976f069ba90.avif",
+      "alt": "A finisher pulling a long float across a fresh driveway apron, with another worker by the garage. AI-generated illustration. This is not a photo of a completed Faber Concrete job.",
+      "usedOn": "/jobs/crew-finishing-the-apron",
+      "kind": "illustration"
+    },
+    {
+      "url": "https://media.stokeleads.com/faberconcrete/media-generation-faber-concrete-video-still-2-0-491392bb-ecd4-4e97-9504-74a643c881ff.avif",
+      "alt": "A finisher working the edge where new concrete meets the existing driveway. AI-generated illustration. This is not a photo of a completed Faber Concrete job.",
+      "usedOn": "/jobs/crew-finishing-the-apron",
+      "kind": "illustration"
+    },
+    {
+      "url": "https://media.stokeleads.com/faberconcrete/media-generation-faber-concrete-video2-still-a-0-42c077c0-9e28-442e-9c52-86bfc60788a1.avif",
+      "alt": "Three finishers placing concrete in driveway forms, one floating, one with a broom, one with a shovel. AI-generated illustration. This is not a photo of a completed Faber Concrete job.",
+      "usedOn": "/jobs/crew-on-the-pour",
+      "kind": "illustration"
+    },
+    {
+      "url": "https://media.stokeleads.com/faberconcrete/media-generation-faber-concrete-video-still-3-0-40a95f50-a172-4fdb-8cbd-171f0bd60876.avif",
+      "alt": "Three finishers on a fresh slab, one with a level, one with a float, and one with a shovel. AI-generated illustration. This is not a photo of a completed Faber Concrete job.",
+      "usedOn": "/jobs/crew-on-the-pour",
+      "kind": "illustration"
+    },
+    {
+      "url": "https://media.stokeleads.com/faberconcrete/faber-concrete-finished-driveway.avif",
+      "alt": "A new concrete driveway in front of a brick house. AI-generated illustration. This is not a photo of a completed Faber Concrete job.",
+      "usedOn": "/jobs/finished-driveway",
+      "kind": "illustration"
+    },
+    {
+      "url": "https://media.stokeleads.com/faberconcrete/media-generation-faber-concrete-video2-still-b-0-38739a68-2567-4789-b4c4-abcc5a78a39f.avif",
+      "alt": "A person standing on a new driveway, looking toward the street, with a cone on the sidewalk. AI-generated illustration. This is not a photo of a completed Faber Concrete job.",
+      "usedOn": "/jobs/finished-driveway",
+      "kind": "illustration"
+    },
+    {
+      "url": "https://media.stokeleads.com/faberconcrete/new-construction-stone-house.avif",
+      "alt": "A new concrete approach at the street in front of a stone house that is still in scaffolding. A field photo, not a named completed job.",
+      "usedOn": "/jobs/new-construction-approach",
+      "kind": "illustration"
+    },
+    {
+      "url": "https://media.stokeleads.com/faberconcrete/stamped-concrete-paving-closeup.avif",
+      "alt": "Irregular stone, grey slate, warm limestone, cream travertine, and charcoal. AI-generated illustration. This is not a photo of a completed Faber Concrete job.",
+      "usedOn": "/jobs/stamped-patterns",
+      "kind": "illustration"
+    },
+    {
+      "url": "https://media.stokeleads.com/faberconcrete/faber-concrete-large-tile-grey.avif",
+      "alt": "Irregular stone, grey slate, warm limestone, cream travertine, and charcoal. AI-generated illustration. This is not a photo of a completed Faber Concrete job.",
+      "usedOn": "/jobs/stamped-patterns",
+      "kind": "illustration"
+    },
+    {
+      "url": "https://media.stokeleads.com/faberconcrete/faber-concrete-large-lime-tile.avif",
+      "alt": "Irregular stone, grey slate, warm limestone, cream travertine, and charcoal. AI-generated illustration. This is not a photo of a completed Faber Concrete job.",
+      "usedOn": "/jobs/stamped-patterns",
+      "kind": "illustration"
+    },
+    {
+      "url": "https://media.stokeleads.com/faberconcrete/faber-concrete-large-tile.avif",
+      "alt": "Irregular stone, grey slate, warm limestone, cream travertine, and charcoal. AI-generated illustration. This is not a photo of a completed Faber Concrete job.",
+      "usedOn": "/jobs/stamped-patterns",
+      "kind": "illustration"
+    },
+    {
+      "url": "https://media.stokeleads.com/faberconcrete/faber-concrete-large-charcoal-tile.avif",
+      "alt": "Irregular stone, grey slate, warm limestone, cream travertine, and charcoal. AI-generated illustration. This is not a photo of a completed Faber Concrete job.",
+      "usedOn": "/jobs/stamped-patterns",
+      "kind": "illustration"
+    },
+    {
+      "url": "https://faberconcrete.com/logo.svg",
+      "alt": "Faber Concrete logo",
+      "usedOn": "public asset",
+      "kind": "brand"
+    },
+    {
+      "url": "https://faberconcrete.com/placeholders/hero.svg",
+      "alt": "Placeholder hero",
+      "usedOn": "unused before/after block",
+      "kind": "placeholder"
+    }
+  ],
+  "sitemap": {
+    "index": "https://faberconcrete.com/sitemap-index.xml",
+    "robots": "https://faberconcrete.com/robots.txt",
+    "robotsBody": "User-agent: *\nAllow: /\n\nDisallow: /admin/\n\nSitemap: https://faberconcrete.com/sitemap-index.xml\n",
+    "excluded": [
+      "/admin"
+    ],
+    "urls": [
+      {
+        "loc": "https://faberconcrete.com/",
+        "path": "/",
+        "title": "Concrete Driveways in Metro Detroit | Faber Concrete",
+        "description": "Faber Concrete pours five-inch driveways and six-inch approaches on compacted 21AA in Wayne, Oakland, Macomb, Washtenaw, and Livingston counties. Not the cheapest bid. Priced down the middle. April and May book first."
+      },
+      {
+        "loc": "https://faberconcrete.com/about",
+        "path": "/about",
+        "title": "About Us | Faber Concrete",
+        "description": "Matt Faber owns Faber Concrete, a concrete company kept separate on purpose. Five-inch driveways, six-inch approaches, compacted 21AA, finishers with more than 25 years, priced down the middle."
+      },
+      {
+        "loc": "https://faberconcrete.com/contact",
+        "path": "/contact",
+        "title": "Request a concrete estimate | Faber Concrete",
+        "description": "Request an estimate for a driveway, approach, flatwork, stamped concrete, or pavers in Metro Detroit. Five inches, six on the approach, compacted 21AA. Call (810) 360-7385."
+      },
+      {
+        "loc": "https://faberconcrete.com/reviews",
+        "path": "/reviews",
+        "title": "Google reviews | Faber Concrete",
+        "description": "Google reviews for Faber. 5.0 from 5 reviews."
+      },
+      {
+        "loc": "https://faberconcrete.com/areas",
+        "path": "/areas",
+        "title": "Service Areas | Faber Concrete",
+        "description": "Faber Concrete serves Wayne, Oakland, Macomb, Washtenaw, and Livingston counties. Send the address to ask about your ZIP code."
+      },
+      {
+        "loc": "https://faberconcrete.com/policy",
+        "path": "/policy",
+        "title": "Privacy Policy | Faber Concrete",
+        "description": "How Faber Concrete collects, uses, and protects your information when you request an estimate in Metro Detroit and Wayne, Oakland, Macomb, Washtenaw, and Livingston counties."
+      },
+      {
+        "loc": "https://faberconcrete.com/terms",
+        "path": "/terms",
+        "title": "Terms of Service | Faber Concrete",
+        "description": "Terms governing use of the Faber Concrete website and estimate requests in Metro Detroit and Wayne, Oakland, Macomb, Washtenaw, and Livingston counties."
+      },
+      {
+        "loc": "https://faberconcrete.com/thanks",
+        "path": "/thanks",
+        "title": "Thank You | Faber Concrete",
+        "description": "We received your estimate request and will be in touch soon."
+      },
+      {
+        "loc": "https://faberconcrete.com/services/driveways",
+        "path": "/services/driveways",
+        "title": "Driveways | Faber Concrete in Farmington Hills, MI",
+        "description": "Five inches on every driveway. Never four. A compacted 21AA base under the slab, and a finish from people who have been doing it for more than 25 years. Call (810) 360-7385."
+      },
+      {
+        "loc": "https://faberconcrete.com/services/approaches",
+        "path": "/services/approaches",
+        "title": "Driveway approaches | Faber Concrete in Farmington Hills, MI",
+        "description": "Six inches where the street meets the drive. That is the section a heavy truck hits first, on the same compacted 21AA base as the rest of the slab. Call (810) 360-7385."
+      },
+      {
+        "loc": "https://faberconcrete.com/services/flatwork",
+        "path": "/services/flatwork",
+        "title": "Flatwork | Faber Concrete in Farmington Hills, MI",
+        "description": "Pads, stoops, and other slabs poured to the driveway spec: five inches, six where it is an approach, compacted 21AA. Concrete is the company, not a side job. Call (810) 360-7385."
+      },
+      {
+        "loc": "https://faberconcrete.com/services/patios",
+        "path": "/services/patios",
+        "title": "Stamped concrete and pavers | Faber Concrete in Farmington Hills, MI",
+        "description": "Stamped concrete and pavers for people who want a driveway or patio that looks finished, poured or set on the same standard: five inches, six on an approach, compacted 21AA. Call (810) 360-7385."
+      },
+      {
+        "loc": "https://faberconcrete.com/areas/wayne-county",
+        "path": "/areas/wayne-county",
+        "title": "Concrete contractor in Wayne County | Faber Concrete",
+        "description": "Driveways, approaches, flatwork, stamped concrete, and pavers in Wayne County. Faber Concrete takes some ZIP codes in the county, not every address. The work is for homes and commercial properties that want the thicker slab."
+      },
+      {
+        "loc": "https://faberconcrete.com/areas/oakland-county",
+        "path": "/areas/oakland-county",
+        "title": "Concrete contractor in Oakland County | Faber Concrete",
+        "description": "Driveways, approaches, flatwork, stamped concrete, and pavers in Oakland County. Faber Concrete takes some ZIP codes in the county, not every address. The work is for homes and commercial properties that want the thicker slab."
+      },
+      {
+        "loc": "https://faberconcrete.com/areas/macomb-county",
+        "path": "/areas/macomb-county",
+        "title": "Concrete contractor in Macomb County | Faber Concrete",
+        "description": "Driveways, approaches, flatwork, stamped concrete, and pavers in Macomb County. Faber Concrete takes some ZIP codes in the county, not every address. The work is for homes and commercial properties that want the thicker slab."
+      },
+      {
+        "loc": "https://faberconcrete.com/areas/washtenaw-county",
+        "path": "/areas/washtenaw-county",
+        "title": "Concrete contractor in Washtenaw County | Faber Concrete",
+        "description": "Driveways, approaches, flatwork, stamped concrete, and pavers in Washtenaw County. Faber Concrete takes some ZIP codes in the county, not every address. The work is for homes and commercial properties that want the thicker slab."
+      },
+      {
+        "loc": "https://faberconcrete.com/areas/livingston-county",
+        "path": "/areas/livingston-county",
+        "title": "Concrete contractor in Livingston County | Faber Concrete",
+        "description": "Driveways, approaches, flatwork, stamped concrete, and pavers in Livingston County. Faber Concrete takes some ZIP codes in the county, not every address. The work is for homes and commercial properties that want the thicker slab."
+      },
+      {
+        "loc": "https://faberconcrete.com/jobs/finisher-on-a-driveway",
+        "path": "/jobs/finisher-on-a-driveway",
+        "title": "Driveways in Metro Detroit, MI | Faber Concrete",
+        "description": "A finisher troweling the edge of a fresh driveway. AI-generated illustration. This is not a photo of a completed Faber Concrete job."
+      },
+      {
+        "loc": "https://faberconcrete.com/jobs/crew-finishing-the-apron",
+        "path": "/jobs/crew-finishing-the-apron",
+        "title": "Driveway approaches in Metro Detroit, MI | Faber Concrete",
+        "description": "A crew working the edge where a new driveway meets the street. One still shows two finishers, one with a long float and one with a hand trowel. The others show a long float across the apron and a hand finish at the edge. AI-generated illustration. This is not a photo of a completed Faber Concrete job."
+      },
+      {
+        "loc": "https://faberconcrete.com/jobs/crew-on-the-pour",
+        "path": "/jobs/crew-on-the-pour",
+        "title": "Driveways in Metro Detroit, MI | Faber Concrete",
+        "description": "A crew placing and finishing concrete in the forms. One still is three people on the mud, with a float, a shovel, and a broom. The other is three people on a wider slab, one checking the surface and one floating it. AI-generated illustration. This is not a photo of a completed Faber Concrete job."
+      },
+      {
+        "loc": "https://faberconcrete.com/jobs/finished-driveway",
+        "path": "/jobs/finished-driveway",
+        "title": "Driveways in Metro Detroit, MI | Faber Concrete",
+        "description": "A new concrete driveway in front of a brick house. AI-generated illustration. This is not a photo of a completed Faber Concrete job."
+      },
+      {
+        "loc": "https://faberconcrete.com/jobs/new-construction-approach",
+        "path": "/jobs/new-construction-approach",
+        "title": "Driveway approaches in Metro Detroit, MI | Faber Concrete",
+        "description": "A new concrete approach at the street in front of a stone house that is still in scaffolding. A field photo, not a named completed job."
+      },
+      {
+        "loc": "https://faberconcrete.com/jobs/stamped-patterns",
+        "path": "/jobs/stamped-patterns",
+        "title": "Stamped concrete in Metro Detroit, MI | Faber Concrete",
+        "description": "Irregular stone, grey slate, warm limestone, cream travertine, and charcoal. AI-generated illustration. This is not a photo of a completed Faber Concrete job."
+      }
+    ]
+  },
+  "redirects": [
+    {
+      "from": "/service-areas",
+      "to": "/areas",
+      "status": 301
+    },
+    {
+      "from": "/jobs/how-the-slab-goes-in",
+      "to": "/services/driveways#slab",
+      "status": 301
+    },
+    {
+      "from": "/jobs/how-the-slab-goes-in/",
+      "to": "/services/driveways#slab",
+      "status": 301
+    },
+    {
+      "from": "/photos",
+      "to": "https://upload.stokeleads.com/c/TOKEN",
+      "status": 302,
+      "note": "TOKEN is a placeholder until a real upload link is minted."
+    }
+  ]
+}
