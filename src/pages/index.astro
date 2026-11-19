@@ -13,52 +13,54 @@ const cities = AREAS.filter((a) => a.type === 'city');
   faqs={HOMEPAGE_FAQS}
   howTo={true}
 >
-  <!-- HERO -->
-  <section class="blueprint-grid text-white py-14 sm:py-20 border-b-4 border-accent">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
-      <div class="lg:col-span-7">
-        <div class="inline-flex items-center gap-2 px-3 py-1 rounded bg-white/10 border border-white/15 text-xs font-bold uppercase tracking-wider text-gold">
-          Metro Detroit · 5 Counties · Concrete Only
-        </div>
-        <h1 class="font-display font-bold text-4xl sm:text-6xl uppercase tracking-tight leading-[1.05] mt-4">
-          Five Inches <span class="text-accent">On Every Driveway</span>
-        </h1>
-        <p class="text-lg text-white/85 mt-5 leading-relaxed max-w-2xl">
-          Driveways, approaches, flatwork, stamped concrete, and pavers across Metro Detroit. Never a four-inch slab. Six inches where the street meets the drive. Compacted 21AA under all of it.
-        </p>
-
-        <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-8">
-          <div class="bg-white/5 border border-white/15 rounded-lg p-3.5 text-center">
-            <div class="font-display font-bold text-2xl text-gold">5"</div>
-            <div class="text-xs text-white/80 mt-1">Never four inches</div>
+  <section class="relative bg-deep text-white overflow-hidden">
+    <div
+      class="absolute inset-0 opacity-25 pointer-events-none"
+      style="background-image: linear-gradient(to right, rgba(216, 223, 218, 0.22) 1px, transparent 1px), linear-gradient(to bottom, rgba(216, 223, 218, 0.22) 1px, transparent 1px), linear-gradient(to right, rgba(216, 223, 218, 0.08) 1px, transparent 1px), linear-gradient(to bottom, rgba(216, 223, 218, 0.08) 1px, transparent 1px), repeating-linear-gradient(45deg, rgba(212, 162, 76, 0.04) 0px, rgba(212, 162, 76, 0.04) 2px, transparent 2px, transparent 12px); background-size: 96px 96px, 96px 96px, 24px 24px, 24px 24px, 100% 100%;"
+    >
+    </div>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-20 relative z-10">
+      <div class="grid lg:grid-cols-12 gap-10 items-center">
+        <div class="lg:col-span-7 space-y-6">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 border border-white/15 text-xs font-semibold tracking-wide text-gold">
+            Metro Detroit · Wayne, Oakland, Macomb, Washtenaw &amp; Livingston Counties
           </div>
-          <div class="bg-white/5 border border-white/15 rounded-lg p-3.5 text-center">
-            <div class="font-display font-bold text-2xl text-gold">6"</div>
-            <div class="text-xs text-white/80 mt-1">On the approach</div>
+          <h1 class="font-display text-4xl sm:text-5xl lg:text-6xl font-bold uppercase tracking-tight leading-[1.05]">
+            Concrete Driveways in Metro Detroit: <span class="text-accent">Five Inches</span> on Every Driveway.
+          </h1>
+          <p class="text-base sm:text-lg text-white/85 leading-relaxed max-w-2xl">
+            Driveways, approaches, flatwork, stamped concrete, and pavers. <strong>Never a four-inch slab.</strong> Six inches where the street meets the drive. Compacted 21AA crushed aggregate under all of it. This site is only the concrete company.
+          </p>
+          <div class="grid grid-cols-3 gap-3 sm:gap-4 pt-1 max-w-xl">
+            <div class="bg-white/5 border border-white/15 rounded-xl p-3.5">
+              <div class="font-display text-2xl sm:text-3xl font-bold text-gold">5 INCH</div>
+              <div class="text-xs sm:text-sm font-semibold text-white/90 mt-0.5">Never four</div>
+            </div>
+            <div class="bg-white/5 border border-white/15 rounded-xl p-3.5">
+              <div class="font-display text-2xl sm:text-3xl font-bold text-gold">6 INCH</div>
+              <div class="text-xs sm:text-sm font-semibold text-white/90 mt-0.5">On the approach</div>
+            </div>
+            <div class="bg-white/5 border border-white/15 rounded-xl p-3.5">
+              <div class="font-display text-2xl sm:text-3xl font-bold text-gold">21AA</div>
+              <div class="text-xs sm:text-sm font-semibold text-white/90 mt-0.5">Compacted base</div>
+            </div>
           </div>
-          <div class="bg-white/5 border border-white/15 rounded-lg p-3.5 text-center">
-            <div class="font-display font-bold text-2xl text-gold">21AA</div>
-            <div class="text-xs text-white/80 mt-1">Compacted base</div>
-          </div>
-          <div class="bg-white/5 border border-white/15 rounded-lg p-3.5 text-center">
-            <div class="font-display font-bold text-2xl text-gold leading-none">25+ YRS</div>
-            <div class="text-xs text-white/80 mt-1">Veteran finishers</div>
+          <div class="bg-white/5 border-l-4 border-accent rounded-r-xl p-4 max-w-2xl">
+            <p class="text-sm text-white/90 italic">
+              “If you are looking for a cheap deal, we are not going to be it. Best quality bid, priced down the middle — with finishers who have more than 25 years on the tools.”
+            </p>
+            <div class="mt-2 flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-white/75 font-semibold">
+              <span>— Matt Faber, Owner</span>
+              <span>•</span>
+              <span>April &amp; May book first</span>
+              <span>•</span>
+              <a href="/reviews" class="text-gold underline hover:text-white">★★★★★ 5.0 Google Rating (5 Reviews)</a>
+            </div>
           </div>
         </div>
-
-        <div class="mt-8 p-4 rounded-lg bg-white/5 border-l-4 border-gold text-sm text-white/90">
-          <strong>Straight talk on price:</strong> “If you are looking for a cheap deal, we are not going to be it. We are going to be your best, highest quality bid, priced down the middle.” — <em>Matt Faber, Owner</em>
+        <div class="lg:col-span-5">
+          <EstimateForm compact={true} />
         </div>
-
-        <div class="mt-6 flex flex-wrap items-center gap-4 text-xs text-white/75">
-          <a href="/reviews" class="text-gold font-bold hover:underline">★★★★★ 5.0 from 5 Google Reviews</a>
-          <span>·</span>
-          <a href="/calculator" class="underline hover:text-white">Try the Driveway Cost Calculator →</a>
-        </div>
-      </div>
-
-      <div class="lg:col-span-5">
-        <EstimateForm compact={true} />
       </div>
     </div>
   </section>
@@ -77,14 +79,17 @@ const cities = AREAS.filter((a) => a.type === 'city');
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-10">
       {SERVICES.map((service) => (
-        <article class="bg-white rounded-xl border border-deep/10 overflow-hidden shadow-sm hover:shadow-lg transition flex flex-col">
-          <div class="relative h-56 bg-deep">
+        <article class="bg-white rounded-2xl border border-deep/10 overflow-hidden shadow-sm hover:shadow-xl transition flex flex-col">
+          <div class="relative h-48 bg-deep overflow-hidden">
             <img
               src={service.heroImage.url}
               alt={service.heroImage.alt}
               loading="lazy"
               class="w-full h-full object-cover"
             />
+            <span class="absolute top-3 left-3 bg-deep/90 text-gold text-xs font-display font-bold uppercase px-2.5 py-1 rounded">
+              {service.slug === 'approaches' ? '6" Street Apron' : service.slug === 'patios' ? 'Decorative + Structural' : '5" Full Depth'}
+            </span>
             <span class="absolute bottom-2 right-2 bg-deep/85 text-white/85 text-[10px] px-2 py-0.5 rounded">
               {service.slug === 'approaches' ? 'Field photo · Not a named job' : 'AI illustration · Not a completed job photo'}
             </span>
@@ -120,74 +125,136 @@ const cities = AREAS.filter((a) => a.type === 'city');
     </div>
   </section>
 
-  <!-- WHY 5 INCHES -->
-  <section class="bg-panel py-16 sm:py-20 border-y border-deep/10">
+  <section class="py-16 lg:py-20 bg-deep text-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="max-w-3xl">
-        <div class="text-xs font-bold uppercase tracking-wider text-accent">The Slab Standard</div>
-        <h2 class="font-display font-bold text-3xl sm:text-4xl uppercase mt-1">
-          Why Our Slab Is Thicker (And Why Low Bids Skip It)
-        </h2>
-      </div>
-
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-10">
-        <div class="bg-white rounded-xl p-6 border border-deep/10">
-          <div class="text-xs font-bold uppercase text-accent">01 · Michigan Cold</div>
-          <h3 class="font-display font-bold text-xl uppercase mt-1">Freeze-Thaw &amp; 20-Ton Trucks</h3>
-          <p class="text-sm text-muted mt-2 leading-relaxed">
-            Freeze and thaw cycles work on a thin 4-inch slab—and so does a 20-ton delivery truck. The approach takes that hit first (6 inches), and the rest of the driveway is 5 inches.
+      <div class="grid lg:grid-cols-12 gap-10 items-center">
+        <div class="lg:col-span-5 space-y-5">
+          <span class="text-xs font-bold uppercase tracking-widest text-gold">Homeowner Engineering Comparison</span>
+          <h2 class="font-display text-3xl sm:text-4xl font-bold uppercase leading-tight">
+            Why the Slab is Thicker: Michigan Cold &amp; 20-Ton Trucks
+          </h2>
+          <p class="text-sm sm:text-base text-white/80 leading-relaxed">
+            Most contractors pour four inches over dirt or a thin layer of sand. Skipping that extra inch saves them <strong>$600 to $700</strong> on an average driveway—what Matt calls <em>“tripping over dollars to pick up pennies.”</em>
           </p>
+          <p class="text-sm sm:text-base text-white/80 leading-relaxed">
+            A thin slab rarely fails in year one. Instead, Michigan freeze-thaw cycles and heavy delivery trucks crack it early so you live with a driveway you hate long before you are ready to tear it out.
+          </p>
+          <div class="pt-2 flex flex-wrap gap-3">
+            <button id="btn-spec-faber" type="button" class="px-4 py-2.5 rounded-xl bg-accent text-white font-display font-bold uppercase text-sm tracking-wider shadow-lg transition cursor-pointer">
+              Faber Concrete Spec (5" / 6" + 21AA)
+            </button>
+            <button id="btn-spec-cheap" type="button" class="px-4 py-2.5 rounded-xl bg-white/10 hover:bg-white/20 text-white font-display font-bold uppercase text-sm tracking-wider border border-white/15 transition cursor-pointer">
+              Typical Low Bid (4" on Sand/Dirt)
+            </button>
+          </div>
+          <a href="/calculator" class="inline-flex items-center gap-2 text-sm font-bold text-gold hover:underline">
+            Open Full Driveway &amp; Approach Cost Calculator →
+          </a>
         </div>
-        <div class="bg-white rounded-xl p-6 border border-deep/10">
-          <div class="text-xs font-bold uppercase text-accent">02 · The Cheap Inch</div>
-          <h3 class="font-display font-bold text-xl uppercase mt-1">Tripping Over Dollars</h3>
-          <p class="text-sm text-muted mt-2 leading-relaxed">
-            Most crews pour four inches because it saves $600 to $700 on an average driveway. We charge for the fifth inch so you do not end up hating a cracked driveway early.
-          </p>
-        </div>
-        <div class="bg-white rounded-xl p-6 border border-deep/10">
-          <div class="text-xs font-bold uppercase text-accent">03 · What Is Under It</div>
-          <h3 class="font-display font-bold text-xl uppercase mt-1">Compacted 21AA, Never Sand</h3>
-          <p class="text-sm text-muted mt-2 leading-relaxed">
-            We never pour over dirt or uncompacted sand that erodes out from under the concrete. We grade the entire area and compact 21AA crushed limestone before forming.
-          </p>
-        </div>
-        <div class="bg-white rounded-xl p-6 border border-deep/10">
-          <div class="text-xs font-bold uppercase text-accent">04 · Craftsmanship</div>
-          <h3 class="font-display font-bold text-xl uppercase mt-1">25+ Years on the Tools</h3>
-          <p class="text-sm text-muted mt-2 leading-relaxed">
-            The finish is what you see every day. Our finishers have more than 25 years of experience putting clean edges and broom or stamped finishes onto full-depth slabs.
-          </p>
-        </div>
-      </div>
-
-      <div class="mt-10 bg-white rounded-xl p-6 border border-deep/10 flex flex-col md:flex-row items-center gap-6">
-        <img
-          src={SITE.methodInfographic.url}
-          alt={SITE.methodInfographic.alt}
-          loading="lazy"
-          class="w-full md:w-80 rounded-lg border border-deep/10"
-        />
-        <div>
-          <div class="text-xs font-bold uppercase tracking-wider text-accent">Cross-Section Standard</div>
-          <h3 class="font-display font-bold text-2xl uppercase mt-1">
-            Grade → Compact 21AA → 5" Driveway → 6" Approach
-          </h3>
-          <p class="text-sm text-muted mt-2 leading-relaxed">
-            {SITE.methodInfographic.caption} Want to estimate cubic yards, 21AA tonnage, and ballpark cost for your dimensions?
-          </p>
-          <div class="mt-4 flex flex-wrap gap-3">
-            <a href="/calculator" class="px-4 py-2 rounded bg-deep text-white font-bold text-sm hover:bg-accent transition">
-              Open Driveway Cost Calculator →
-            </a>
-            <a href="/guides/5-inch-vs-4-inch-concrete-driveway-michigan" class="px-4 py-2 rounded border border-deep/20 text-deep font-bold text-sm hover:border-accent transition">
-              Read the 5" vs. 4" Guide
-            </a>
+        <div class="lg:col-span-7">
+          <div id="slab-visualizer-card" class="bg-white/5 border border-white/15 rounded-2xl p-6 sm:p-8 shadow-2xl">
+            <div class="flex flex-wrap items-center justify-between gap-2 pb-4 mb-6 border-b border-white/10">
+              <div>
+                <span id="viz-badge" class="inline-block px-2.5 py-0.5 rounded bg-accent text-white text-xs font-bold uppercase tracking-wider">Faber Standard</span>
+                <h3 id="viz-title" class="font-display text-2xl font-bold uppercase mt-1">5" Driveway / 6" Approach on Compacted 21AA</h3>
+              </div>
+              <div class="text-right">
+                <div class="text-xs text-white/60 uppercase font-semibold">Freeze-Thaw &amp; Load Rating</div>
+                <div id="viz-rating" class="font-display text-xl font-bold text-gold">20-Ton Truck Ready</div>
+              </div>
+            </div>
+            <div class="space-y-3">
+              <div class="flex items-center justify-between text-xs font-semibold text-white/70 px-2">
+                <span>↑ Surface: Hand-troweled &amp; broom-finished by 25+ yr finishers</span>
+                <span id="viz-load-note" class="text-gold">Heavy Load Distributed</span>
+              </div>
+              <div id="viz-concrete-layer" class="rounded-xl bg-gradient-to-r from-stone-300 via-stone-200 to-stone-300 text-deep p-5 border-2 border-white shadow-inner transition-all duration-300">
+                <div class="flex flex-wrap items-center justify-between gap-2">
+                  <div>
+                    <span class="text-xs font-bold uppercase tracking-wider text-accent">Layer 1 · Structural Concrete Slab</span>
+                    <div id="viz-concrete-thickness" class="font-display text-2xl font-bold uppercase">5.0 Inches (Driveway) / 6.0 Inches (Approach)</div>
+                  </div>
+                  <span id="viz-concrete-tag" class="px-3 py-1 rounded-lg bg-deep text-white text-xs font-bold">+25% to +50% More Concrete Depth</span>
+                </div>
+                <p id="viz-concrete-desc" class="text-xs text-deep/80 mt-2 font-medium">
+                  Full five-inch slab across the entire driveway and six inches at the street apron prevents flexural cracking under delivery trucks and winter heave.
+                </p>
+              </div>
+              <div id="viz-base-layer" class="rounded-xl bg-amber-900/40 border-2 border-gold/50 p-4 transition-all duration-300">
+                <div class="flex flex-wrap items-center justify-between gap-2">
+                  <div>
+                    <span class="text-xs font-bold uppercase tracking-wider text-gold">Layer 2 · Sub-Base Preparation</span>
+                    <div id="viz-base-title" class="font-display text-xl font-bold uppercase text-white">Graded &amp; Mechanically Compacted 21AA Crushed Aggregate</div>
+                  </div>
+                  <span id="viz-base-tag" class="px-2.5 py-1 rounded bg-gold/20 text-gold text-xs font-bold">Zero Washout Risk</span>
+                </div>
+                <p id="viz-base-desc" class="text-xs text-white/80 mt-1.5">
+                  Angular 21AA stone locks together under compaction and drains properly through Michigan freeze-thaw cycles without eroding out from under the slab.
+                </p>
+              </div>
+              <div class="rounded-xl bg-stone-900/80 border border-white/10 p-3.5 text-xs text-white/70">
+                <strong>Layer 3 · Native Michigan Subgrade:</strong> Excavated &amp; graded to proper pitch before 21AA placement (Never poured directly on dirt).
+              </div>
+            </div>
+            <div class="mt-6 pt-5 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4">
+              <div class="flex items-center gap-3">
+                <img src={SITE.methodInfographic.url} alt={SITE.methodInfographic.alt} class="w-16 h-12 object-cover rounded-lg border border-white/20" />
+                <p class="text-xs text-white/75">
+                  <strong>Every Estimate In Writing:</strong> Slab thickness (5" &amp; 6") and compacted 21AA base are written directly into your contract.
+                </p>
+              </div>
+              <a href="/contact" class="shrink-0 px-4 py-2 rounded-lg bg-white text-deep font-display font-bold text-xs uppercase tracking-wider hover:bg-gold transition">
+                Book Site Look
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
+  <script is:inline>
+    function setSlabMode(mode) {
+      const btnFaber = document.getElementById('btn-spec-faber');
+      const btnCheap = document.getElementById('btn-spec-cheap');
+      const on = 'px-4 py-2.5 rounded-xl bg-accent text-white font-display font-bold uppercase text-sm tracking-wider shadow-lg transition cursor-pointer';
+      const off = 'px-4 py-2.5 rounded-xl bg-white/10 hover:bg-white/20 text-white font-display font-bold uppercase text-sm tracking-wider border border-white/15 transition cursor-pointer';
+      if (mode === 'faber') {
+        btnFaber.className = on;
+        btnCheap.className = off;
+        document.getElementById('viz-badge').textContent = 'Faber Standard';
+        document.getElementById('viz-badge').className = 'inline-block px-2.5 py-0.5 rounded bg-accent text-white text-xs font-bold uppercase tracking-wider';
+        document.getElementById('viz-title').textContent = '5" Driveway / 6" Approach on Compacted 21AA';
+        document.getElementById('viz-rating').textContent = '20-Ton Truck Ready';
+        document.getElementById('viz-rating').className = 'font-display text-xl font-bold text-gold';
+        document.getElementById('viz-concrete-layer').className = 'rounded-xl bg-gradient-to-r from-stone-300 via-stone-200 to-stone-300 text-deep p-5 border-2 border-white shadow-inner transition-all duration-300';
+        document.getElementById('viz-concrete-thickness').textContent = '5.0 Inches (Driveway) / 6.0 Inches (Approach)';
+        document.getElementById('viz-concrete-tag').textContent = '+25% to +50% More Concrete Depth';
+        document.getElementById('viz-concrete-desc').textContent = 'Full five-inch slab across the entire driveway and six inches at the street apron prevents flexural cracking under delivery trucks and winter heave.';
+        document.getElementById('viz-base-layer').className = 'rounded-xl bg-amber-900/40 border-2 border-gold/50 p-4 transition-all duration-300';
+        document.getElementById('viz-base-title').textContent = 'Graded & Mechanically Compacted 21AA Crushed Aggregate';
+        document.getElementById('viz-base-tag').textContent = 'Zero Washout Risk';
+        document.getElementById('viz-base-desc').textContent = 'Angular 21AA stone locks together under compaction and drains properly through Michigan freeze-thaw cycles without eroding out from under the slab.';
+      } else {
+        btnCheap.className = on;
+        btnFaber.className = off;
+        document.getElementById('viz-badge').textContent = 'Typical Low-Ball Shortcut';
+        document.getElementById('viz-badge').className = 'inline-block px-2.5 py-0.5 rounded bg-red-600 text-white text-xs font-bold uppercase tracking-wider';
+        document.getElementById('viz-title').textContent = '4" Thin Slab Poured Over Sand or Bare Dirt';
+        document.getElementById('viz-rating').textContent = 'High Early Crack Risk';
+        document.getElementById('viz-rating').className = 'font-display text-xl font-bold text-red-400';
+        document.getElementById('viz-concrete-layer').className = 'rounded-xl bg-stone-400/80 text-deep p-3.5 border-2 border-red-400 transition-all duration-300';
+        document.getElementById('viz-concrete-thickness').textContent = '4.0 Inches (Sometimes 3.5" in High Spots)';
+        document.getElementById('viz-concrete-tag').textContent = 'Saves ~$600–$700 Upfront';
+        document.getElementById('viz-concrete-desc').textContent = 'Skipping 1 inch on the drive and 2 inches on the apron leaves the slab vulnerable to delivery trucks and Michigan frost heave.';
+        document.getElementById('viz-base-layer').className = 'rounded-xl bg-red-950/50 border border-red-400/50 p-3.5 transition-all duration-300';
+        document.getElementById('viz-base-title').textContent = 'Loose Sand or Uncompacted Subgrade Dirt';
+        document.getElementById('viz-base-tag').textContent = 'Erosion & Void Risk';
+        document.getElementById('viz-base-desc').textContent = 'Sand and topsoil wash out under freeze-thaw water flow, leaving hollow voids where the 4-inch slab snaps.';
+      }
+    }
+    document.getElementById('btn-spec-faber').addEventListener('click', () => setSlabMode('faber'));
+    document.getElementById('btn-spec-cheap').addEventListener('click', () => setSlabMode('cheap'));
+  </script>
 
   <!-- SERVICE AREAS -->
   <section class="py-16 sm:py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
