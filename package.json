@@ -9,6 +9,7 @@
     "preview": "astro preview",
     "deploy": "npm run build && wrangler pages deploy ./dist",
     "sync-reviews": "node scripts/sync-reviews.js",
+    "export-content": "node --experimental-strip-types scripts/export-site-content.mjs",
     "new-client": "node scripts/new-client.mjs"
   },
   "dependencies": {
