@@ -1,0 +1,117 @@
+---
+import { SITE } from '../data/site';
+
+interface Props {
+  faqs?: { q: string; a: string }[];
+  breadcrumbs?: { name: string; url: string }[];
+  howTo?: boolean;
+  serviceName?: string;
+}
+
+const { faqs = [], breadcrumbs = [], howTo = false, serviceName } = Astro.props;
+
+const graph: Record<string, unknown>[] = [
+  {
+    '@type': 'GeneralContractor',
+    '@id': `${SITE.url}/#organization`,
+    name: SITE.name,
+    legalName: SITE.legalName,
+    url: SITE.url,
+    telephone: SITE.phone,
+    logo: SITE.logos.wordmark,
+    image: 'https://media.stokeleads.com/faberconcrete/concrete-crew-finishing-driveway.avif',
+    founder: {
+      '@type': 'Person',
+      name: SITE.ownerName,
+      jobTitle: SITE.ownerRole
+    },
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: SITE.address.street,
+      addressLocality: SITE.address.city,
+      addressRegion: SITE.address.state,
+      postalCode: SITE.address.zip,
+      addressCountry: 'US'
+    },
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: SITE.geo.lat,
+      longitude: SITE.geo.lng
+    },
+    hasMap: SITE.google.profileUrl,
+    sameAs: [SITE.google.profileUrl],
+    areaServed: [
+      { '@type': 'AdministrativeArea', name: 'Wayne County, MI' },
+      { '@type': 'AdministrativeArea', name: 'Oakland County, MI' },
+      { '@type': 'AdministrativeArea', name: 'Macomb County, MI' },
+      { '@type': 'AdministrativeArea', name: 'Washtenaw County, MI' },
+      { '@type': 'AdministrativeArea', name: 'Livingston County, MI' }
+    ],
+    knowsAbout: SITE.knowsAbout,
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: SITE.google.rating,
+      reviewCount: SITE.google.count,
+      bestRating: 5
+    }
+  }
+];
+
+if (serviceName) {
+  graph.push({
+    '@type': 'Service',
+    name: serviceName,
+    provider: { '@id': `${SITE.url}/#organization` },
+    areaServed: SITE.region
+  });
+}
+
+if (faqs.length > 0) {
+  graph.push({
+    '@type': 'FAQPage',
+    mainEntity: faqs.map((item) => ({
+      '@type': 'Question',
+      name: item.q,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: item.a
+      }
+    }))
+  });
+}
+
+if (breadcrumbs.length > 0) {
+  graph.push({
+    '@type': 'BreadcrumbList',
+    itemListElement: breadcrumbs.map((crumb, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: crumb.name,
+      item: crumb.url
+    }))
+  });
+}
+
+if (howTo) {
+  graph.push({
+    '@type': 'HowTo',
+    name: 'How Faber Concrete Installs a 5-Inch Concrete Driveway',
+    description:
+      'Our five-step residential and commercial concrete installation process in Metro Detroit.',
+    step: [
+      { '@type': 'HowToStep', name: 'Send the form', text: 'Share your address and scope to confirm ZIP code coverage.' },
+      { '@type': 'HowToStep', name: 'On-site inspection', text: 'Matt Faber walks the site to check grade, access, and approach transitions.' },
+      { '@type': 'HowToStep', name: 'Written estimate & contract', text: 'Receive a written spec naming 5-inch driveway, 6-inch approach, and compacted 21AA.' },
+      { '@type': 'HowToStep', name: 'Grade and compact 21AA', text: 'Grade the full area and compact 21AA crushed limestone. Never dirt or sand.' },
+      { '@type': 'HowToStep', name: 'Form, pour, and finish', text: 'Pour 5 inches on the driveway and 6 inches on the approach, finished by 25+ year craftsmen.' }
+    ]
+  });
+}
+
+const jsonLd = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@graph': graph
+});
+---
+
+<script type="application/ld+json" set:html={jsonLd} />

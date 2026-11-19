@@ -1,6 +1,7 @@
 import { writeFile } from 'node:fs/promises';
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
+import tailwindcss from '@tailwindcss/vite';
 import { cloudflareRedirects } from './src/config/photo-upload.mjs';
 
 function cloudflareRedirectsFile() {
@@ -18,12 +19,13 @@ export default defineConfig({
   site: process.env.SITE_URL || 'https://faberconcrete.com',
   integrations: [
     sitemap({
-      filter: (page) => !page.includes('/admin'),
+      filter: (page) => !page.includes('/admin') && !page.includes('/thanks'),
     }),
     cloudflareRedirectsFile(),
   ],
   // Google Drive FS often skips native file events — poll so HMR actually fires
   vite: {
+    plugins: [tailwindcss()],
     envPrefix: ['PUBLIC_', 'SITE_'],
     server: {
       watch: {
