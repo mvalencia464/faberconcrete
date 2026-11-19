@@ -1,99 +1,114 @@
 ---
-import { SITE, SERVICES, AREAS } from '../data/site';
-
-const counties = AREAS.filter((a) => a.type === 'county');
+import { SITE } from '../data/site';
 ---
 
-<div class="bg-deep text-white/80 text-xs border-b border-white/10">
+<div class="bg-deep text-white/90 text-xs border-b border-white/10">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 flex flex-wrap items-center justify-between gap-2">
-    <div class="flex items-center gap-3">
-      <span class="inline-block w-2 h-2 rounded-full bg-gold"></span>
-      <span>Farmington Hills, MI · {SITE.region}</span>
+    <div class="flex items-center gap-3 flex-wrap">
+      <span class="inline-flex items-center gap-1.5 font-semibold text-gold">
+        <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+          <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path>
+        </svg>
+        Farmington Hills, MI · Wayne, Oakland, Macomb, Washtenaw &amp; Livingston Counties
+      </span>
+      <span class="hidden md:inline text-white/40">|</span>
+      <span class="hidden md:inline text-white/80">Site look first · Written contract before forming</span>
     </div>
     <div class="flex items-center gap-4">
-      <a href="/reviews" class="hover:text-gold transition">
-        ★ {SITE.google.rating.toFixed(1)} ({SITE.google.count} Google Reviews)
+      <a href="/reviews" class="inline-flex items-center gap-1 hover:text-gold transition">
+        <span class="text-gold tracking-tight">★★★★★</span>
+        <span class="font-semibold">5.0</span>
+        <span class="text-white/70">({SITE.google.count} Google Reviews)</span>
       </a>
-      <span class="hidden sm:inline text-white/30">|</span>
-      <span class="hidden sm:inline text-gold font-semibold">April &amp; May Spring Dates Booking</span>
+      <span class="hidden sm:inline text-white/40">|</span>
+      <span class="hidden sm:inline font-semibold uppercase tracking-wider text-white/80">Residential · Commercial</span>
     </div>
   </div>
 </div>
 
-<header class="sticky top-0 z-40 bg-white/95 backdrop-blur border-b border-deep/10 shadow-sm">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-4">
-    <a href="/" class="flex items-center gap-3">
-      <div class="w-10 h-10 bg-deep text-white font-display font-bold text-xl flex items-center justify-center rounded border-b-4 border-accent">
-        FC
-      </div>
-      <div>
-        <div class="font-display font-bold text-xl tracking-tight text-deep uppercase leading-none">
-          Faber Concrete
+<header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-deep/10 shadow-sm">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-20">
+      <a href="/" class="flex items-center gap-3 text-left group">
+        <div class="w-11 h-11 rounded-lg bg-deep flex items-center justify-center border-2 border-accent shadow-sm group-hover:bg-accent transition-colors">
+          <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3 17h18M3 13h18M5 9h14l2 4H3l2-4z"></path>
+          </svg>
         </div>
-        <div class="text-[11px] font-semibold uppercase tracking-wider text-muted mt-0.5">
-          5" Driveways · 6" Approaches
+        <div>
+          <div class="font-display text-2xl font-bold tracking-tight uppercase text-deep leading-none">
+            FABER <span class="text-accent">CONCRETE</span>
+          </div>
+          <div class="text-[11px] font-semibold uppercase tracking-widest text-muted mt-0.5">
+            Five Inches, Every Driveway
+          </div>
         </div>
-      </div>
-    </a>
+      </a>
 
-    <nav class="hidden lg:flex items-center gap-6 text-sm font-semibold text-deep">
-      <div class="relative group py-6">
-        <a href="/#services" class="hover:text-accent transition flex items-center gap-1">
-          Services <span class="text-xs">▾</span>
-        </a>
-        <div class="hidden group-hover:block absolute left-0 top-full w-64 bg-white border border-deep/10 shadow-xl rounded-b-lg p-2">
-          {SERVICES.map((s) => (
-            <a
-              href={`/services/${s.slug}`}
-              class="block px-3 py-2.5 rounded hover:bg-surface text-deep hover:text-accent transition"
-            >
-              <div class="font-bold text-sm">{s.title}</div>
-              <div class="text-xs text-muted line-clamp-1">{s.highlights[0]}</div>
-            </a>
-          ))}
-        </div>
-      </div>
-
-      <div class="relative group py-6">
-        <a href="/areas" class="hover:text-accent transition flex items-center gap-1">
-          Service Areas <span class="text-xs">▾</span>
-        </a>
-        <div class="hidden group-hover:block absolute left-0 top-full w-64 bg-white border border-deep/10 shadow-xl rounded-b-lg p-2">
-          <a href="/areas" class="block px-3 py-2 rounded hover:bg-surface text-xs font-bold uppercase tracking-wider text-accent">
-            All 5 Counties &amp; Cities →
+      <nav class="hidden xl:flex items-center gap-0.5" aria-label="Main">
+        <a href="/" class="px-2.5 py-2 rounded-lg text-sm font-semibold text-deep hover:bg-panel transition whitespace-nowrap">Home</a>
+        <div class="relative group">
+          <a href="/#services" class="px-2.5 py-2 rounded-lg text-sm font-semibold text-deep hover:bg-panel transition inline-flex items-center gap-1 whitespace-nowrap">
+            Services
+            <svg class="w-4 h-4 text-muted" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
           </a>
-          {counties.map((c) => (
-            <a
-              href={`/areas/${c.slug}`}
-              class="block px-3 py-2 rounded hover:bg-surface text-sm text-deep hover:text-accent transition"
-            >
-              {c.name}
-            </a>
-          ))}
+          <div class="absolute left-0 mt-1 w-64 rounded-xl bg-white shadow-xl border border-deep/10 py-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-150 z-50">
+            <a href="/services/driveways" class="block px-4 py-2.5 hover:bg-surface"><span class="block text-sm font-bold text-deep">Driveways (5" Spec)</span><span class="block text-xs text-muted">Compacted 21AA, never 4 inches</span></a>
+            <a href="/services/approaches" class="block px-4 py-2.5 hover:bg-surface"><span class="block text-sm font-bold text-deep">Driveway Approaches (6" Spec)</span><span class="block text-xs text-muted">Reinforced street apron for 20-ton loads</span></a>
+            <a href="/services/flatwork" class="block px-4 py-2.5 hover:bg-surface"><span class="block text-sm font-bold text-deep">Concrete Flatwork</span><span class="block text-xs text-muted">Pads, stoops &amp; walkways at 5 inches</span></a>
+            <a href="/services/patios" class="block px-4 py-2.5 hover:bg-surface"><span class="block text-sm font-bold text-deep">Stamped Concrete &amp; Pavers</span><span class="block text-xs text-muted">Decorative finishes on full-depth slabs</span></a>
+          </div>
         </div>
+        <div class="relative group">
+          <a href="/areas" class="px-2.5 py-2 rounded-lg text-sm font-semibold text-deep hover:bg-panel transition inline-flex items-center gap-1 whitespace-nowrap">
+            Service Areas
+            <svg class="w-4 h-4 text-muted" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+          </a>
+          <div class="absolute left-0 mt-1 w-60 rounded-xl bg-white shadow-xl border border-deep/10 py-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-150 z-50">
+            <a href="/areas/oakland-county" class="block px-4 py-2 text-sm font-semibold text-deep hover:bg-surface">Oakland County, MI</a>
+            <a href="/areas/wayne-county" class="block px-4 py-2 text-sm font-semibold text-deep hover:bg-surface">Wayne County, MI</a>
+            <a href="/areas/macomb-county" class="block px-4 py-2 text-sm font-semibold text-deep hover:bg-surface">Macomb County, MI</a>
+            <a href="/areas/washtenaw-county" class="block px-4 py-2 text-sm font-semibold text-deep hover:bg-surface">Washtenaw County, MI</a>
+            <a href="/areas/livingston-county" class="block px-4 py-2 text-sm font-semibold text-deep hover:bg-surface">Livingston County, MI</a>
+            <div class="border-t border-deep/10 my-1"></div>
+            <a href="/areas" class="block px-4 py-2 text-xs font-bold uppercase tracking-wider text-accent hover:bg-surface">All 5 Counties &amp; ZIP Check →</a>
+          </div>
+        </div>
+        <a href="/calculator" class="px-2.5 py-2 rounded-lg text-sm font-semibold text-deep hover:bg-panel transition inline-flex items-center gap-1.5 whitespace-nowrap">
+          <span class="w-2 h-2 rounded-full bg-accent"></span>
+          Cost &amp; Spec Tool
+        </a>
+        <a href="/about" class="px-2.5 py-2 rounded-lg text-sm font-semibold text-deep hover:bg-panel transition whitespace-nowrap">About</a>
+        <a href="/reviews" class="px-2.5 py-2 rounded-lg text-sm font-semibold text-deep hover:bg-panel transition whitespace-nowrap">Reviews</a>
+      </nav>
+
+      <div class="hidden sm:flex items-center gap-3">
+        <a href={SITE.phoneHref} class="inline-flex items-center gap-2 px-3.5 py-2.5 rounded-lg border-2 border-deep text-deep font-display font-bold text-sm uppercase tracking-wide hover:bg-deep hover:text-white transition">
+          <svg class="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path>
+          </svg>
+          {SITE.phone}
+        </a>
+        <a href="/contact" class="px-4 py-2.5 rounded-lg bg-accent hover:bg-accentHover text-white font-display font-bold text-sm uppercase tracking-wider shadow-md transition">
+          Request Estimate
+        </a>
       </div>
 
-      <a href="/calculator" class="hover:text-accent transition">Cost Calculator</a>
-      <a href="/guides" class="hover:text-accent transition">Guides</a>
-      <a href="/about" class="hover:text-accent transition">About</a>
-      <a href="/reviews" class="hover:text-accent transition">Reviews</a>
-    </nav>
-
-    <div class="flex items-center gap-2 sm:gap-3">
-      <a
-        href={SITE.phoneHref}
-        class="inline-flex items-center gap-2 px-3 sm:px-4 py-2.5 rounded border border-deep/20 text-deep font-bold text-sm hover:border-accent hover:text-accent transition"
-      >
-        <span>📞</span>
-        <span class="hidden sm:inline">{SITE.phone}</span>
-        <span class="sm:hidden">Call</span>
-      </a>
-      <a
-        href="/contact"
-        class="inline-flex items-center px-4 sm:px-5 py-2.5 rounded bg-accent hover:bg-accentHover text-white font-bold text-sm shadow transition"
-      >
-        Request Estimate
-      </a>
+      <details class="xl:hidden relative">
+        <summary class="list-none cursor-pointer px-3 py-2 rounded-lg border border-deep/15 font-bold text-sm">Menu</summary>
+        <div class="absolute right-0 mt-2 w-64 bg-white border border-deep/10 shadow-xl rounded-xl p-2 z-50">
+          <a href="/services/driveways" class="block px-3 py-2 rounded hover:bg-surface text-sm font-semibold">Driveways</a>
+          <a href="/services/approaches" class="block px-3 py-2 rounded hover:bg-surface text-sm font-semibold">Approaches</a>
+          <a href="/services/flatwork" class="block px-3 py-2 rounded hover:bg-surface text-sm font-semibold">Flatwork</a>
+          <a href="/services/patios" class="block px-3 py-2 rounded hover:bg-surface text-sm font-semibold">Stamped &amp; Pavers</a>
+          <a href="/areas" class="block px-3 py-2 rounded hover:bg-surface text-sm font-semibold">Service Areas</a>
+          <a href="/calculator" class="block px-3 py-2 rounded hover:bg-surface text-sm font-semibold">Cost &amp; Spec Tool</a>
+          <a href="/guides" class="block px-3 py-2 rounded hover:bg-surface text-sm font-semibold">Guides</a>
+          <a href="/about" class="block px-3 py-2 rounded hover:bg-surface text-sm font-semibold">About</a>
+          <a href="/reviews" class="block px-3 py-2 rounded hover:bg-surface text-sm font-semibold">Reviews</a>
+          <a href="/contact" class="block px-3 py-2 rounded bg-accent text-white text-sm font-bold text-center mt-1">Request Estimate</a>
+        </div>
+      </details>
     </div>
   </div>
 </header>
