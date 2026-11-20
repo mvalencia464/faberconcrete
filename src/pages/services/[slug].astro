@@ -103,6 +103,32 @@ const pageTitle = card?.title ?? service.title;
             <p class="text-xs text-muted">{SITE.methodInfographic.caption}</p>
           </div>
 
+          {service.slug === 'driveways' && (
+            <div class="bg-white rounded-2xl p-6 border border-deep/10 shadow-sm">
+              <h2 class="font-display text-2xl font-bold uppercase text-deep mb-3">Why Michigan Driveways Crack</h2>
+              <img
+                src={SITE.freezeThawInfographic.url}
+                alt={SITE.freezeThawInfographic.alt}
+                loading="lazy"
+                class="w-full rounded-xl border border-deep/10 mb-3"
+              />
+              <p class="text-xs text-muted">{SITE.freezeThawInfographic.caption}</p>
+            </div>
+          )}
+
+          {service.slug === 'approaches' && (
+            <div class="bg-white rounded-2xl p-6 border border-deep/10 shadow-sm">
+              <h2 class="font-display text-2xl font-bold uppercase text-deep mb-3">Faber vs. Typical</h2>
+              <img
+                src={SITE.vsTypicalInfographic.url}
+                alt={SITE.vsTypicalInfographic.alt}
+                loading="lazy"
+                class="w-full rounded-xl border border-deep/10 mb-3"
+              />
+              <p class="text-xs text-muted">{SITE.vsTypicalInfographic.caption}</p>
+            </div>
+          )}
+
           {service.gallery.length > 0 && (
             <div class="bg-white rounded-2xl p-6 border border-deep/10 shadow-sm">
               <h2 class="font-display text-2xl font-bold uppercase text-deep mb-1">Reference Illustrations &amp; Patterns</h2>

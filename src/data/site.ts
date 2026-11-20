@@ -94,6 +94,18 @@ export const SITE = {
     alt: 'Faber Concrete methodology infographic: site prep and grade, compacted 21AA, forms and rebar, a five-inch slab, smooth finish, cure and seal, and control joints. Six inches on the approach. Not a photo of a completed job.',
     caption:
       'Site prep and grade, compacted 21AA, forms and rebar, a five-inch slab, smooth finish, cure and seal, and control joints. Six inches on the approach. Illustration, not a photo of a completed Faber Concrete job.'
+  },
+  freezeThawInfographic: {
+    url: '/faber-concrete-freeze-thaw.webp',
+    alt: 'Why Michigan driveways crack infographic: water gets into small cracks, freezes and expands and lifts the slab, then the freeze-thaw cycle repeats until the slab cracks and heaves. The Faber fix is a 5-inch slab, compacted 21AA base, graded and compacted subgrade, 6-inch approaches, built for 20-ton trucks.',
+    caption:
+      'Water gets in, freezes and expands, then the slab cracks and heaves. The Faber fix: 5-inch slab, compacted 21AA base that drains water away, graded and compacted subgrade, 6-inch approaches. Illustration, not a photo of a completed Faber Concrete job.'
+  },
+  vsTypicalInfographic: {
+    url: '/faber-concrete-vs-typical.webp',
+    alt: 'Faber vs. Typical comparison infographic: Faber pours a 5-inch slab on a compacted 21AA base over a graded and compacted subgrade, with a 6-inch approach; a typical contractor pours a 4-inch slab over dirt or sand on a loose subgrade.',
+    caption:
+      'Faber Concrete: 5-inch slab, compacted 21AA base, graded and compacted subgrade, 6-inch approach. Typical: 4-inch slab over dirt or sand. Illustration, not a photo of a completed Faber Concrete job.'
   }
 };
 
