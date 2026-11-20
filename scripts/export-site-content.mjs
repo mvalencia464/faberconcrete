@@ -10,11 +10,11 @@ import { JOBS } from "../src/data/jobs.ts";
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const SITE_URL = "https://faberconcrete.com";
 const MEDIA_BASE = "https://media.stokeleads.com/faberconcrete";
-const SLAB_IMAGE = "faber-concrete-methodology-infographic.avif";
+const SLAB_IMAGE = "/faber-concrete-methodology.webp";
 const SLAB_ALT =
-  "Illustration of the Faber Concrete method: grade the area, compact 21AA, pour five inches, six inches on the approach. Not a photo of a completed job.";
+  "Faber Concrete methodology infographic: site prep and grade, compacted 21AA, forms and rebar, a five-inch slab, smooth finish, cure and seal, and control joints. Six inches on the approach. Not a photo of a completed job.";
 const SLAB_CAPTION =
-  "Grade, compacted 21AA, five inches on the driveway, six on the approach. Illustration, not a photo of a completed Faber Concrete job.";
+  "Site prep and grade, compacted 21AA, forms and rebar, a five-inch slab, smooth finish, cure and seal, and control joints. Six inches on the approach. Illustration, not a photo of a completed Faber Concrete job.";
 
 function absUrl(path) {
   if (!path) return "";
