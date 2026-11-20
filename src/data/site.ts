@@ -83,8 +83,8 @@ export const SITE = {
     '21AA aggregate base'
   ],
   logos: {
-    wordmark: '/logo-wordmark.png',
-    wordmarkLight: '/logo-wordmark-light.png',
+    wordmark: '/logo.png',
+    wordmarkLight: '/logo.png',
     favicon: '/favicon.png',
     svg: '/logo.svg',
     ownerPlaceholder: '/placeholders/logo.svg'
