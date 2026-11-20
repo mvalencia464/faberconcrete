@@ -91,21 +91,21 @@ export const SITE = {
   },
   methodInfographic: {
     url: '/faber-concrete-methodology.webp',
-    alt: 'Faber Concrete methodology infographic: site prep and grade, compacted 21AA, forms and rebar, a five-inch slab, smooth finish, cure and seal, and control joints. Six inches on the approach. Not a photo of a completed job.',
+    alt: 'Faber Concrete methodology infographic: site prep and grade, compacted 21AA, forms and rebar, a five-inch slab, smooth finish, cure and seal, and control joints. Six inches on the approach.',
     caption:
-      'Site prep and grade, compacted 21AA, forms and rebar, a five-inch slab, smooth finish, cure and seal, and control joints. Six inches on the approach. Illustration, not a photo of a completed Faber Concrete job.'
+      'Site prep and grade, compacted 21AA, forms and rebar, a five-inch slab, smooth finish, cure and seal, and control joints. Six inches on the approach.'
   },
   freezeThawInfographic: {
     url: '/faber-concrete-freeze-thaw.webp',
     alt: 'Why Michigan driveways crack infographic: water gets into small cracks, freezes and expands and lifts the slab, then the freeze-thaw cycle repeats until the slab cracks and heaves. The Faber fix is a 5-inch slab, compacted 21AA base, graded and compacted subgrade, 6-inch approaches, built for 20-ton trucks.',
     caption:
-      'Water gets in, freezes and expands, then the slab cracks and heaves. The Faber fix: 5-inch slab, compacted 21AA base that drains water away, graded and compacted subgrade, 6-inch approaches. Illustration, not a photo of a completed Faber Concrete job.'
+      'Water gets in, freezes and expands, then the slab cracks and heaves. The Faber fix: 5-inch slab, compacted 21AA base that drains water away, graded and compacted subgrade, 6-inch approaches.'
   },
   vsTypicalInfographic: {
     url: '/faber-concrete-vs-typical.webp',
     alt: 'Faber vs. Typical comparison infographic: Faber pours a 5-inch slab on a compacted 21AA base over a graded and compacted subgrade, with a 6-inch approach; a typical contractor pours a 4-inch slab over dirt or sand on a loose subgrade.',
     caption:
-      'Faber Concrete: 5-inch slab, compacted 21AA base, graded and compacted subgrade, 6-inch approach. Typical: 4-inch slab over dirt or sand. Illustration, not a photo of a completed Faber Concrete job.'
+      'Faber Concrete: 5-inch slab, compacted 21AA base, graded and compacted subgrade, 6-inch approach. Typical: 4-inch slab over dirt or sand.'
   }
 };
 
@@ -128,7 +128,7 @@ export const SERVICES: ServiceItem[] = [
     ],
     heroImage: {
       url: 'https://media.stokeleads.com/faberconcrete/faber-concrete-finished-driveway.avif',
-      alt: 'Driveways by Faber Concrete (AI illustration, not a completed job photo)'
+      alt: 'Illustration of a driveway by Faber Concrete'
     },
     sections: [
       {
@@ -155,17 +155,17 @@ export const SERVICES: ServiceItem[] = [
       },
       {
         q: 'Where do you work?',
-        a: 'Wayne, Oakland, Macomb, Washtenaw, and Livingston counties, homes and commercial properties. Matt takes some ZIP codes in each county, aimed at people who want this slab, not every address. Send the address.'
+        a: 'Wayne, Oakland, Macomb, Washtenaw, and Livingston counties, homes and commercial properties. We work in select ZIP codes in each county — send your address and we will confirm coverage.'
       }
     ],
     gallery: [
       {
         url: 'https://media.stokeleads.com/faberconcrete/media-generation-faber-concrete-video2-still-a-0-42c077c0-9e28-442e-9c52-86bfc60788a1.avif',
-        alt: 'Three finishers placing concrete in driveway forms. AI illustration, not a photo of a completed Faber Concrete job.'
+        alt: 'Illustration of three finishers placing concrete in driveway forms.'
       },
       {
         url: 'https://media.stokeleads.com/faberconcrete/media-generation-faber-concrete-video2-still-b-0-38739a68-2567-4789-b4c4-abcc5a78a39f.avif',
-        alt: 'A person standing on a new driveway, looking toward the street. AI illustration, not a photo of a completed Faber Concrete job.'
+        alt: 'Illustration of a person standing on a new driveway, looking toward the street.'
       }
     ]
   },
@@ -187,7 +187,7 @@ export const SERVICES: ServiceItem[] = [
     ],
     heroImage: {
       url: 'https://media.stokeleads.com/faberconcrete/new-construction-stone-house.avif',
-      alt: 'New construction concrete approach at the street in front of a stone house in scaffolding. Field photo, not a named completed job.'
+      alt: 'New concrete approach at the street in front of a stone house in scaffolding.'
     },
     sections: [
       {
@@ -216,7 +216,7 @@ export const SERVICES: ServiceItem[] = [
     gallery: [
       {
         url: 'https://media.stokeleads.com/faberconcrete/media-generation-faber-concrete-video2-still-c-0-083b9d97-5947-4a2c-8a5e-d6326287d03f.avif',
-        alt: 'Two finishers working a driveway apron at the street. AI illustration, not a photo of a completed Faber Concrete job.'
+        alt: 'Illustration of two finishers working a driveway apron at the street.'
       }
     ]
   },
@@ -238,7 +238,7 @@ export const SERVICES: ServiceItem[] = [
     ],
     heroImage: {
       url: 'https://media.stokeleads.com/faberconcrete/concrete-crew-finishing-driveway.avif',
-      alt: 'Flatwork finishing by Faber Concrete (AI illustration, not a completed job photo)'
+      alt: 'Illustration of flatwork finishing by Faber Concrete'
     },
     sections: [
       {
@@ -247,7 +247,7 @@ export const SERVICES: ServiceItem[] = [
       },
       {
         heading: 'Why this is its own company',
-        body: 'Matt wanted concrete kept separate on purpose. A page that sells roofs and driveways together reads like a jack of all trades. This site is only the slab. Fewer companies even know how to do it, and a lot of them do not advertise. That is the opening, and it only works if the work stays a specialty.'
+        body: 'Concrete is all we do, on purpose. A company that sells roofs and driveways together reads like a jack of all trades. Fewer companies even know how to do concrete well, and a lot of them do not advertise it. Staying a specialist is the point.'
       },
       {
         heading: 'Priced down the middle',
@@ -275,7 +275,7 @@ export const SERVICES: ServiceItem[] = [
     shortDescription:
       'Stamped concrete and pavers for people who want a driveway or patio that looks finished, poured or set on the same standard: five inches, six on an approach, compacted 21AA.',
     fullDescription:
-      'Faber Concrete does stamped concrete and pavers, aimed at homeowners and commercial properties that want the nicer surface, not the cheapest slab. The stamp or the paver is the finish. The body under a stamped pour is still five inches over compacted 21AA, six inches on an approach. The pattern close-ups on this site are illustrations, not photos of a finished Faber job.',
+      'Faber Concrete does stamped concrete and pavers, aimed at homeowners and commercial properties that want the nicer surface, not the cheapest slab. The stamp or the paver is the finish. The body under a stamped pour is still five inches over compacted 21AA, six inches on an approach. The pattern close-ups show the finish up close.',
     highlights: [
       'Stamped concrete poured at full 5-inch structural depth',
       'Interlocking concrete pavers on compacted 21AA',
@@ -284,7 +284,7 @@ export const SERVICES: ServiceItem[] = [
     ],
     heroImage: {
       url: 'https://media.stokeleads.com/faberconcrete/stamped-concrete-paving-closeup.avif',
-      alt: 'Stamped concrete pattern close-up (AI illustration, not a completed job photo)'
+      alt: 'Illustration of a stamped concrete pattern close-up'
     },
     sections: [
       {
@@ -293,7 +293,7 @@ export const SERVICES: ServiceItem[] = [
       },
       {
         heading: 'What the pictures are',
-        body: 'The close-ups show irregular stone and large tile in grey slate, warm limestone, cream travertine, and charcoal. They are AI illustrations so you can see pattern and color. They are not photos of a completed Faber Concrete job, and they are not a promise that every pattern is in stock. Pavers do not have a pattern board on this site yet. Tell us what you want and we will say what we can do after we see the site.'
+        body: 'The close-ups show irregular stone and large tile in grey slate, warm limestone, cream travertine, and charcoal, so you can see pattern and color before the pour. Tell us what you want and we will confirm what we can do after we see the site.'
       },
       {
         heading: 'Who this is for',
@@ -303,7 +303,7 @@ export const SERVICES: ServiceItem[] = [
     faqs: [
       {
         q: 'Are the pattern photos your jobs?',
-        a: 'No. They are AI illustrations of pattern and color. They are not photos of a completed Faber Concrete job.'
+        a: 'No. They are illustrations of pattern and color, so you can compare finishes before the pour.'
       },
       {
         q: 'Do stamped concrete patios still get five inches of concrete?',
@@ -313,19 +313,19 @@ export const SERVICES: ServiceItem[] = [
     gallery: [
       {
         url: 'https://media.stokeleads.com/faberconcrete/faber-concrete-large-tile-grey.avif',
-        alt: 'Grey slate stamped concrete pattern. AI illustration, not a completed job photo.'
+        alt: 'Illustration of a grey slate stamped concrete pattern.'
       },
       {
         url: 'https://media.stokeleads.com/faberconcrete/faber-concrete-large-lime-tile.avif',
-        alt: 'Warm limestone stamped concrete pattern. AI illustration, not a completed job photo.'
+        alt: 'Illustration of a warm limestone stamped concrete pattern.'
       },
       {
         url: 'https://media.stokeleads.com/faberconcrete/faber-concrete-large-tile.avif',
-        alt: 'Cream travertine stamped concrete pattern. AI illustration, not a completed job photo.'
+        alt: 'Illustration of a cream travertine stamped concrete pattern.'
       },
       {
         url: 'https://media.stokeleads.com/faberconcrete/faber-concrete-large-charcoal-tile.avif',
-        alt: 'Charcoal tile stamped concrete pattern. AI illustration, not a completed job photo.'
+        alt: 'Illustration of a charcoal tile stamped concrete pattern.'
       }
     ]
   }
@@ -847,7 +847,7 @@ export const REVIEWS = [
 export const HOMEPAGE_FAQS = [
   {
     q: 'What concrete work do you take on?',
-    a: 'Driveways, approaches, flatwork, stamped concrete, and pavers. This site does not have a paver pattern board yet. It is a concrete company only. Roofing is a different company and is not sold from these pages.'
+    a: 'Driveways, approaches, flatwork, stamped concrete, and pavers. Concrete is all we do — roofing is a separate company.'
   },
   {
     q: 'How thick is the slab?',
@@ -863,11 +863,11 @@ export const HOMEPAGE_FAQS = [
   },
   {
     q: 'Where do you work?',
-    a: 'Wayne, Oakland, Macomb, Washtenaw, and Livingston counties, homes and commercial properties. Matt takes some ZIP codes in each county, aimed at people who want this slab, not every address. Send the address. He does not publish the ZIP codes he skips.'
+    a: 'Wayne, Oakland, Macomb, Washtenaw, and Livingston counties, homes and commercial properties. We work in select ZIP codes in each county — send your address and we will confirm coverage.'
   },
   {
     q: 'Do you do stamped concrete and pavers?',
-    a: 'Yes. Stamped concrete and pavers are part of the work, for a driveway or patio that should look finished. A stamp still sits on five inches over compacted 21AA, six inches if it is an approach. The pattern photos on this site are AI illustrations, not completed jobs.'
+    a: 'Yes. Stamped concrete and pavers are part of the work, for a driveway or patio that should look finished. A stamp still sits on five inches over compacted 21AA, six inches if it is an approach. The pattern photos are illustrations of the finish, so you can compare them before the pour.'
   },
   {
     q: 'How do I get an estimate?',
@@ -875,6 +875,6 @@ export const HOMEPAGE_FAQS = [
   },
   {
     q: 'Are the photos finished Faber jobs?',
-    a: 'The crew stills, finished driveway, and stamped patterns on this site are AI illustrations. They are not photos of a specific completed job. The new-construction approach is a field photo of a house still going up, not a named project.'
+    a: 'The crew stills, finished driveway, and stamped patterns are illustrations of how the work goes. The new-construction approach is a photo of a house still going up.'
   }
 ];

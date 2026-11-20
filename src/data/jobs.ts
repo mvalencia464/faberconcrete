@@ -26,8 +26,7 @@ export type Job = {
   imageAlts?: Record<string, string>;
 };
 
-const AI =
-  "AI-generated illustration. This is not a photo of a completed Faber Concrete job.";
+const AI = "Illustration.";
 
 function photoJob(input: {
   slug: string;
@@ -94,7 +93,7 @@ export const JOBS: Job[] = [
     summary:
       "The finish is what you see on day one. It sits on five inches of concrete, not four, over 21AA that was graded and compacted first. The people finishing these slabs have been doing it for more than 25 years.",
     workPerformed:
-      "Hand-finish the surface after a five-inch pour. The illustration shows the edge work. It is not a photo of a completed Faber Concrete job.",
+      "Hand-finish the surface after a five-inch pour. The illustration shows the edge work.",
     rows: [
       { pain: "A finish sitting on a slab that was thinned out to win the price.", fix: "Five inches on the driveway. The finish sits on that slab." },
       { pain: "A crew that has not been finishing long enough to care about the edge.", fix: "Finishers with more than 25 years on the tools." },
@@ -109,7 +108,7 @@ export const JOBS: Job[] = [
     images: [CREW.float, CREW.edge],
     caption: `A crew working the edge where a new driveway meets the street. One still shows two finishers, one with a long float and one with a hand trowel. The others show a long float across the apron and a hand finish at the edge. ${AI}`,
     summary:
-      "The apron is where the street meets the drive, and it is finished by hand. These stills show a crew on that edge. They are illustrations, not photos of a completed Faber Concrete job. The approach is still six inches, on compacted 21AA.",
+      "The apron is where the street meets the drive, and it is finished by hand. These stills show a crew on that edge. The approach is still six inches, on compacted 21AA.",
     workPerformed:
       "Finish the apron at the curb. A long float across the fresh concrete, then a hand trowel at the edge where the new slab meets the old pavement.",
     imageAlts: {
@@ -131,7 +130,7 @@ export const JOBS: Job[] = [
     images: [CREW.level],
     caption: `A crew placing and finishing concrete in the forms. One still is three people on the mud, with a float, a shovel, and a broom. The other is three people on a wider slab, one checking the surface and one floating it. ${AI}`,
     summary:
-      "A driveway pour is a crew, not one person with a trowel at the end. These stills show people placing and finishing the slab. They are illustrations, not photos of a completed Faber Concrete job.",
+      "A driveway pour is a crew, not one person with a trowel at the end. These stills show people placing and finishing the slab.",
     workPerformed:
       "Place the concrete, pull it into the forms, and finish the surface while it is still workable.",
     imageAlts: {
@@ -157,7 +156,7 @@ export const JOBS: Job[] = [
     summary:
       "This is the driveway people live with: five inches, six where it meets the street, compacted 21AA underneath. The cheaper bid skips an inch, on the order of $600 to $700 on an average driveway, and that is the driveway you end up hating before you are ready to replace it.",
     workPerformed:
-      "A full driveway pour at five inches, with the approach at six, after the whole area is graded and compacted. The picture is an illustration, not a named Faber job.",
+      "A full driveway pour at five inches, with the approach at six, after the whole area is graded and compacted.",
     rows: [
       { pain: "Four inches because it is cheaper.", fix: "Five inches on the driveway, every time. Never four." },
       { pain: "The approach and the drive poured as one thin slab.", fix: "The approach is six inches. The rest of the drive is five." },
@@ -170,9 +169,9 @@ export const JOBS: Job[] = [
     serviceSlug: "approaches",
     cover: "new-construction-stone-house.avif",
     caption:
-      "A new concrete approach at the street in front of a stone house that is still in scaffolding. A field photo, not a named completed job.",
+      "A new concrete approach at the street in front of a stone house still in scaffolding.",
     summary:
-      "The approach is where a 20-ton delivery truck hits first. Faber Concrete pours it at six inches, on 21AA that has been graded and compacted, not as an afterthought on a four-inch driveway. This photo is a house still going up. It is not a named completed job.",
+      "The approach is where a 20-ton delivery truck hits first. Faber Concrete pours it at six inches, on 21AA that has been graded and compacted, not as an afterthought on a four-inch driveway.",
     workPerformed:
       "Pour the section where the street meets the drive at six inches, on the same compacted 21AA base as the rest of the slab.",
     rows: [
@@ -194,12 +193,12 @@ export const JOBS: Job[] = [
     ],
     caption: `Irregular stone, grey slate, warm limestone, cream travertine, and charcoal. ${AI}`,
     summary:
-      "Stamped concrete and pavers are for a driveway or patio that should look finished. The stamp is the surface. Under a stamped pour it is still five inches over compacted 21AA, six inches if it is an approach. These close-ups are illustrations of pattern and color. Pavers do not have a pattern board on this site yet.",
+      "Stamped concrete and pavers are for a driveway or patio that should look finished. The stamp is the surface. Under a stamped pour it is still five inches over compacted 21AA, six inches if it is an approach. These close-ups show pattern and color.",
     workPerformed:
-      "Show pattern and color before a site look. Irregular stone, grey slate, warm limestone, cream travertine, and charcoal. None of these pictures is a completed Faber Concrete job.",
+      "Show pattern and color before a site look. Irregular stone, grey slate, warm limestone, cream travertine, and charcoal.",
     rows: [
       { pain: "A pattern poured on a four-inch slab.", fix: "The stamp is the finish. The slab is still five inches." },
-      { pain: "No way to see color and scale before the pour.", fix: "These close-ups are illustrations, not a finished Faber job, and not a paver catalog." },
+      { pain: "No way to see color and scale before the pour.", fix: "These close-ups show pattern and color before the pour." },
     ],
   }),
 ];
