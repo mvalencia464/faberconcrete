@@ -28,21 +28,15 @@ import { SITE } from '../data/site';
 
 <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-deep/10 shadow-sm">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="flex items-center justify-between h-20">
-      <a href="/" class="flex items-center gap-3 text-left group">
-        <div class="w-11 h-11 rounded-lg bg-deep flex items-center justify-center border-2 border-accent shadow-sm group-hover:bg-accent transition-colors">
-          <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24" aria-hidden="true">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M3 17h18M3 13h18M5 9h14l2 4H3l2-4z"></path>
-          </svg>
-        </div>
-        <div>
-          <div class="font-display text-2xl font-bold tracking-tight uppercase text-deep leading-none">
-            FABER <span class="text-accent">CONCRETE</span>
-          </div>
-          <div class="text-[11px] font-semibold uppercase tracking-widest text-muted mt-0.5">
-            Five Inches, Every Driveway
-          </div>
-        </div>
+      <div class="flex items-center justify-between h-24">
+      <a href="/" class="flex items-center shrink-0">
+        <img
+          src={SITE.logos.wordmark}
+          alt="Faber Concrete — Five inches, every driveway"
+          class="h-16 sm:h-20 w-auto"
+          width="1896"
+          height="709"
+        />
       </a>
 
       <nav class="hidden xl:flex items-center gap-0.5" aria-label="Main">

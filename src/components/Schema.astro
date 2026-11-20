@@ -18,7 +18,7 @@ const graph: Record<string, unknown>[] = [
     legalName: SITE.legalName,
     url: SITE.url,
     telephone: SITE.phone,
-    logo: SITE.logos.wordmark,
+    logo: new URL(SITE.logos.wordmark, SITE.url).toString(),
     image: 'https://media.stokeleads.com/faberconcrete/concrete-crew-finishing-driveway.avif',
     founder: {
       '@type': 'Person',
